@@ -1,0 +1,57 @@
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'eclipse-wtp' 
+ 
+version = '1.0'
+ 
+// Uses JDK 7
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+ext.springVersion='3.2.5.RELEASE'
+ext.hibernateVersion='4.1.5.SP1'
+ext.hibernateValidatorVersion='4.3.0.Final'
+ 
+ 
+// 1. Get dependencies from Maven local repository
+// 2. Get dependencies from Maven central repository
+repositories {
+	mavenLocal()
+    mavenCentral()
+}
+ 
+//Project dependencies
+dependencies {
+	compile 'ch.qos.logback:logback-classic:1.1.2'
+	compile 'jstl:jstl:1.2'
+	//include in compile only, exclude in the war
+	providedCompile 'javax.servlet:javax.servlet-api:3.0.1'
+	
+	//Spring Security
+	compile ("org.springframework.security:spring-security-config:$springVersion") 
+    compile ("org.springframework.security:spring-security-core:$springVersion")
+    compile ("org.springframework.security:spring-security-web:$springVersion")
+     
+     //OAuth Config
+    compile "org.springframework.security.oauth:spring-security-oauth2:2.0.6.RELEASE"
+    
+    //Spring
+    compile("org.springframework:spring-orm:$springVersion" ) 
+    compile("org.springframework:spring-aop:$springVersion" ) 
+    compile("org.springframework:spring-oxm:$springVersion" ) 
+    compile("org.springframework:spring-core:$springVersion" )
+    compile("org.springframework:spring-webmvc:$springVersion")
+    compile("org.springframework:spring-jdbc:$springVersion") 
+    compile("org.springframework:spring-tx:$springVersion" )
+
+    compile('org.springframework.data:spring-data-jpa:1.3.0.RELEASE') 
+    
+     // hibernate
+    compile "org.hibernate:hibernate-entitymanager:$hibernateVersion"
+    compile "org.hibernate:hibernate-core:$hibernateVersion"    
+    compile "org.hibernate:hibernate-validator:$hibernateValidatorVersion"
+    compile "org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final"
+    
+    // mysql db, change the version is you have different MySql installation
+    compile 'mysql:mysql-connector-java:5.0.8'
+}
