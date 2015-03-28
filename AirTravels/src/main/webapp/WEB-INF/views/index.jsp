@@ -1,26 +1,192 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Login</title>
-<script language="javascript">
-    function forceHttpsOnSubmit(objForm) {
-        objForm.action = objForm.action.replace("http:", "https:").replace("localhost:8080","localhost:8443");
-    }
+<title>Home</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- <link rel="icon" href="../../favicon.ico"> -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+
+<link href="resources/css/carousel.css" rel="stylesheet">
+
+<script>
+	
 </script>
 </head>
 <body>
-Login page
-<!-- <form action="/j_spring_security_check" method="post" onsubmit="forceHttpsOnSubmit(this)"> -->
-<form action="login" method="post">
-	<label for="userName">User Name</label>
-	<input type="text" id="userName" name="userName"/><br/>
-	<label for="password">Password</label>
-	<input type="password" id="pwd" name="password"/>
-	<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
-	<input type="submit" value="login"/>
-</form>
+	<div class="navbar-wrapper">
+		<div class="container">
+
+			<nav class="navbar navbar-inverse navbar-static-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed"
+							data-toggle="collapse" data-target="#navbar"
+							aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span> <span
+								class="icon-bar"></span> <span class="icon-bar"></span> <span
+								class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Fly-US</a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+		</div>
+	</div>
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img class="first-slide" src="resources/imgs/flight_1.jpg"
+					alt="First slide">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>Example headline.</h1>
+						<p>
+							Note: If you're viewing this page via a
+							<code>file://</code>
+							URL, the "next" and "previous" Glyphicon buttons on the left and
+							right might not load/display properly due to web browser security
+							rules.
+						</p>
+						<p>
+							<a class="btn btn-lg btn-primary" href="#" role="button">Sign
+								up today</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img class="second-slide" src="resources/imgs/flight_2.jpg"
+					alt="Second slide">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>Another example headline.</h1>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget
+							quam. Donec id elit non mi porta gravida at eget metus. Nullam id
+							dolor id nibh ultricies vehicula ut id elit.</p>
+						<p>
+							<a class="btn btn-lg btn-primary" href="#" role="button">Learn
+								more</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img class="third-slide" src="resources/imgs/flight_3.jpg"
+					alt="Third slide">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>One more for good measure.</h1>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget
+							quam. Donec id elit non mi porta gravida at eget metus. Nullam id
+							dolor id nibh ultricies vehicula ut id elit.</p>
+						<p>
+							<a class="btn btn-lg btn-primary" href="#" role="button">Browse
+								gallery</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a class="left carousel-control" href="#myCarousel" role="button"
+			data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"
+			aria-hidden="true"></span> <span class="sr-only">Previous</span>
+		</a> <a class="right carousel-control" href="#myCarousel" role="button"
+			data-slide="next"> <span
+			class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<div class="container marketing">
+
+		<!-- Three columns of text below the carousel -->
+		<div class="row">
+			<div class="col-lg-3">
+				<img class="img-circle" src="resources/imgs/flight_1.jpg"
+					alt="Generic placeholder image" width="140" height="140">
+				<h2>Check for flights</h2>
+				<p>Display the flight numbers and weekdays of all flights °
+					Given a Departure Airport Code and Arrival Airport Code ° If no
+					direct flight exists, determine multiple connecting flights which
+					have compatible scheduled departure and arrival times and weekdays.</p>
+				<p>
+					<a class="btn btn-default" href="#" role="button">Check flights
+						&raquo;</a>
+				</p>
+			</div>
+			<!-- /.col-lg-4 -->
+			<div class="col-lg-3">
+				<img class="img-circle" src="resources/imgs/flight_2.jpg"
+					alt="Generic placeholder image" width="140" height="140">
+				<h2>Seat Avaialbility</h2>
+				<p>Display the number of available seats on a particular flight
+					instance ° Given a flight number and Date</p>
+				<p>
+					<a class="btn btn-default" href="#" role="button">Check Seats
+						&raquo;</a>
+				</p>
+			</div>
+			<!-- /.col-lg-4 -->
+			<div class="col-lg-3">
+				<img class="img-circle" src="resources/imgs/flight_3.jpg"
+					alt="Generic placeholder image" width="140" height="140">
+				<h2>Check Fares</h2>
+				<p>Display all Fare information ° Given a flight number</p>
+				<p>
+					<a class="btn btn-default" href="#" role="button">View details
+						&raquo;</a>
+				</p>
+			</div>
+			<div class="col-lg-3">
+				<img class="img-circle" src="resources/imgs/flight_3.jpg"
+					alt="Generic placeholder image" width="140" height="140">
+				<h2>Check passenger manifest</h2>
+				<p>User shall be able to query a passenger2 manifest • Display
+					list of passengers on a given flight instance • Display a list of
+					flight instances for a particular passenger name</p>
+				<p>
+					<a class="btn btn-default" href="#" role="button">View details
+						&raquo;</a>
+				</p>
+			</div>
+			<!-- /.col-lg-4 -->
+		</div>
+		<!-- /.row -->
+
+		<!-- FOOTER -->
+		<footer>
+			<p class="pull-right">
+				<a href="#">Back to top</a>
+			</p>
+			<p>
+				&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot;
+				<a href="#">Terms</a>
+			</p>
+		</footer>
+
+	</div>
+	<!-- /.container -->
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </body>
 </html>

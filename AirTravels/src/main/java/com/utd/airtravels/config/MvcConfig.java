@@ -14,7 +14,7 @@ import org.springframework.web.servlet.view.JstlView;
  
 @Configuration  
 @EnableWebMvc  
-@ComponentScan(basePackages = { "com.utd.airtravels.controller" })
+@ComponentScan(basePackages = { "com.utd.airtravels.controller", "com.utd.airtravels.dao" })
 public class MvcConfig extends WebMvcConfigurerAdapter {
 	
     @Bean

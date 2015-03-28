@@ -31,30 +31,11 @@ public class IndexController {
 	
 	@RequestMapping( value = "/home", method = RequestMethod.GET)
     public String displayLogin() {
-        return "/home";
+        return "/index";
     }
 	
-/*	@RequestMapping( value = "/login", method = RequestMethod.GET)
-    public String displayHome() {
-//		return welcome_msg;
-        return "/login";
+	@RequestMapping( value = "/flightDetails", method = RequestMethod.GET)
+    public String displayFlights() {
+        return "/flights";
     }
-	
-	@RequestMapping( value = "/error", method = RequestMethod.GET)
-    public String displayError() {
-//		return welcome_msg;
-        return "/error";
-    }
-	
-	@RequestMapping( value = "/login", method = RequestMethod.POST)
-    public @ResponseBody String loginUser(@RequestParam String userName, @RequestParam String password) {
-		LOG.debug(userName+ " "+password);
-//		if(userService.testUser(userName, password)){
-//			return welcome_msg;
-//		}else{
-//			return "error";
-//		}
-		return userName+ " "+ password;
-    }*/
-	
 }

@@ -16,7 +16,7 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
  */
 
 @Configuration
-@PropertySource("classpath:application.properties")
+@PropertySource(value={"classpath:application.properties", "classpath:sqlqueries.properties"})
 public class BasicConfig {
 	
 	@Resource
