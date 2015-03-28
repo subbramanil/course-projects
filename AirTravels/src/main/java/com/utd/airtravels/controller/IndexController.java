@@ -38,4 +38,9 @@ public class IndexController {
     public String displayFlights() {
         return "/flights";
     }
+	
+	@RequestMapping( value = "/fareDetails", method = RequestMethod.GET)
+    public String displayFlightFares() {
+        return "/fares";
+    }
 }

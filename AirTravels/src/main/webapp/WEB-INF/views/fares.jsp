@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Flights</title>
+<title>Fares</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,12 +31,9 @@
 <script>
 	$(document).ready(function() {
 		console.log("ready");
-		$('#submitBtn').click(getFlightsDetails);
-		$( "#travelDate" ).datepicker(); 
-		$('#travelTime').timepicker({ 'scrollDefault': 'now' });
+		$('#checkFareBtn').click(getFareDetails);
 	});
 </script>
-
 
 </head>
 <body>
@@ -44,27 +41,16 @@
 	<div class="container">
 		<div class="row panel panel-primary">
 			<div class="panel-heading">
-				Check Flights
+				Check Fare
 			</div>
 			<div class="panel-body">
 				<form action="">
 					<div class="row">
-						<span class="label label-default">Departure Code</span>
-						<input class="" id="depCode" type="text" placeholder="eg., PHL"/>
-						<span class="label label-default">Arrival Code</span>
-						<input class="" id="arrCode" type="text" placeholder="eg., PHL"/>
-						<span class="label label-default">No of Hops</span>
-						<select id="nHops">
-							<option>1</option>
-							<option>2</option>
-						</select>
+						<span class="label label-default">Flight Number</span>
+						<input class="" id="flightNumber" type="text" placeholder="eg., 191"/>
 					</div>
 					<div class="row">
-						<span class="label label-default">Travel Date</span>
-						<input class="" id="travelDate" type="text">
-						<span class="label label-default">Travel Time</span>
-						<input class="" id="travelTime" type="text">
-						<button type="button" id="submitBtn" class="btn btn-primary"> Go! </button>
+						<button type="button" id="checkFareBtn" class="btn btn-primary"> Go! </button>
 					</div>
 				</form>
 			</div>
@@ -74,7 +60,7 @@
 				Flights Available
 			</div>
 			<div class="panel-body">
-				<table id="flightsDetails" class="display">
+				<table id="fareDetails" class="display">
 			    </table>
 			</div>
 		</div>

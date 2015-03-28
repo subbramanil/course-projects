@@ -5,7 +5,6 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,6 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.google.gson.Gson;
 import com.utd.airtravels.dao.AirlineDAOImpl;
+import com.utd.airtravels.dto.FareDTO;
 import com.utd.airtravels.dto.FlightDTO;
 
 
@@ -42,5 +42,21 @@ public class AirlineController {
 		
 		return gson.toJson(flightsList);
 	}
+	
+	@RequestMapping(value="/getFlightFares", method = RequestMethod.POST, produces="application/json")
+	public @ResponseBody String getFlightFareDetails(@RequestBody final FareDTO fare){
+
+		System.out.println("Flight details:"+fare.toString());
+		List<FareDTO> fareList = airline.checkFares(fare);
+		
+		for(FareDTO f:fareList){
+			System.out.println(f);
+		}
+		
+		System.out.println("Result: "+gson.toJson(fareList));
+		
+		return gson.toJson(fareList);
+	}
+	
 	
 }

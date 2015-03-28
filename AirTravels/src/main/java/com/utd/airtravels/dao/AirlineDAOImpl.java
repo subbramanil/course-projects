@@ -13,7 +13,9 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
 import com.utd.airtravels.controller.IndexController;
+import com.utd.airtravels.dto.FareDTO;
 import com.utd.airtravels.dto.FlightDTO;
+import com.utd.airtravels.util.FareRowMapper;
 import com.utd.airtravels.util.FlightRowMapper;
 
 
@@ -47,9 +49,16 @@ public class AirlineDAOImpl implements AirlineDAO {
 	}
 
 	@Override
-	public void checkFares() {
-		// TODO Auto-generated method stub
+	public List<FareDTO> checkFares(FareDTO fare) {
+		String sql = env.getProperty("query.checkFares");
+		JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
+		LOG.debug("Received from controller:"+fare.toString());
+		List<FareDTO> faresList  = jdbcTemplate.query(sql,  new Object[] { fare.getFlightNumber() },
+				new FareRowMapper());
 		
+		System.out.println("Number of flights: "+faresList.size());
+		
+		return faresList;
 	}
 
 	@Override

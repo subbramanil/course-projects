@@ -2,6 +2,7 @@ package com.utd.airtravels.dao;
 
 import java.util.List;
 
+import com.utd.airtravels.dto.FareDTO;
 import com.utd.airtravels.dto.FlightDTO;
 
 public interface AirlineDAO {
@@ -10,7 +11,7 @@ public interface AirlineDAO {
 	
 	void getSeatAvailability();
 	
-	void checkFares();
+	List<FareDTO> checkFares(FareDTO fare);
 	
 	void checkPassengerManifest();
 	
