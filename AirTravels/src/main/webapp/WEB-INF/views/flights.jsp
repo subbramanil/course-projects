@@ -14,7 +14,8 @@
 <!-- <link rel="icon" href="../../favicon.ico"> -->
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
-<link href="resources/css/carousel.css" rel="stylesheet">
+<link href="resources/css/carousel.css" rel="stylesheet"/>
+<link href="resources/css/jquery.timepicker.css" rel="stylesheet"/>
 <link rel="stylesheet"
 	href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 <link rel="stylesheet"
@@ -25,12 +26,13 @@
 <script type="text/javascript"
 	src="https://cdn.datatables.net/1.10.5/js/jquery.dataTables.min.js"></script>
 <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-
+<script type="text/javascript" src="resources/js/jquery.timepicker.js"></script>
 <script>
 	$(document).ready(function() {
 		console.log("ready");
 		$('#submitBtn').click(getFlightsDetails);
-		$( "#travelDate" ).datepicker();
+		$( "#travelDate" ).datepicker(); 
+		$('#travelTime').timepicker({ 'scrollDefault': 'now' });
 	});
 
 	function getFlightsDetails(){
@@ -95,6 +97,8 @@
 		console.log("getFlightsDetails() exit");
 	}
 </script>
+
+
 </head>
 <body>
 	
@@ -116,6 +120,7 @@
 						</select>
 						<span class="label label-dafault">Travel Date</span>
 						<input class="" id="travelDate" type="text">
+						<input class="" id="travelTime" type="text">
 						<button type="button" id="submitBtn" class="btn btn-primary"> Go! </button>
 					</form>
 			</div>
