@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Fares</title>
+<title>Seats</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,9 +31,8 @@
 <script>
 	$(document).ready(function() {
 		console.log("ready");
-		$('#submitBtn').click(getFlightsDetails);
-		$( "#travelDate" ).datepicker(); 
-		$('#travelTime').timepicker({ 'scrollDefault': 'now' });
+		$('#checkSeatsBtn').click(getSeatsAvailability);
+		$( "#travelDate" ).datepicker({dateFormat: "dd-mm-yy"}); 
 	});
 </script>
 
@@ -43,32 +42,28 @@
 	<div class="container">
 		<div class="row panel panel-primary">
 			<div class="panel-heading">
-				Check Flights
+				Check Seats
 			</div>
 			<div class="panel-body">
 				<form action="">
-						<span class="label label-default">Departure Code</span>
-						<input class="" id="depCode" type="text" placeholder="eg., PHL"/>
-						<span class="label label-default">Arrival Code</span>
-						<input class="" id="arrCode" type="text" placeholder="eg., PHL"/>
-						<span class="label label-default">No of Hops</span>
-						<select id="nHops">
-							<option>1</option>
-							<option>2</option>
-						</select>
-						<span class="label label-dafault">Travel Date</span>
+					<div class="row">
+						<span class="label label-default">Flight Number</span>
+						<input class="" id="flightNumber" type="text" placeholder="eg., 191"/>
+						<span class="label label-default">Travel Date</span>
 						<input class="" id="travelDate" type="text">
-						<input class="" id="travelTime" type="text">
-						<button type="button" id="submitBtn" class="btn btn-primary"> Go! </button>
-					</form>
+					</div>
+					<div class="row">
+						<button type="button" id="checkSeatsBtn" class="btn btn-primary"> Go! </button>
+					</div>
+				</form>
 			</div>
 		</div>
 		<div class="row panel panel-success">
 			<div class="panel-heading">
-				Flights Available
+				Seats Available
 			</div>
 			<div class="panel-body">
-				<table id="flightsDetails" class="display" cellspacing="0" width="100%">
+				<table id="seatDetails" class="display">
 			    </table>
 			</div>
 		</div>

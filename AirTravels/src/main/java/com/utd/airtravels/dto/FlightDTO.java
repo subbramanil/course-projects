@@ -1,6 +1,5 @@
 package com.utd.airtravels.dto;
 
-import java.sql.Date;
 
 public class FlightDTO {
 	

@@ -113,3 +113,61 @@ function getFareDetails(){
 		});	 
 	console.log("getFareDetails() exit");
 }
+
+function getSeatsAvailability(){
+	console.log("getFlightsDetails() entry");
+	var flightNumber = $('#flightNumber').val();
+	var travelDate = $('#travelDate').val();
+	var values = {"flightNumber":flightNumber, "travelDate":travelDate};
+	console.log(values);
+	$.ajax({
+		   url: "getSeatAvailable",
+		   crossDomain:true,
+		   data: JSON.stringify(values),
+		   type: "POST",
+		   contentType: "application/json; charset=utf-8",
+		   datatype:"json",
+		   success: function(data) {
+			  	console.log(data);
+				console.log(JSON.stringify(data));
+				if ( $.fn.dataTable.isDataTable( '#seatDetails' ) ) {
+					console.log("Deleting existing table");
+					$("#seatDetails").dataTable().fnDestroy();
+				}
+				
+				$('#seatDetails').dataTable( {
+					"data": data,
+					"aoColumns": [
+					{
+					    "mData":"flightNumber",
+					    "sTitle": "Flight #"
+				  	},{
+				  		"mData":"travelDate",
+					    "sTitle": "Travel Date"
+				  	},
+				  	{
+				  		"mData":"numSeats",
+					    "sTitle": "Available Seats"
+				  	},
+				  	{
+				  		"mData":"airplaneID",
+					    "sTitle": "Airplane ID"
+				  	},
+				  	{
+				  		"mData":"departureTime",
+					    "sTitle": "Scheduled Departure Time"
+				  	},
+				  	{
+				  		"mData":"arrivalTime",
+					    "sTitle": "Scheduled Arrival Time"
+				  	}
+				  ]
+		   		});
+		   },
+		   error: function() {
+			     console.log("Error in accessing flight details");
+			     alert("Error in accessing flight details");
+			}
+		});	 
+	console.log("getFlightsDetails() exit");
+}

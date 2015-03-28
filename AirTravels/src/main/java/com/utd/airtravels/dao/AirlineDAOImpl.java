@@ -1,5 +1,7 @@
 package com.utd.airtravels.dao;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.List;
 
 import javax.annotation.Resource;
@@ -15,7 +17,9 @@ import org.springframework.stereotype.Service;
 import com.utd.airtravels.controller.IndexController;
 import com.utd.airtravels.dto.FareDTO;
 import com.utd.airtravels.dto.FlightDTO;
+import com.utd.airtravels.dto.FlightInstanceDTO;
 import com.utd.airtravels.util.FareRowMapper;
+import com.utd.airtravels.util.FlightInstanceRowMapper;
 import com.utd.airtravels.util.FlightRowMapper;
 
 
@@ -43,10 +47,6 @@ public class AirlineDAOImpl implements AirlineDAO {
 		return flightsList;
 	}
 
-	@Override
-	public void getSeatAvailability() {
-		
-	}
 
 	@Override
 	public List<FareDTO> checkFares(FareDTO fare) {
@@ -65,6 +65,35 @@ public class AirlineDAOImpl implements AirlineDAO {
 	public void checkPassengerManifest() {
 		// TODO Auto-generated method stub
 		
+	}
+
+
+	@Override
+	public List<FlightInstanceDTO> getSeatAvailability(
+			FlightInstanceDTO flightInstance) {
+		String sql = env.getProperty("query.checkFlightSeats");
+		JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
+		LOG.debug("Received from controller:"+flightInstance.toString());
+		SimpleDateFormat sdf1 = new SimpleDateFormat("dd-MM-yyyy");
+		java.util.Date travelDate = null;
+		java.sql.Date sqltravelDate = null;
+		try {
+//			travelDate = sdf1.parse(flightInstance.getTravelDate());
+			travelDate = sdf1.parse(flightInstance.getTravelDate());
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		sqltravelDate = new java.sql.Date(travelDate.getTime());
+		
+		System.out.println("Travel Date:"+sqltravelDate);
+		
+		List<FlightInstanceDTO> instancesList  = jdbcTemplate.query(sql,  new Object[] { flightInstance.getFlightNumber(), sqltravelDate },
+				new FlightInstanceRowMapper());
+		
+		System.out.println("Number of flights: "+instancesList.size());
+		
+		
+		return instancesList;
 	}
 
 }

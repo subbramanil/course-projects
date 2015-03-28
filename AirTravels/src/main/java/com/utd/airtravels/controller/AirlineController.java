@@ -2,8 +2,6 @@ package com.utd.airtravels.controller;
 
 import java.util.List;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -15,13 +13,14 @@ import com.google.gson.Gson;
 import com.utd.airtravels.dao.AirlineDAOImpl;
 import com.utd.airtravels.dto.FareDTO;
 import com.utd.airtravels.dto.FlightDTO;
+import com.utd.airtravels.dto.FlightInstanceDTO;
 
 
 @Controller
 @RequestMapping("/")
 public class AirlineController {
 
-	private static final Logger LOG = LoggerFactory.getLogger(IndexController.class);
+//	private static final Logger LOG = LoggerFactory.getLogger(IndexController.class);
 	
 	@Autowired
 	AirlineDAOImpl airline;
@@ -58,5 +57,19 @@ public class AirlineController {
 		return gson.toJson(fareList);
 	}
 	
+	@RequestMapping(value="/getSeatAvailable", method = RequestMethod.POST, produces="application/json")
+	public @ResponseBody String getFlightSeatAvailability(@RequestBody final FlightInstanceDTO instance){
+
+		System.out.println("Flight details:"+instance.toString());
+		List<FlightInstanceDTO> instanceList = airline.getSeatAvailability(instance);
+		
+		for(FlightInstanceDTO f:instanceList){
+			System.out.println(f);
+		}
+		
+		System.out.println("Result: "+gson.toJson(instanceList));
+		
+		return gson.toJson(instanceList);
+	}
 	
 }
