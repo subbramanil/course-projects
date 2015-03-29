@@ -1,5 +1,6 @@
 package com.utd.airtravels.controller;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import com.google.gson.Gson;
 import com.utd.airtravels.dao.AirlineDAOImpl;
 import com.utd.airtravels.dto.FareDTO;
 import com.utd.airtravels.dto.FlightDTO;
+import com.utd.airtravels.dto.FlightDetailsDTO;
 import com.utd.airtravels.dto.FlightInstanceDTO;
 import com.utd.airtravels.dto.ReservationDTO;
 
@@ -31,15 +33,20 @@ public class AirlineController {
 	@RequestMapping(value = "/getFlights", method = RequestMethod.POST, produces = "application/json")
 	public @ResponseBody String getFlightDetails(
 			@RequestBody final FlightDTO flight) {
-
 		System.out.println("Flight details:" + flight.toString());
-		List<FlightDTO> flightsList = airline.getFlightsDetails(flight);
-
-		for (FlightDTO f : flightsList) {
-			System.out.println(f);
+		
+		List<FlightDTO> flightsList = new ArrayList<FlightDTO>();
+		List<FlightDetailsDTO> fList = airline.getFlightsDetails(flight);
+		for (FlightDetailsDTO fDetails : fList) {
+			flightsList.add(fDetails.getFlight1());
+			if(fDetails.getNumHops()==1)
+				flightsList.add(fDetails.getFlight2());
+			if(fDetails.getNumHops()==2)
+				flightsList.add(fDetails.getFlight3());
+			if(fDetails.getNumHops()==3)
+				flightsList.add(fDetails.getFlight4());
+			System.out.println(flightsList);
 		}
-
-		System.out.println("Result: " + gson.toJson(flightsList).toString());
 
 		return gson.toJson(flightsList);
 	}

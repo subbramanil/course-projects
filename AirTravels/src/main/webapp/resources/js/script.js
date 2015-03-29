@@ -5,8 +5,8 @@ function getFlightsDetails(){
 	var depCode = $('#depCode').val();
 	var arrCode = $('#arrCode').val();
 	var travelDate = $('#travelDate').val();
-	console.log(travelDate);
-	var values = {"depCode":depCode, "arrCode":arrCode, "maxHop":"3"};
+	var maxHop = $('#nHops').val();
+	var values = {"depCode":depCode, "arrCode":arrCode, "maxHop":maxHop };
 	console.log(values);
 	$.ajax({
 		   url: "getFlights",
@@ -25,32 +25,42 @@ function getFlightsDetails(){
 				
 				$('#flightsDetails').dataTable( {
 					"data": data,
-					"aoColumns": [{
-				    "mData":"flightNumber",
-				    "sTitle": "Flight #"
-				  	},{
+					"aaSorting": [],
+					"aoColumns": [
+					{
+						"mData":"flightNumber",
+						"sTitle": "Flight #",
+						"orderable": false
+				  	},
+				  	{
 				  		"mData":"airline",
-					    "sTitle": "Airline"
+					    "sTitle": "Airline",
+					    "orderable": false
 				  	},
 				  	{
 				  		"mData":"weekdays",
-					    "sTitle": "weekdays"
+					    "sTitle": "weekdays",
+					    "orderable": false
 				  	},
 				  	{
 				  		"mData":"depCode",
-					    "sTitle": "Departure Code"
+					    "sTitle": "Departure Code",
+					    "orderable": false
 				  	},
 				  	{
 				  		"mData":"schedDepTime",
-					    "sTitle": "Scheduled Departure Time"
+					    "sTitle": "Scheduled Departure Time",
+					    "orderable": false
 				  	},
 				  	{
 				  		"mData":"arrCode",
-					    "sTitle": "Arrival Code"
+					    "sTitle": "Arrival Code",
+					    "orderable": false
 				  	},
 				  	{
 				  		"mData":"schedArrTime",
-					    "sTitle": "Scheduled Arrival Time"
+					    "sTitle": "Scheduled Arrival Time",
+					    "orderable": false
 				  	}
 				  ]
 		   		});

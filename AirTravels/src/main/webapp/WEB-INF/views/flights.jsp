@@ -51,10 +51,12 @@
 						<input class="" id="depCode" type="text" placeholder="eg., PHL"/>
 						<span class="label label-default">Arrival Code</span>
 						<input class="" id="arrCode" type="text" placeholder="eg., PHL"/>
-						<span class="label label-default">No of Hops</span>
+						<span class="label label-default">Max. Hops</span>
 						<select id="nHops">
+							<option>0</option>
 							<option>1</option>
 							<option>2</option>
+							<option>3</option>
 						</select>
 						<span class="label label-dafault">Travel Date</span>
 						<input class="" id="travelDate" type="text">
