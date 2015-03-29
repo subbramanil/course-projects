@@ -14,62 +14,100 @@ import com.utd.airtravels.dao.AirlineDAOImpl;
 import com.utd.airtravels.dto.FareDTO;
 import com.utd.airtravels.dto.FlightDTO;
 import com.utd.airtravels.dto.FlightInstanceDTO;
-
+import com.utd.airtravels.dto.ReservationDTO;
 
 @Controller
 @RequestMapping("/")
 public class AirlineController {
 
-//	private static final Logger LOG = LoggerFactory.getLogger(IndexController.class);
-	
+	// private static final Logger LOG =
+	// LoggerFactory.getLogger(IndexController.class);
+
 	@Autowired
 	AirlineDAOImpl airline;
-	
-	static Gson gson = new Gson();
-	
-	@RequestMapping(value="/getFlights", method = RequestMethod.POST, produces="application/json")
-	public @ResponseBody String getFlightDetails(@RequestBody final FlightDTO flight){
 
-		System.out.println("Flight details:"+flight.toString());
+	static Gson gson = new Gson();
+
+	@RequestMapping(value = "/getFlights", method = RequestMethod.POST, produces = "application/json")
+	public @ResponseBody String getFlightDetails(
+			@RequestBody final FlightDTO flight) {
+
+		System.out.println("Flight details:" + flight.toString());
 		List<FlightDTO> flightsList = airline.getFlightsDetails(flight);
-		
-		for(FlightDTO f:flightsList){
+
+		for (FlightDTO f : flightsList) {
 			System.out.println(f);
 		}
-		
-		System.out.println("Result: "+gson.toJson(flightsList).toString());
-		
+
+		System.out.println("Result: " + gson.toJson(flightsList).toString());
+
 		return gson.toJson(flightsList);
 	}
-	
-	@RequestMapping(value="/getFlightFares", method = RequestMethod.POST, produces="application/json")
-	public @ResponseBody String getFlightFareDetails(@RequestBody final FareDTO fare){
 
-		System.out.println("Flight details:"+fare.toString());
+	@RequestMapping(value = "/getFlightFares", method = RequestMethod.POST, produces = "application/json")
+	public @ResponseBody String getFlightFareDetails(
+			@RequestBody final FareDTO fare) {
+
+		System.out.println("Flight details:" + fare.toString());
 		List<FareDTO> fareList = airline.checkFares(fare);
-		
-		for(FareDTO f:fareList){
+
+		for (FareDTO f : fareList) {
 			System.out.println(f);
 		}
-		
-		System.out.println("Result: "+gson.toJson(fareList));
-		
+
+		System.out.println("Result: " + gson.toJson(fareList));
+
 		return gson.toJson(fareList);
 	}
-	
-	@RequestMapping(value="/getSeatAvailable", method = RequestMethod.POST, produces="application/json")
-	public @ResponseBody String getFlightSeatAvailability(@RequestBody final FlightInstanceDTO instance){
 
-		System.out.println("Flight details:"+instance.toString());
-		List<FlightInstanceDTO> instanceList = airline.getSeatAvailability(instance);
-		
-		for(FlightInstanceDTO f:instanceList){
+	@RequestMapping(value = "/getSeatAvailable", method = RequestMethod.POST, produces = "application/json")
+	public @ResponseBody String getFlightSeatAvailability(
+			@RequestBody final FlightInstanceDTO instance) {
+
+		System.out.println("Flight details:" + instance.toString());
+		List<FlightInstanceDTO> instanceList = airline
+				.getSeatAvailability(instance);
+
+		for (FlightInstanceDTO f : instanceList) {
 			System.out.println(f);
 		}
-		
-		System.out.println("Result: "+gson.toJson(instanceList));
-		
+
+		System.out.println("Result: " + gson.toJson(instanceList));
+
 		return gson.toJson(instanceList);
 	}
+
+	@RequestMapping(value = "/getPassengersList", method = RequestMethod.POST, produces = "application/json")
+	public @ResponseBody String getPassengersList(
+			@RequestBody final ReservationDTO reservation) {
+
+		System.out.println("Flight details:" + reservation.toString());
+		List<ReservationDTO> passengersList = airline
+				.getPassengersList(reservation);
+
+		for (ReservationDTO f : passengersList) {
+			System.out.println(f);
+		}
+
+		System.out.println("Result: " + gson.toJson(passengersList));
+
+		return gson.toJson(passengersList);
+	}
 	
+	@RequestMapping(value = "/getFlightsList", method = RequestMethod.POST, produces = "application/json")
+	public @ResponseBody String getFlightsList(
+			@RequestBody final ReservationDTO reservation) {
+
+		System.out.println("Flight details:" + reservation.toString());
+		List<ReservationDTO> flightsList = airline
+				.getFlightsList(reservation);
+
+		for (ReservationDTO f : flightsList) {
+			System.out.println(f);
+		}
+
+		System.out.println("Result: " + gson.toJson(flightsList));
+
+		return gson.toJson(flightsList);
+	}
 }

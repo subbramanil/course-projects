@@ -48,4 +48,9 @@ public class IndexController {
     public String displayFlightSeatsDeatils() {
         return "/seats";
     }
+	
+	@RequestMapping( value = "/checkManifest", method = RequestMethod.GET)
+    public String displayPassengerManifestDeatils() {
+        return "/manifest";
+    }
 }

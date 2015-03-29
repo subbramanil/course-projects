@@ -171,3 +171,113 @@ function getSeatsAvailability(){
 		});	 
 	console.log("getFlightsDetails() exit");
 }
+
+
+
+function getPassengersList(){
+	console.log("getPassengersList() entry");
+	var flightNumber = $('#flightNumber').val();
+	var travelDate = $('#travelDate').val();
+	var values = {"flightNumber":flightNumber, "travelDate":travelDate};
+	console.log(values);
+	$.ajax({
+		   url: "getPassengersList",
+		   crossDomain:true,
+		   data: JSON.stringify(values),
+		   type: "POST",
+		   contentType: "application/json; charset=utf-8",
+		   datatype:"json",
+		   success: function(data) {
+			  	console.log(data);
+				console.log(JSON.stringify(data));
+				if ( $.fn.dataTable.isDataTable( '#passengersList' ) ) {
+					console.log("Deleting existing table");
+					$("#passengersList").dataTable().fnDestroy();
+				}
+				
+				$('#passengersList').dataTable( {
+					"data": data,
+					"aoColumns": [
+					{
+					    "mData":"flightNumber",
+					    "sTitle": "Flight #"
+				  	},{
+				  		"mData":"travelDate",
+					    "sTitle": "Travel Date"
+				  	},
+				  	{
+				  		"mData":"seatNumber",
+					    "sTitle": "Seat Number"
+				  	},
+				  	{
+				  		"mData":"passengerName",
+					    "sTitle": "Passenger Name"
+				  	},
+				  	{
+				  		"mData":"passengerPhone",
+					    "sTitle": "Passenger Phone"
+				  	}
+				  ]
+		   		});
+		   },
+		   error: function() {
+			     console.log("Error in accessing flight details");
+			     alert("Error in accessing flight details");
+			}
+		});	 
+	console.log("getPassengersList() exit");
+}
+
+
+function getFlightsList(){
+	console.log("getFlightsList() entry");
+	var passengerName = $('#passengerName').val();
+	var values = {"passengerName":passengerName};
+	console.log(values);
+	$.ajax({
+		   url: "getFlightsList",
+		   crossDomain:true,
+		   data: JSON.stringify(values),
+		   type: "POST",
+		   contentType: "application/json; charset=utf-8",
+		   datatype:"json",
+		   success: function(data) {
+			  	console.log(data);
+				console.log(JSON.stringify(data));
+				if ( $.fn.dataTable.isDataTable( '#flightsList' ) ) {
+					console.log("Deleting existing table");
+					$("#flightsList").dataTable().fnDestroy();
+				}
+				
+				$('#flightsList').dataTable( {
+					"data": data,
+					"aoColumns": [
+					{
+					    "mData":"flightNumber",
+					    "sTitle": "Flight #"
+				  	},{
+				  		"mData":"travelDate",
+					    "sTitle": "Travel Date"
+				  	},
+				  	{
+				  		"mData":"seatNumber",
+					    "sTitle": "Seat Number"
+				  	},
+				  	{
+				  		"mData":"passengerName",
+					    "sTitle": "Passenger Name"
+				  	},
+				  	{
+				  		"mData":"passengerPhone",
+					    "sTitle": "Passenger Phone"
+				  	}
+				  ]
+		   		});
+		   },
+		   error: function() {
+			     console.log("Error in accessing flight details");
+			     alert("Error in accessing flight details");
+			}
+		});	 
+	console.log("getFlightsList() exit");
+}
