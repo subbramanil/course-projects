@@ -18,47 +18,381 @@ function getFlightsDetails(){
 		   success: function(data) {
 			  	console.log(data);
 				console.log(JSON.stringify(data));
+				
+				console.log("FlightsList:"+data.flightsList);
+				
 				if ( $.fn.dataTable.isDataTable( '#flightsDetails' ) ) {
 					console.log("Deleting existing table");
 					$("#flightsDetails").dataTable().fnDestroy();
 				}
 				
 				$('#flightsDetails').dataTable( {
-					"data": data,
+					"data": data.flightsList,
 					"aaSorting": [],
 					"aoColumns": [
 					{
-						"mData":"flightNumber",
+						"mData":"flight1.flightNumber",
 						"sTitle": "Flight #",
 						"orderable": false
 				  	},
 				  	{
-				  		"mData":"airline",
+				  		"mData":"flight1.airline",
 					    "sTitle": "Airline",
 					    "orderable": false
 				  	},
 				  	{
-				  		"mData":"weekdays",
-					    "sTitle": "weekdays",
+				  		"mData":"flight1.weekdays",
+					    "sTitle": "Service Days",
 					    "orderable": false
 				  	},
 				  	{
-				  		"mData":"depCode",
+				  		"mData":"flight1.depCode",
 					    "sTitle": "Departure Code",
 					    "orderable": false
 				  	},
 				  	{
-				  		"mData":"schedDepTime",
+				  		"mData":"flight1.schedDepTime",
 					    "sTitle": "Scheduled Departure Time",
 					    "orderable": false
 				  	},
 				  	{
-				  		"mData":"arrCode",
+				  		"mData":"flight1.arrCode",
 					    "sTitle": "Arrival Code",
 					    "orderable": false
 				  	},
 				  	{
-				  		"mData":"schedArrTime",
+				  		"mData":"flight1.schedArrTime",
+					    "sTitle": "Scheduled Arrival Time",
+					    "orderable": false
+				  	}
+				  ]
+		   		});
+				
+				console.log("FlightsList:"+data.flightsWith1HopList);
+				
+				if ( $.fn.dataTable.isDataTable( '#flightsWith1HopDetails' ) ) {
+					console.log("Deleting existing table");
+					$("#flightsWith1HopDetails").dataTable().fnDestroy();
+				}
+				
+				
+				$('#flightsWith1HopDetails').dataTable( {
+					"data": data.flightsWith1HopList,
+					"aaSorting": [],
+					"scrollX": true,
+					"aoColumns": [
+					{
+						"mData":"flight1.flightNumber",
+						"sTitle": "Flight #",
+						"orderable": false
+				  	},
+				  	{
+				  		"mData":"flight1.airline",
+					    "sTitle": "Airline",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight1.weekdays",
+					    "sTitle": "weekdays",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight1.depCode",
+					    "sTitle": "Departure Code",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight1.schedDepTime",
+					    "sTitle": "Scheduled Departure Time",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight1.arrCode",
+					    "sTitle": "Arrival Code",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight1.schedArrTime",
+					    "sTitle": "Scheduled Arrival Time",
+					    "orderable": false
+				  	},
+				  	{
+						"mData":"flight2.flightNumber",
+						"sTitle": "Flight #2",
+						"orderable": false
+				  	},
+				  	{
+				  		"mData":"flight2.airline",
+					    "sTitle": "Airline",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight2.depCode",
+					    "sTitle": "Departure Code",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight2.schedDepTime",
+					    "sTitle": "Scheduled Departure Time",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight2.arrCode",
+					    "sTitle": "Arrival Code",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight2.schedArrTime",
+					    "sTitle": "Scheduled Arrival Time",
+					    "orderable": false
+				  	}
+				  ]
+		   		});
+				
+				console.log("FlightsList:"+data.flightsWith2HopList);
+				
+				if ( $.fn.dataTable.isDataTable( '#flightsWith2HopDetails' ) ) {
+					console.log("Deleting existing table");
+					$("#flightsWith2HopDetails").dataTable().fnDestroy();
+				}
+				
+				$('#flightsWith2HopDetails').dataTable( {
+					"data": data.flightsWith2HopList,
+					"aaSorting": [],
+					"scrollX": true,
+					"aoColumns": [
+					{
+						"mData":"flight1.flightNumber",
+						"sTitle": "Flight #",
+						"orderable": false
+				  	},
+				  	{
+				  		"mData":"flight1.airline",
+					    "sTitle": "Airline",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight1.weekdays",
+					    "sTitle": "weekdays",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight1.depCode",
+					    "sTitle": "Departure Code",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight1.schedDepTime",
+					    "sTitle": "Scheduled Departure Time",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight1.arrCode",
+					    "sTitle": "Arrival Code",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight1.schedArrTime",
+					    "sTitle": "Scheduled Arrival Time",
+					    "orderable": false
+				  	},
+				  	{
+						"mData":"flight2.flightNumber",
+						"sTitle": "Flight #2",
+						"orderable": false
+				  	},
+				  	{
+				  		"mData":"flight2.airline",
+					    "sTitle": "Airline",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight2.depCode",
+					    "sTitle": "Departure Code",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight2.schedDepTime",
+					    "sTitle": "Scheduled Departure Time",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight2.arrCode",
+					    "sTitle": "Arrival Code",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight2.schedArrTime",
+					    "sTitle": "Scheduled Arrival Time",
+					    "orderable": false
+				  	},
+				  	{
+						"mData":"flight3.flightNumber",
+						"sTitle": "Flight #3",
+						"orderable": false
+				  	},
+				  	{
+				  		"mData":"flight3.airline",
+					    "sTitle": "Airline",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight3.depCode",
+					    "sTitle": "Departure Code",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight3.schedDepTime",
+					    "sTitle": "Scheduled Departure Time",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight3.arrCode",
+					    "sTitle": "Arrival Code",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight3.schedArrTime",
+					    "sTitle": "Scheduled Arrival Time",
+					    "orderable": false
+				  	},
+				  ]
+		   		});
+				
+				console.log("FlightsList:"+data.flightsWith3HopList);
+				
+				if ( $.fn.dataTable.isDataTable( '#flightsWith3HopDetails' ) ) {
+					console.log("Deleting existing table");
+					$("#flightsWith3HopDetails").dataTable().fnDestroy();
+				}
+				
+				$('#flightsWith3HopDetails').dataTable( {
+					"data": data,
+					"aaSorting": [],
+					"scrollX": true,
+					"aoColumns": [
+					{
+						"mData":"flight1.flightNumber",
+						"sTitle": "Flight #1",
+						"orderable": false
+				  	},
+				  	{
+				  		"mData":"flight1.airline",
+					    "sTitle": "Airline",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight1.weekdays",
+					    "sTitle": "weekdays",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight1.depCode",
+					    "sTitle": "Departure Code",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight1.schedDepTime",
+					    "sTitle": "Scheduled Departure Time",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight1.arrCode",
+					    "sTitle": "Arrival Code",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight1.schedArrTime",
+					    "sTitle": "Scheduled Arrival Time",
+					    "orderable": false
+				  	},
+				  	{
+						"mData":"flight2.flightNumber",
+						"sTitle": "Flight #2",
+						"orderable": false
+				  	},
+				  	{
+				  		"mData":"flight2.airline",
+					    "sTitle": "Airline",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight2.depCode",
+					    "sTitle": "Departure Code",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight2.schedDepTime",
+					    "sTitle": "Scheduled Departure Time",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight2.arrCode",
+					    "sTitle": "Arrival Code",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight2.schedArrTime",
+					    "sTitle": "Scheduled Arrival Time",
+					    "orderable": false
+				  	},
+				  	{
+						"mData":"flight3.flightNumber",
+						"sTitle": "Flight #3",
+						"orderable": false
+				  	},
+				  	{
+				  		"mData":"flight3.airline",
+					    "sTitle": "Airline",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight3.depCode",
+					    "sTitle": "Departure Code",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight3.schedDepTime",
+					    "sTitle": "Scheduled Departure Time",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight3.arrCode",
+					    "sTitle": "Arrival Code",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight3.schedArrTime",
+					    "sTitle": "Scheduled Arrival Time",
+					    "orderable": false
+				  	},
+				  	{
+						"mData":"flight4.flightNumber",
+						"sTitle": "Flight #4",
+						"orderable": false
+				  	},
+				  	{
+				  		"mData":"flight4.airline",
+					    "sTitle": "Airline",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight4.depCode",
+					    "sTitle": "Departure Code",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight4.schedDepTime",
+					    "sTitle": "Scheduled Departure Time",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight4.arrCode",
+					    "sTitle": "Arrival Code",
+					    "orderable": false
+				  	},
+				  	{
+				  		"mData":"flight4.schedArrTime",
 					    "sTitle": "Scheduled Arrival Time",
 					    "orderable": false
 				  	}

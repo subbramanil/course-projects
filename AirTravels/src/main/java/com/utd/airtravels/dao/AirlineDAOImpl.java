@@ -19,6 +19,7 @@ import com.utd.airtravels.dto.FareDTO;
 import com.utd.airtravels.dto.FlightDTO;
 import com.utd.airtravels.dto.FlightDetailsDTO;
 import com.utd.airtravels.dto.FlightInstanceDTO;
+import com.utd.airtravels.dto.FlightsListDTO;
 import com.utd.airtravels.dto.ReservationDTO;
 import com.utd.airtravels.util.FareRowMapper;
 import com.utd.airtravels.util.FlightInstanceRowMapper;
@@ -40,28 +41,31 @@ public class AirlineDAOImpl implements AirlineDAO {
 	final static SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
 
 	@Override
-	public List<FlightDetailsDTO> getFlightsDetails(FlightDTO flight) {
+	public FlightsListDTO getFlightsDetails(FlightDTO flight) {
 		String sql = null;
+		FlightsListDTO flightsListDTO = new FlightsListDTO();
+		
 		System.out.println("Received from controller:" + flight.toString());
 		sql = env.getProperty("query.getFlightDetails");
-
+		
 		JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
 		List<FlightDetailsDTO> flightsList = jdbcTemplate.query(sql,
 				new Object[] { flight.getArrCode(), flight.getDepCode() },
 				new FlightListRowMapper());
+		flightsListDTO.setFlightsList(flightsList);
 		int nHop = flight.getMaxHop();
-		if(nHop<=2){
-			flightsList.addAll(getFlightsWith1HopDetails(flight));
+		if(nHop>0){
+			flightsListDTO.setFlightsWith1HopList(getFlightsWith1HopDetails(flight));
 		}
-		if(nHop<=3){
-			flightsList.addAll(getFlightsWith2HopDetails(flight));
+		if(nHop>1){
+			flightsListDTO.setFlightsWith2HopList(getFlightsWith2HopDetails(flight));
 		}
-		if(nHop<4){
-			flightsList.addAll(getFlightsWith3HopDetails(flight));
+		if(nHop>2){
+			flightsListDTO.setFlightsWith3HopList(getFlightsWith3HopDetails(flight));
 		}
 		
 		System.out.println("Number of flights: " + flightsList.size());
-		return flightsList;
+		return flightsListDTO;
 	}
 
 	public List<FlightDetailsDTO> getFlightsWith1HopDetails(FlightDTO flight) {

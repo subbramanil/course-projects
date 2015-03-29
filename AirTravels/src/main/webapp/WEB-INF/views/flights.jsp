@@ -67,10 +67,37 @@
 		</div>
 		<div class="row panel panel-success">
 			<div class="panel-heading">
-				Flights Available
+				Direct Flights
 			</div>
 			<div class="panel-body">
 				<table id="flightsDetails" class="display" cellspacing="0" width="100%">
+			    </table>
+			</div>
+		</div>
+		<div class="row panel panel-success">
+			<div class="panel-heading">
+				Flights with 1 Hop
+			</div>
+			<div class="panel-body">
+				<table id="flightsWith1HopDetails" class="display" cellspacing="0" width="100%">
+			    </table>
+			</div>
+		</div>
+		<div class="row panel panel-success">
+			<div class="panel-heading">
+				Flights with 2 Hop
+			</div>
+			<div class="panel-body">
+				<table id="flightsWith2HopDetails" class="display" cellspacing="0" width="100%">
+			    </table>
+			</div>
+		</div>
+		<div class="row panel panel-success">
+			<div class="panel-heading">
+				Flights  with 3 Hop
+			</div>
+			<div class="panel-body">
+				<table id="flightsWith3HopDetails" class="display" cellspacing="0" width="100%">
 			    </table>
 			</div>
 		</div>

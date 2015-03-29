@@ -16,6 +16,7 @@ import com.utd.airtravels.dto.FareDTO;
 import com.utd.airtravels.dto.FlightDTO;
 import com.utd.airtravels.dto.FlightDetailsDTO;
 import com.utd.airtravels.dto.FlightInstanceDTO;
+import com.utd.airtravels.dto.FlightsListDTO;
 import com.utd.airtravels.dto.ReservationDTO;
 
 @Controller
@@ -35,9 +36,8 @@ public class AirlineController {
 			@RequestBody final FlightDTO flight) {
 		System.out.println("Flight details:" + flight.toString());
 		
-		List<FlightDTO> flightsList = new ArrayList<FlightDTO>();
-		List<FlightDetailsDTO> fList = airline.getFlightsDetails(flight);
-		for (FlightDetailsDTO fDetails : fList) {
+		FlightsListDTO flightsList = airline.getFlightsDetails(flight);
+		/*for (FlightDetailsDTO fDetails : fList) {
 			flightsList.add(fDetails.getFlight1());
 			if(fDetails.getNumHops()==1)
 				flightsList.add(fDetails.getFlight2());
@@ -46,7 +46,7 @@ public class AirlineController {
 			if(fDetails.getNumHops()==3)
 				flightsList.add(fDetails.getFlight4());
 			System.out.println(flightsList);
-		}
+		}*/
 
 		return gson.toJson(flightsList);
 	}
