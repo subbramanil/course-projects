@@ -124,13 +124,24 @@
 			<div class="col-lg-3">
 				<img class="img-circle" src="resources/imgs/flight_1.jpg"
 					alt="Generic placeholder image" width="140" height="140">
-				<h2>Check for flights</h2>
+				<h2>Check for Flights</h2>
 				<p>Display the flight numbers and weekdays of all flights °
 					Given a Departure Airport Code and Arrival Airport Code ° If no
 					direct flight exists, determine multiple connecting flights which
 					have compatible scheduled departure and arrival times and weekdays.</p>
 				<p>
-					<a class="btn btn-default" href="#" role="button">Check flights
+					<a class="btn btn-default" href="flightDetails" role="button">Check flights
+						&raquo;</a>
+				</p>
+			</div>
+			<!-- /.col-lg-4 -->
+			<div class="col-lg-3">
+				<img class="img-circle" src="resources/imgs/flight_3.jpg"
+					alt="Generic placeholder image" width="140" height="140">
+				<h2>Check Fares</h2>
+				<p>Display all Fare information ° Given a flight number</p>
+				<p>
+					<a class="btn btn-default" href="fareDetails" role="button">View details
 						&raquo;</a>
 				</p>
 			</div>
@@ -142,30 +153,19 @@
 				<p>Display the number of available seats on a particular flight
 					instance ° Given a flight number and Date</p>
 				<p>
-					<a class="btn btn-default" href="#" role="button">Check Seats
-						&raquo;</a>
-				</p>
-			</div>
-			<!-- /.col-lg-4 -->
-			<div class="col-lg-3">
-				<img class="img-circle" src="resources/imgs/flight_3.jpg"
-					alt="Generic placeholder image" width="140" height="140">
-				<h2>Check Fares</h2>
-				<p>Display all Fare information ° Given a flight number</p>
-				<p>
-					<a class="btn btn-default" href="#" role="button">View details
+					<a class="btn btn-default" href="seatDetails" role="button">Check Seats
 						&raquo;</a>
 				</p>
 			</div>
 			<div class="col-lg-3">
 				<img class="img-circle" src="resources/imgs/flight_3.jpg"
 					alt="Generic placeholder image" width="140" height="140">
-				<h2>Check passenger manifest</h2>
+				<h2>Check Passenger Manifest</h2>
 				<p>User shall be able to query a passenger2 manifest • Display
 					list of passengers on a given flight instance • Display a list of
 					flight instances for a particular passenger name</p>
 				<p>
-					<a class="btn btn-default" href="#" role="button">View details
+					<a class="btn btn-default" href="checkManifest" role="button">View details
 						&raquo;</a>
 				</p>
 			</div>
