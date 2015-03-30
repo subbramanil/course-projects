@@ -4,7 +4,7 @@ function getFlightsDetails(){
 	console.log("getFlightsDetails() entry");
 	var depCode = $('#depCode').val();
 	var arrCode = $('#arrCode').val();
-	var travelDate = $('#travelDate').val();
+//	var travelDate = $('#travelDate').val();
 	var maxHop = $('#nHops').val();
 	var values = {"depCode":depCode, "arrCode":arrCode, "maxHop":maxHop };
 	console.log(values);
@@ -435,7 +435,20 @@ function getFareDetails(){
 					{
 						"mData":"flightNumber",
 						"sTitle": "Flight #"
-				  	},{
+				  	},
+				  	{
+				  		"mData":"airline",
+					    "sTitle": "Airline"
+				  	},
+				  	{
+				  		"mData":"deptCode",
+					    "sTitle": "Departure Code"
+				  	},
+				  	{
+				  		"mData":"arrCode",
+					    "sTitle": "Arrival Code"
+				  	},
+				  	{
 				  		"mData":"fareCode",
 					    "sTitle": "Fare Code"
 				  	},

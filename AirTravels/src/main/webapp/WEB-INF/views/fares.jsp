@@ -45,19 +45,17 @@
 			</div>
 			<div class="panel-body">
 				<form action="">
-					<div class="row">
-						<span class="label label-default">Flight Number</span>
-						<input class="" id="flightNumber" type="text" placeholder="eg., 191"/>
+					<div class="form-group">
+					    <label for="flightNumber">Flight #</label>
+					    <input type="number" class="form-control" id="flightNumber" placeholder="eg., 20">
 					</div>
-					<div class="row">
-						<button type="button" id="checkFareBtn" class="btn btn-primary"> Go! </button>
-					</div>
+					<button type="button" id="checkFareBtn" class="btn btn-primary"> Get Fare Details </button>
 				</form>
 			</div>
 		</div>
 		<div class="row panel panel-success">
 			<div class="panel-heading">
-				Flights Available
+				Fare details
 			</div>
 			<div class="panel-body">
 				<table id="fareDetails" class="display">

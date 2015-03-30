@@ -47,15 +47,15 @@
 			</div>
 			<div class="panel-body">
 				<form action="">
-					<div class="row">
-						<span class="label label-default">Flight Number</span>
-						<input class="" id="flightNumber" type="text" placeholder="eg., 191"/>
-						<span class="label label-default">Travel Date</span>
-						<input class="" id="travelDate" type="text">
+					<div class="form-group col-md-6">
+					    <label for="flightNumber">Flight #</label>
+					    <input type="number" class="form-control" id="flightNumber" placeholder="eg., 20">
 					</div>
-					<div class="row">
-						<button type="button" id="getPassengerListBtn" class="btn btn-primary"> Go! </button>
+					<div class="form-group col-md-6">
+						<label for="travelDate">Travel Date</label>
+						<input class="form-control"  id="travelDate" type="date">
 					</div>
+					<button type="button" id="getPassengerListBtn" class="btn btn-primary"> Check Passenger Details </button>
 				</form>
 			</div>
 		</div>
@@ -75,13 +75,11 @@
 			</div>
 			<div class="panel-body">
 				<form action="">
-					<div class="row">
-						<span class="label label-default">Passenger Name</span>
-						<input class="" id="passengerName" type="text" placeholder="subbu"/>
+					<div class="form-group">
+					    <label for="passengerName">Flight #</label>
+					    <input type="text" class="form-control" id="passengerName" placeholder="subbu">
 					</div>
-					<div class="row">
-						<button type="button" id="getFlightsBtn" class="btn btn-primary"> Go! </button>
-					</div>
+					<button type="button" id="getFlightsBtn" class="btn btn-primary"> Check Flights </button>
 				</form>
 			</div>
 		</div>

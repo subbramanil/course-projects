@@ -50,7 +50,7 @@ public class AirlineDAOImpl implements AirlineDAO {
 		
 		JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
 		List<FlightDetailsDTO> flightsList = jdbcTemplate.query(sql,
-				new Object[] { flight.getArrCode(), flight.getDepCode() },
+				new Object[] { flight.getDepCode(), flight.getArrCode() },
 				new FlightListRowMapper());
 		flightsListDTO.setFlightsList(flightsList);
 		int nHop = flight.getMaxHop();
@@ -72,7 +72,7 @@ public class AirlineDAOImpl implements AirlineDAO {
 		String sql = env.getProperty("query.getFlightWith1HopDetails");
 		JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
 		List<FlightDetailsDTO> flightsList = jdbcTemplate.query(sql,
-				new Object[] { flight.getArrCode(), flight.getDepCode() },
+				new Object[] {flight.getDepCode(), flight.getArrCode()  },
 				new FlightListRowMapper());
 		checkValidFlights(flightsList);
 		System.out.println("Number of flights: " + flightsList.size());
@@ -83,7 +83,7 @@ public class AirlineDAOImpl implements AirlineDAO {
 		String sql = env.getProperty("query.getFlightWith2HopDetails");
 		JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
 		List<FlightDetailsDTO> flightsList = jdbcTemplate.query(sql,
-				new Object[] { flight.getArrCode(), flight.getDepCode(), flight.getDepCode()},
+				new Object[] { flight.getDepCode(), flight.getArrCode(), flight.getArrCode()},
 				new FlightListRowMapper());
 		checkValidFlights(flightsList);
 		System.out.println("Number of flights: " + flightsList.size());
@@ -94,7 +94,7 @@ public class AirlineDAOImpl implements AirlineDAO {
 		String sql = env.getProperty("query.getFlightWith3HopDetails");
 		JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
 		List<FlightDetailsDTO> flightsList = jdbcTemplate.query(sql,
-				new Object[] { flight.getArrCode(), flight.getDepCode(), flight.getDepCode() , flight.getDepCode()  },
+				new Object[] { flight.getDepCode(), flight.getArrCode(), flight.getArrCode(), flight.getArrCode()  },
 				new FlightListRowMapper());
 		checkValidFlights(flightsList);
 		System.out.println("Number of flights: " + flightsList.size());
@@ -212,7 +212,7 @@ public class AirlineDAOImpl implements AirlineDAO {
 		List<FareDTO> faresList = jdbcTemplate.query(sql,
 				new Object[] { fare.getFlightNumber() }, new FareRowMapper());
 
-		System.out.println("Number of flights: " + faresList.size());
+		System.out.println("Number of Fare Types: " + faresList.size());
 
 		return faresList;
 	}

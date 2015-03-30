@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Fares</title>
+<title>Flights</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,8 +32,8 @@
 	$(document).ready(function() {
 		console.log("ready");
 		$('#submitBtn').click(getFlightsDetails);
-		$( "#travelDate" ).datepicker(); 
-		$('#travelTime').timepicker({ 'scrollDefault': 'now' });
+		/* $( "#travelDate" ).datepicker(); 
+		$('#travelTime').timepicker({ 'scrollDefault': 'now' }); */
 	});
 </script>
 
@@ -47,22 +47,25 @@
 			</div>
 			<div class="panel-body">
 				<form action="">
-						<span class="label label-default">Departure Code</span>
-						<input class="" id="depCode" type="text" placeholder="eg., PHL"/>
-						<span class="label label-default">Arrival Code</span>
-						<input class="" id="arrCode" type="text" placeholder="eg., PHL"/>
-						<span class="label label-default">Max. Hops</span>
-						<select id="nHops">
+					<div class="form-group col-md-4">
+					    <label for="depCode">Departure Code</label>
+					    <input type="text" class="form-control" id="depCode" placeholder="eg., PHL">
+					</div>
+					<div class="form-group col-md-4">
+					    <label for="arrCode">Arrival Code</label>
+					    <input type="text" class="form-control" id="arrCode" placeholder="eg., ATL">
+					</div>
+					<div class="form-group col-md-4">
+					    <label for="arrCode">Max. Hops</label>
+					    <select id="nHops" class="form-control"> 
 							<option>0</option>
 							<option>1</option>
 							<option>2</option>
 							<option>3</option>
 						</select>
-						<span class="label label-dafault">Travel Date</span>
-						<input class="" id="travelDate" type="text">
-						<input class="" id="travelTime" type="text">
-						<button type="button" id="submitBtn" class="btn btn-primary"> Go! </button>
-					</form>
+					</div>
+					<button type="button" id="submitBtn" class="btn btn-primary"> Go! </button>
+				</form>
 			</div>
 		</div>
 		<div class="row panel panel-success">
@@ -74,7 +77,7 @@
 			    </table>
 			</div>
 		</div>
-		<div class="row panel panel-success">
+		<div class="row panel panel-info">
 			<div class="panel-heading">
 				Flights with 1 Hop
 			</div>
@@ -83,7 +86,7 @@
 			    </table>
 			</div>
 		</div>
-		<div class="row panel panel-success">
+		<div class="row panel panel-warning">
 			<div class="panel-heading">
 				Flights with 2 Hop
 			</div>
@@ -92,7 +95,7 @@
 			    </table>
 			</div>
 		</div>
-		<div class="row panel panel-success">
+		<div class="row panel panel-danger">
 			<div class="panel-heading">
 				Flights  with 3 Hop
 			</div>

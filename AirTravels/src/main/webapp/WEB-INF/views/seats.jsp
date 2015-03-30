@@ -46,15 +46,15 @@
 			</div>
 			<div class="panel-body">
 				<form action="">
-					<div class="row">
-						<span class="label label-default">Flight Number</span>
-						<input class="" id="flightNumber" type="text" placeholder="eg., 191"/>
-						<span class="label label-default">Travel Date</span>
-						<input class="" id="travelDate" type="text">
+					<div class="form-group col-md-6">
+					    <label for="flightNumber">Flight #</label>
+					    <input type="number" class="form-control" id="flightNumber" placeholder="eg., 20">
 					</div>
-					<div class="row">
-						<button type="button" id="checkSeatsBtn" class="btn btn-primary"> Go! </button>
+					<div class="form-group col-md-6">
+						<label for="travelDate">Travel Date</label>
+						<input class="form-control"  id="travelDate" type="date">
 					</div>
+					<button type="button" id="checkSeatsBtn" class="btn btn-primary"> Check Seats </button>
 				</form>
 			</div>
 		</div>
