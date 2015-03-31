@@ -48,11 +48,11 @@
 				<form action="">
 					<div class="form-group col-md-6">
 					    <label for="flightNumber">Flight #</label>
-					    <input type="number" class="form-control" id="flightNumber" placeholder="eg., 20">
+					    <input type="number" class="form-control" id="flightNumber" placeholder="eg., 20" required="required">
 					</div>
 					<div class="form-group col-md-6">
 						<label for="travelDate">Travel Date</label>
-						<input class="form-control"  id="travelDate" type="date">
+						<input class="form-control"  id="travelDate" required="required" >
 					</div>
 					<button type="button" id="checkSeatsBtn" class="btn btn-primary"> Check Seats </button>
 				</form>

@@ -53,7 +53,7 @@
 					</div>
 					<div class="form-group col-md-6">
 						<label for="travelDate">Travel Date</label>
-						<input class="form-control"  id="travelDate" type="date">
+						<input class="form-control"  id="travelDate">
 					</div>
 					<button type="button" id="getPassengerListBtn" class="btn btn-primary"> Check Passenger Details </button>
 				</form>

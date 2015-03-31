@@ -6,6 +6,10 @@ function getFlightsDetails(){
 	var arrCode = $('#arrCode').val();
 //	var travelDate = $('#travelDate').val();
 	var maxHop = $('#nHops').val();
+	if(!depCode || !arrCode ){
+		alert("Enter all details");
+		return "";
+	}
 	var values = {"depCode":depCode, "arrCode":arrCode, "maxHop":maxHop };
 	console.log(values);
 	$.ajax({
@@ -414,6 +418,10 @@ function getFareDetails(){
 	console.log(flightNumber);
 	var values = {"flightNumber":flightNumber};
 	console.log(values);
+	if(!flightNumber){
+		alert("Enter flight number");
+		return "";
+	}
 	$.ajax({
 		   url: "getFlightFares",
 		   crossDomain:true,
@@ -475,6 +483,10 @@ function getSeatsAvailability(){
 	console.log("getFlightsDetails() entry");
 	var flightNumber = $('#flightNumber').val();
 	var travelDate = $('#travelDate').val();
+	if(!flightNumber || !travelDate){
+		alert("Enter all details");
+		return "";
+	}
 	var values = {"flightNumber":flightNumber, "travelDate":travelDate};
 	console.log(values);
 	$.ajax({
@@ -535,6 +547,10 @@ function getPassengersList(){
 	console.log("getPassengersList() entry");
 	var flightNumber = $('#flightNumber').val();
 	var travelDate = $('#travelDate').val();
+	if(!flightNumber || !travelDate){
+		alert("Enter all details");
+		return "";
+	}
 	var values = {"flightNumber":flightNumber, "travelDate":travelDate};
 	console.log(values);
 	$.ajax({
@@ -590,6 +606,10 @@ function getFlightsList(){
 	console.log("getFlightsList() entry");
 	var passengerName = $('#passengerName').val();
 	var values = {"passengerName":passengerName};
+	if(!passengerName){
+		alert("Enter Passenger Name");
+		return "";
+	}
 	console.log(values);
 	$.ajax({
 		   url: "getFlightsList",
