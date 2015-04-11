@@ -1,0 +1,22 @@
+<h2>Surgeries</h2>
+
+{{ message }}
+
+<div class="panel panel-primary" ng-controller="SurgeryController">
+    <div class="panel-heading">
+        <h2>Number of Operations</h2>
+    </div>
+    <div class="panel-body">
+        <div>
+            <label>Status: </label>
+            <select class="form-control" ng-model="userChoice" ng-options="choice.name for choice in choices"></select>
+        </div>
+        <button class="btn btn-primary" ng-click="change()">Sign</button>
+        <div id="chart">
+
+        </div>
+    </div>
+    <div class="panel-footer">
+
+    </div>
+</div>
