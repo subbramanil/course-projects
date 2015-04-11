@@ -61,7 +61,6 @@
 							<option>0</option>
 							<option>1</option>
 							<option>2</option>
-							<option>3</option>
 						</select>
 					</div>
 					<button type="button" id="submitBtn" class="btn btn-primary"> Go! </button>
@@ -95,7 +94,7 @@
 			    </table>
 			</div>
 		</div>
-		<div class="row panel panel-danger">
+		<!-- <div class="row panel panel-danger">
 			<div class="panel-heading">
 				Flights  with 3 Hop
 			</div>
@@ -103,7 +102,7 @@
 				<table id="flightsWith3HopDetails" class="display" >
 			    </table>
 			</div>
-		</div>
+		</div> -->
 
 	<!-- FOOTER -->
 	<footer>
