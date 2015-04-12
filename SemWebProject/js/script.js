@@ -1,63 +1,66 @@
 /**
  * Created by Subbu on 4/10/15.
  */
-var newdata1;
-var newdata2;
+var usStates = [
+    { name: 'ALASKA', abbreviation: 'AK'},
+    { name: 'ALABAMA', abbreviation: 'AL'},
+    { name: 'ARKANSAS', abbreviation: 'AR'},
+    { name: 'ARIZONA', abbreviation: 'AZ'},
+    { name: 'CALIFORNIA', abbreviation: 'CA'},
+    { name: 'COLORADO', abbreviation: 'CO'},
+    { name: 'CONNECTICUT', abbreviation: 'CT'},
+    { name: 'DISTRICT OF COLUMBIA', abbreviation: 'DC'},
+    { name: 'DELAWARE', abbreviation: 'DE'},
+    { name: 'FLORIDA', abbreviation: 'FL'},
+    { name: 'GEORGIA', abbreviation: 'GA'},
+    { name: 'HAWAII', abbreviation: 'HI'},
+    { name: 'IOWA', abbreviation: 'IA'},
+    { name: 'IDAHO', abbreviation: 'ID'},
+    { name: 'ILLINOIS', abbreviation: 'IL'},
+    { name: 'INDIANA', abbreviation: 'IN'},
+    { name: 'KANSAS', abbreviation: 'KS'},
+    { name: 'KENTUCKY', abbreviation: 'KY'},
+    { name: 'LOUISIANA', abbreviation: 'LA'},
+    { name: 'MASSACHUSETTS', abbreviation: 'MA'},
+    { name: 'MARYLAND', abbreviation: 'MD'},
+    { name: 'MAINE', abbreviation: 'ME'},
+    { name: 'MICHIGAN', abbreviation: 'MI'},
+    { name: 'MINNESOTA', abbreviation: 'MN'},
+    { name: 'MISSOURI', abbreviation: 'MO'},
+    { name: 'MISSISSIPPI', abbreviation: 'MS'},
+    { name: 'MONTANA', abbreviation: 'MT'},
+    { name: 'NORTH CAROLINA', abbreviation: 'NC'},
+    { name: 'NORTH DAKOTA', abbreviation: 'ND'},
+    { name: 'NEBRASKA', abbreviation: 'NE'},
+    { name: 'NEW HAMPSHIRE', abbreviation: 'NH'},
+    { name: 'NEW JERSEY', abbreviation: 'NJ'},
+    { name: 'NEW MEXICO', abbreviation: 'NM'},
+    { name: 'NEVADA', abbreviation: 'NV'},
+    { name: 'NEW YORK', abbreviation: 'NY'},
+    { name: 'OHIO', abbreviation: 'OH'},
+    { name: 'OKLAHOMA', abbreviation: 'OK'},
+    { name: 'OREGON', abbreviation: 'OR'},
+    { name: 'PENNSYLVANIA', abbreviation: 'PA'},
+    { name: 'PUERTO RICO', abbreviation: 'PR'},
+    { name: 'RHODE ISLAND', abbreviation: 'RI'},
+    { name: 'SOUTH CAROLINA', abbreviation: 'SC'},
+    { name: 'SOUTH DAKOTA', abbreviation: 'SD'},
+    { name: 'TENNESSEE', abbreviation: 'TN'},
+    { name: 'TEXAS', abbreviation: 'TX'},
+    { name: 'UTAH', abbreviation: 'UT'},
+    { name: 'VIRGINIA', abbreviation: 'VA'},
+    { name: 'VERMONT', abbreviation: 'VT'},
+    { name: 'WASHINGTON', abbreviation: 'WA'},
+    { name: 'WISCONSIN', abbreviation: 'WI'},
+    { name: 'WEST VIRGINIA', abbreviation: 'WV'},
+    { name: 'WYOMING', abbreviation: 'WY' }
+];
+
+var state_code_arr = {};
+usStates.forEach(function(s){state_code_arr[s.abbreviation]=s.name});
 
 function stateLookup(code) {
-    var state_code_arr = new Array();
-    state_code_arr['0'] = 'AL';
-    state_code_arr['1'] = 'AL';
-    state_code_arr['2'] = 'AZ';
-    state_code_arr['3'] = 'AR';
-    state_code_arr['4'] = 'CA';
-    state_code_arr['5'] = 'CO';
-    state_code_arr['6'] = 'CT';
-    state_code_arr['7'] = 'DW';
-    state_code_arr['8'] = 'DC';
-    state_code_arr['9'] = 'FL';
-    state_code_arr['10'] = 'GA';
-    state_code_arr['11'] = 'HI';
-    state_code_arr['12'] = 'ID';
-    state_code_arr['13'] = 'IL';
-    state_code_arr['14'] = 'IN';
-    state_code_arr['15'] = 'IA';
-    state_code_arr['16'] = 'KS';
-    state_code_arr['17'] = 'KY';
-    state_code_arr['18'] = 'LA';
-    state_code_arr['19'] = 'ME';
-    state_code_arr['20'] = 'MD';
-    state_code_arr['21'] = 'MA';
-    state_code_arr['22'] = 'MI';
-    state_code_arr['23'] = 'MN';
-    state_code_arr['24'] = 'MS';
-    state_code_arr['25'] = 'MO';
-    state_code_arr['26'] = 'MT';
-    state_code_arr['27'] = 'NE';
-    state_code_arr['28'] = 'NV';
-    state_code_arr['29'] = 'NH';
-    state_code_arr['30'] = 'NJ';
-    state_code_arr['31'] = 'NM';
-    state_code_arr['32'] = 'NY';
-    state_code_arr['33'] = 'NC';
-    state_code_arr['34'] = 'ND';
-    state_code_arr['35'] = 'OH';
-    state_code_arr['36'] = 'OK';
-    state_code_arr['37'] = 'OR';
-    state_code_arr['38'] = 'PA';
-    state_code_arr['39'] = 'RI';
-    state_code_arr['40'] = 'SD';
-    state_code_arr['41'] = 'TN';
-    state_code_arr['42'] = 'TX';
-    state_code_arr['43'] = 'UT';
-    state_code_arr['44'] = 'VT';
-    state_code_arr['45'] = 'VA';
-    state_code_arr['46'] = 'WA';
-    state_code_arr['47'] = 'WV';
-    state_code_arr['48'] = 'WI';
-    state_code_arr['49'] = 'WY';
-    state_code_arr['50'] = 'SC';
-    return state_code_arr[code];
+    return usStates[code].abbreviation;
 }
 
 
