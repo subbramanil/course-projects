@@ -1,1 +1,0 @@
-google.visualization.Query.setResponse({version:0.6,status:'ok',reqId:0,table:{cols:[{id:'state',label:'state',type:'string'},{id:'stateCount',label:'stateCount',type:'number'},{id:'joint_commission_accreditation',label:'joint_commission_accreditation',type:'string'},{id:'carf_accreditation',label:'carf_accreditation',type:'string'}],rows:[]}})

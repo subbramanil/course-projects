@@ -15,10 +15,17 @@ adminApp.config(['$routeProvider',
                 templateUrl: 'pages/infrastructure.html',
                 controller: 'InfraController'
             }).
+            when('/Accredition', {
+                templateUrl: 'pages/accreditionStatus.html',
+                controller: 'AccredController'
+            }).
 			otherwise({
 				redirectTo: '/index'
 			});
 	}]);
+
+// load google visualization packages
+google.load('visualization', '0', {'packages': ['geomap','corechart','geochart']});
 
 adminApp.controller('DashBoardController', function($scope) {
 
@@ -75,9 +82,6 @@ adminApp.controller('SurgeryController', ['$scope', function($scope, $http){
         {name:'other Surgery', col:6}
     ];
 
-    // load google visualization packages
-    google.load('visualization', '0', {'packages': ['geomap','corechart','geochart']});
-
 	$scope.change = function($http) {
 		console.log("admin.change() entry");
 		console.log($scope.userChoice);
@@ -108,8 +112,8 @@ adminApp.controller('SurgeryController', ['$scope', function($scope, $http){
 
 adminApp.controller('InfraController', ['$scope', function($scope, $http){
 
-    // load google visualization packages
-    google.load('visualization', '0', {'packages': ['geomap']});
+    //// load google visualization packages
+    //google.load('visualization', '0', {'packages': ['geomap']});
 
     drawGeoMap();
 
@@ -174,6 +178,71 @@ adminApp.controller('InfraController', ['$scope', function($scope, $http){
     }
 
 }]);
+
+/*adminApp.controller('AccredController', ['$scope', function($scope, $http){
+    google.setOnLoadCallback(drawMap);
+    drawMap();
+
+    function drawMap(){
+        var container = document.getElementById('geoMap');
+
+        var geoChart = new google.visualization.GeoMap(container);
+        //query && query.abort();
+        var dataSourceUrl = "http://localhost:3030/mytest/query?query=";
+        var queryString = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
+        + "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
+        + "PREFIX : <http://data-gov.tw.rpi.edu/vocab/p/1202/>"
+        + "SELECT distinct ?state ?city ?fac ?emergency_room_beds "
+        + "WHERE {"
+        + "GRAPH <http://localhost:3030/myDataset/data/infrastructure> {"
+        + "?sub1 :state ?state."
+        + "?sub1 :city ?city."
+        + "?sub1 :facility_name ?fac."
+        + "?sub1 :emergency_room_beds ?emergency_room_beds}"
+        + "}"
+        + "order by ?state";
+        //var query = new google.visualization.Query(dataSourceUrl + encodeURIComponent(queryString)+"&output=csv");
+        //query.setTimeout(60);
+        //var queryWrapper = new QueryWrapper(query, geoChart, {'size': 'large'}, container);
+        //queryWrapper.sendAndDraw();
+
+        $.ajax({
+            url: dataSourceUrl + encodeURIComponent(queryString)+"&output=csv",
+            type: 'get',
+            crossDomain: true,
+            success: function(csvData) {
+                console.log(csvData);
+                var arrayData  = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+                console.log(arrayData);
+            },
+            error: function(){
+                alert("Error in Ajax call");
+            }
+        });
+
+        //container.innerHTML = '<img src="http://data-gov.tw.rpi.edu/images/ajax-loader.gif" /><br />' +
+        //                        '<br />Please wait... The query may take some time to complete.';
+        //var queryloc = "http://data-gov.tw.rpi.edu/demo/linked/demo-1148-1149-migration.sparql";
+        //var service = "http://localhost:8080/joseki/sparql/tdb-datagov";
+        //var queryurl = 'http://data-gov.tw.rpi.edu/ws/sparqlproxy.php?output=gvds&query-uri=' + encodeURIComponent(queryloc) + '&service-uri=' + encodeURIComponent(service);
+        //var query = new google.visualization.Query(queryurl);
+        //query.setTimeout(60);
+        //// Send the query.
+        //query.send(handleQueryResponse);
+    }
+
+    function handleQueryResponse(response) {
+        // Check for query response errors.
+        if (response.isError())
+        {
+            alert('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
+            return;
+        }
+        data = response.getDataTable();
+        //handleQueryResponse_now();
+    };
+
+}]);*/
 
 function setupGeoMap(){
     console.log("setupGeoMap() entry");
