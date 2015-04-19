@@ -1,19 +1,24 @@
 <div class="panel panel-primary" ng-controller="SurgeryController">
     <div class="panel-heading">
-        <h2>Number of Operations</h2>
+        Number of Operations
     </div>
     <div class="panel-body">
-        <div>
+        <div class="col-lg-6">
             <label>Status: </label>
             <select class="form-control" ng-model="userChoice"
                     ng-options="choice.name for choice in choices"></select>
-        </div>
-        <button class="btn btn-primary" ng-click="change()">Show</button>
-        <div id="chart">
+            <button class="btn btn-primary" ng-click="change()">Show</button>
+            <div id="geoChart">
 
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div id="barChart">
+            </div>
+            <div ng-show="noData">
+                {{userChoice.name}} count is 0 in {{regionName}}
+            </div>
         </div>
     </div>
-    <div class="panel-footer">
 
-    </div>
 </div>

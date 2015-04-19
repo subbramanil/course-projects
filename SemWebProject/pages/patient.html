@@ -1,0 +1,44 @@
+<div class="panel panel-primary" ng-controller="PatientController">
+    <ul class="nav nav-tabs" role="tablist">
+        <li id="tab1" role="presentation" class="active">
+            <a href="#inPatients" ng-click="tabClick($event)" aria-controls="inPatients" role="tab" data-toggle="tab">In-Patients</a>
+        </li>
+        <li id="tab2" role="presentation">
+            <a href="#outPatients" ng-click="tabClick($event)" aria-controls="outPatients" role="tab" data-toggle="tab">Out-Patients</a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active" id="inPatients">
+            <div class="panel panel-success">
+                <div class="panel-body">
+                    <div class="col-lg-6">
+                        <div id="geoInChart">
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div id="pieInChart">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="outPatients">
+            <div class="panel panel-info">
+                <div class="panel-body">
+                    <div class="col-lg-6">
+                        <div id="geoOutChart">
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div id="pieOutChart">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
