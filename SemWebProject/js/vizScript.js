@@ -1,5 +1,6 @@
 var adminApp = angular.module('adminApp', ['ngRoute']);
-var serverURL = "http://localhost:3030/vethealth/query?query=";
+//var serverURL = "http://localhost:3030/vethealth/query?query=";
+var serverURL = "http://52.10.61.232:3030/final/query?query=";
 
 adminApp.config(['$routeProvider',
     function ($routeProvider) {

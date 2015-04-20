@@ -204,30 +204,6 @@ var query_loadPatientsByRace = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-sy
     "group by ?state " +
     "order by ?state";
 
-//var query_loadPatientsByType = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> " +
-//    "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
-//    "PREFIX : <http://data-gov.tw.rpi.edu/vocab/p/1202/> " +
-//    "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> " +
-//    "SELECT ?state (sum(xsd:int(?_65yo_outpatient)) as ?_65yo_outpatient_count) (sum(xsd:int(?disabled_p1_p4_inpatient)) as ?disabled_p1_p4_inpatient_count) (sum(xsd:int(?disabled_p1_p4_outpatient)) as ?disabled_p1_p4_outpatient_count) (sum(xsd:int(?female_outpatient)) as ?female_outpatient_count) (sum(xsd:int(?geriatric_65_yo_inpatient)) as ?geriatric_65_yo_inpatient_count) (sum(xsd:int(?geriatric_65_yo_outpatient)) as ?geriatric_65_yo_outpatient_count) (sum(xsd:int(?homeless_outpateint)) as ?homeless_outpateint_count) (sum(xsd:int(?male_outpatient)) as ?male_outpatient_count) (sum(xsd:int(?mental_health_outpatient)) as ?mental_health_outpatient_count) (sum(xsd:int(?non_mental_health_outpatient)) as ?non_mental_health_outpatient_count)  " +
-//    "WHERE { " +
-//    "GRAPH <http://localhost:3030/dataset/vethealth/PatientsType> " +
-//    "{ "+
-//    "?sub1 :state ?state. ?sub :_65yo_outpatient ?_65yo_outpatient. " +
-//    "?sub :disabled_p1_p4_inpatient ?disabled_p1_p4_inpatient. " +
-//    "?sub :disabled_p1_p4_outpatient ?disabled_p1_p4_outpatient. " +
-//    "?sub :female_outpatient ?female_outpatient. " +
-//    "?sub :geriatric_65_yo_outpatient ?geriatric_65_yo_outpatient. " +
-//    "?sub :geriatric_65_yo_inpatient ?geriatric_65_yo_inpatient. " +
-//    "?sub :homeless_outpateint ?homeless_outpateint. " +
-//    "?sub :mental_health_outpatient ?mental_health_outpatient. " +
-//    "?sub :non_mental_health_outpatient ?non_mental_health_outpatient. " +
-//    "?sub :male_outpatient ?male_outpatient. " +
-//    "?sub :state ?state" +
-//    "} " +
-//    "} " +
-//    "group by ?state " +
-//    "order by ?state";
-
 var query_loadPatientsByType = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> " +
     "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
     "PREFIX : <http://data-gov.tw.rpi.edu/vocab/p/1202/> " +
