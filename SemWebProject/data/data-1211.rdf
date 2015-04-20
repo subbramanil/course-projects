@@ -1,0 +1,1408 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://data-gov.tw.rpi.edu/vocab/p/1202/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dgtwc="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://data-gov.tw.rpi.edu/raw/1211/data-1211.rdf" > 
+  <rdf:Description rdf:about="#entry68">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>IN</state>
+    <city>Indianapolis</city>
+    <facility_name>Richard L. Roudebush VA Medical Center</facility_name>
+    <visn_name>Veterans In Partnership</visn_name>
+    <visn>11</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry88">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>AR</state>
+    <city>Little Rock</city>
+    <facility_name>Central Arkansas Veterans HCSLittle Rock Little Rock N</facility_name>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <visn>16</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry41">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>AL</state>
+    <city>Montgomery</city>
+    <facility_name>Central Alabama Veterans HCS Tuskeegee Montgomery</facility_name>
+    <visn_name>VA Southeast Network</visn_name>
+    <visn>7</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry108">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>CO</state>
+    <city>Grand Junction</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>Rocky Mountain Network</visn_name>
+    <visn>19</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry138">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>SD</state>
+    <city>Fort Meade</city>
+    <facility_name>VA Black Hills HCSFt Meade Hot Springs</facility_name>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <visn>23</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry78">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>WI</state>
+    <city>Milwaukee</city>
+    <facility_name>Clement J. Zablocki VAMC</facility_name>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+    <visn>12</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry23">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>PA</state>
+    <city>Erie</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <visn>4</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry128">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>CA</state>
+    <city>Long Beach</city>
+    <facility_name>VA Long Beach HCS</facility_name>
+    <visn_name>Desert Pacific Healthcare Network</visn_name>
+    <visn>22</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry100">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>AZ</state>
+    <city>Phoenix</city>
+    <facility_name>Carl T. Hayden VA Medical Center</facility_name>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <visn>18</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry118">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>WA</state>
+    <city>Seattle</city>
+    <facility_name>VA Puget Sound HCS�  Seattle American Lake</facility_name>
+    <visn_name>Northwest Network</visn_name>
+    <visn>20</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry31">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>WV</state>
+    <city>Martinsburg</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Capitol Health Care Network</visn_name>
+    <visn>5</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry58">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>TN</state>
+    <city>Mountain Home</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Mid South Healthcare Network</visn_name>
+    <visn>9</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry38">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>VA</state>
+    <city>Salem</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <visn>6</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry51">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>FL</state>
+    <city>Orlando</city>
+    <facility_name>East Central Florida HCS</facility_name>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+    <visn>8</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry110">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>UT</state>
+    <city>Salt Lake City</city>
+    <facility_name>VA Salt Lake City HCS</facility_name>
+    <visn_name>Rocky Mountain Network</visn_name>
+    <visn>19</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry98">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>TX</state>
+    <city>San Antonio</city>
+    <facility_name>South Texas Veterans HCS  SanAntonio Kerrville</facility_name>
+    <visn_name>VA Heart of Texas Health Care Network</visn_name>
+    <visn>17</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry70">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>MI</state>
+    <city>Battle Creek</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>Veterans In Partnership</visn_name>
+    <visn>11</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry2">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>MA</state>
+    <city>Bedford</city>
+    <facility_name>Edith Nourse Rogers Memorial Veterans Hospital</facility_name>
+    <visn_name>VA New England Health Care System</visn_name>
+    <visn>1</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry48">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>FL</state>
+    <city>Bay Pines</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+    <visn>8</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry131">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>NV</state>
+    <city>Las Vegas</city>
+    <facility_name>VA Southern Nevada HCS</facility_name>
+    <visn_name>Desert Pacific Healthcare Network</visn_name>
+    <visn>22</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry120">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>WA</state>
+    <city>Walla Walla</city>
+    <facility_name>Jonathan M. Wainwright Memorial VA Medical Center</facility_name>
+    <visn_name>Northwest Network</visn_name>
+    <visn>20</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry61">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>OH</state>
+    <city>Chillicothe</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Health Care System of Ohio</visn_name>
+    <visn>10</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry17">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>NY</state>
+    <city>Montrose</city>
+    <facility_name>VA Hudson Valley HCS Montrose Castle Pt</facility_name>
+    <visn_name>VA NY/NJ Veterans Healthcare Network</visn_name>
+    <visn>3</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry79">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>WI</state>
+    <city>Tomah</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+    <visn>12</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry69">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>MI</state>
+    <city>Ann Arbor</city>
+    <facility_name>Ann Arbor VA Ann Arbor HCS</facility_name>
+    <visn_name>Veterans In Partnership</visn_name>
+    <visn>11</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry109">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>MT</state>
+    <city>Fort Harrison</city>
+    <facility_name>VA Montana HCS</facility_name>
+    <visn_name>Rocky Mountain Network</visn_name>
+    <visn>19</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry139">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>SD</state>
+    <city>Sioux Falls</city>
+    <facility_name>VAM/ROC</facility_name>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <visn>23</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry40">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>AL</state>
+    <city>Birmingham</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Southeast Network</visn_name>
+    <visn>7</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry129">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>CA</state>
+    <city>Los Angeles</city>
+    <facility_name>VA Greater Los Angeles HCS (GLA)</facility_name>
+    <visn_name>Desert Pacific Healthcare Network</visn_name>
+    <visn>22</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry80">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>YC</joint_commission_accreditation>
+    <state>KS</state>
+    <city>Topeka</city>
+    <facility_name>VA Eastern Kansas HCS Topeka Leavenworth</facility_name>
+    <visn_name>VA Heartland Network</visn_name>
+    <visn>15</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry22">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>PA</state>
+    <city>Coatesville</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <visn>4</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry101">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>AZ</state>
+    <city>Prescott</city>
+    <facility_name>Northern Arizona VA HCS</facility_name>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <visn>18</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry59">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>TN</state>
+    <city>Nashville</city>
+    <facility_name>Tennessee Valley HCSNashville Murfreesboro</facility_name>
+    <visn_name>VA Mid South Healthcare Network</visn_name>
+    <visn>9</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry89">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>LA</state>
+    <city>Alexandria</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <visn>16</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry30">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>MD</state>
+    <city>Baltimore</city>
+    <facility_name>VA Maryland HCSBaltimore Perry Pt</facility_name>
+    <visn_name>VA Capitol Health Care Network</visn_name>
+    <visn>5</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry9">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>NY</state>
+    <city>Albany</city>
+    <facility_name>Samuel S. Stratton VAMC</facility_name>
+    <visn_name>VA Healthcare Network Upstate New York</visn_name>
+    <visn>2</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry50">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>FL</state>
+    <city>Miami</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+    <visn>8</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry39">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>WV</state>
+    <city>Beckley</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <visn>6</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry119">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>WA</state>
+    <city>Spokane</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>Northwest Network</visn_name>
+    <visn>20</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry99">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>TX</state>
+    <city>Temple</city>
+    <facility_name>Central Texas Veterans HCSTemple Waco Marlin</facility_name>
+    <visn_name>VA Heart of Texas Health Care Network</visn_name>
+    <visn>17</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry81">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>KS</state>
+    <city>Wichita</city>
+    <facility_name>Robert J. Dole Department of Veterans Affairs Medical and Regional Office Center</facility_name>
+    <visn_name>VA Heartland Network</visn_name>
+    <visn>15</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry71">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>MI</state>
+    <city>Detroit</city>
+    <facility_name>John D. Dingell VA Medical Center</facility_name>
+    <visn_name>Veterans In Partnership</visn_name>
+    <visn>11</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry1">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>CT</state>
+    <city>West Haven</city>
+    <facility_name>VA Connecticut HCS</facility_name>
+    <visn_name>VA New England Health Care System</visn_name>
+    <visn>1</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry130">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>CA</state>
+    <city>San Diego</city>
+    <facility_name>VA San Diego HCS</facility_name>
+    <visn_name>Desert Pacific Healthcare Network</visn_name>
+    <visn>22</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry16">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>NY</state>
+    <city>New York Harbor</city>
+    <facility_name>VA NY Harbor HCSNY Harbor Brooklyn</facility_name>
+    <visn_name>VA NY/NJ Veterans Healthcare Network</visn_name>
+    <visn>3</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry90">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>AY</joint_commission_accreditation>
+    <state>LA</state>
+    <city>New Orleans</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <visn>16</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry121">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>CA</state>
+    <city>Fresno</city>
+    <facility_name>VA Central California HCS</facility_name>
+    <visn_name>Sierra Pacific Network</visn_name>
+    <visn>21</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry49">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>FL</state>
+    <city>Gainesville</city>
+    <facility_name>N FLA/S GA Veterans HS Gainesville Lake Cty</facility_name>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+    <visn>8</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry111">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>WY</state>
+    <city>Cheyenne</city>
+    <facility_name>VAM/ROC</facility_name>
+    <visn_name>Rocky Mountain Network</visn_name>
+    <visn>19</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry60">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>WV</state>
+    <city>Huntington</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Mid South Healthcare Network</visn_name>
+    <visn>9</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry136">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>MN</state>
+    <city>St. Cloud</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <visn>23</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry11">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>NY</state>
+    <city>Bath</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Healthcare Network Upstate New York</visn_name>
+    <visn>2</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry43">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>GA</state>
+    <city>Atlanta</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Southeast Network</visn_name>
+    <visn>7</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry56">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>YC</joint_commission_accreditation>
+    <state>KY</state>
+    <city>Louisville</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Mid South Healthcare Network</visn_name>
+    <visn>9</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry8">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>VT</state>
+    <city>White River Junction</city>
+    <facility_name>VAM/ROC</facility_name>
+    <visn_name>VA New England Health Care System</visn_name>
+    <visn>1</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry76">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>MI</state>
+    <city>Iron Mountain</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+    <visn>12</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry21">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>AY</joint_commission_accreditation>
+    <state>PA</state>
+    <city>Butler</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <visn>4</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry102">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>AZ</state>
+    <city>Tucson</city>
+    <facility_name>Southern Arizona VA HCS</facility_name>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <visn>18</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry116">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>OR</state>
+    <city>Roseburg</city>
+    <facility_name>VA Roseburg HCS</facility_name>
+    <visn_name>Northwest Network</visn_name>
+    <visn>20</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry82">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>MO</state>
+    <city>Columbia</city>
+    <facility_name>Harry S. Truman Memorial</facility_name>
+    <visn_name>VA Heartland Network</visn_name>
+    <visn>15</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry36">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>VA</state>
+    <city>Hampton</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <visn>6</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry96">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>TX</state>
+    <city>Houston</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <visn>16</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry122">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>CA</state>
+    <city>Martinez, East Bay</city>
+    <facility_name>VA Northern California HCS Martinez Sacramento</facility_name>
+    <visn_name>Sierra Pacific Network</visn_name>
+    <visn>21</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry29">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>DC</state>
+    <city>Washington</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Capitol Health Care Network</visn_name>
+    <visn>5</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry19">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>DE</state>
+    <city>Wilmington</city>
+    <facility_name>VAM&amp;RO</facility_name>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <visn>4</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry63">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>OH</state>
+    <city>Cleveland</city>
+    <facility_name>Louis Stokes VA Medical CenterCleveland Brecksville</facility_name>
+    <visn_name>VA Health Care System of Ohio</visn_name>
+    <visn>10</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry10">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>NY</state>
+    <city>Buffalo</city>
+    <facility_name>VA Western New York HCS Buffalo Batavia</facility_name>
+    <visn_name>VA Healthcare Network Upstate New York</visn_name>
+    <visn>2</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry137">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>ND</state>
+    <city>Fargo</city>
+    <facility_name>VAM/RO</facility_name>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <visn>23</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry42">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>AL</state>
+    <city>Tuscaloosa</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Southeast Network</visn_name>
+    <visn>7</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry77">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>WI</state>
+    <city>Madison</city>
+    <facility_name>William S. Middleton Memorial Veterans Hospital</facility_name>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+    <visn>12</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry57">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>TN</state>
+    <city>Memphis</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Mid South Healthcare Network</visn_name>
+    <visn>9</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry7">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>RI</state>
+    <city>Providence</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA New England Health Care System</visn_name>
+    <visn>1</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry103">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>NM</state>
+    <city>Albuquerque</city>
+    <facility_name>New Mexico HCS</facility_name>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <visn>18</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry117">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>AY</joint_commission_accreditation>
+    <state>OR</state>
+    <city>White City</city>
+    <facility_name>Southern Oregon Rehab Ctr &amp; Clinics</facility_name>
+    <visn_name>Northwest Network</visn_name>
+    <visn>20</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry20">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>PA</state>
+    <city>Altoona</city>
+    <facility_name>James E. Van Zandt VA Medical Center</facility_name>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <visn>4</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry37">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>VA</state>
+    <city>Richmond</city>
+    <facility_name>Hunter Holmes McGuire VAMC</facility_name>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <visn>6</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry83">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>MO</state>
+    <city>Kansas City</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Heartland Network</visn_name>
+    <visn>15</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry97">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>TX</state>
+    <city>Dallas</city>
+    <facility_name>VA North Texas HCS</facility_name>
+    <visn_name>VA Heart of Texas Health Care Network</visn_name>
+    <visn>17</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry28">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>WV</state>
+    <city>Clarksburg</city>
+    <facility_name>Louis A. Johnson VAMC</facility_name>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <visn>4</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry123">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>CA</state>
+    <city>Palo Alto</city>
+    <facility_name>VA Palo Alto HCSPaloAlto MenloPk Livermore</facility_name>
+    <visn_name>Sierra Pacific Network</visn_name>
+    <visn>21</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry62">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>OH</state>
+    <city>Cincinnati</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Health Care System of Ohio</visn_name>
+    <visn>10</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry18">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>NY</state>
+    <city>Northport</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA NY/NJ Veterans Healthcare Network</visn_name>
+    <visn>3</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry13">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>NY</state>
+    <city>Syracuse</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Healthcare Network Upstate New York</visn_name>
+    <visn>2</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry74">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>IL</state>
+    <city>Hines</city>
+    <facility_name>Edward Hines Jr. VA Hospital</facility_name>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+    <visn>12</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry27">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>PA</state>
+    <city>Wilkes-Barre</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <visn>4</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry94">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>OK</state>
+    <city>Muskogee</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <visn>16</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry84">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>IL</state>
+    <city>Marion</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Heartland Network</visn_name>
+    <visn>15</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry134">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>IA</state>
+    <city>Iowa City</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <visn>23</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry65">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>OH</state>
+    <city>Dayton</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Health Care System of Ohio</visn_name>
+    <visn>10</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry6">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>AY</joint_commission_accreditation>
+    <state>NH</state>
+    <city>Manchester</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA New England Health Care System</visn_name>
+    <visn>1</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry114">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Yp</joint_commission_accreditation>
+    <state>ID</state>
+    <city>Boise</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>Northwest Network</visn_name>
+    <visn>20</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry104">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>TX</state>
+    <city>Amarillo</city>
+    <facility_name>Amarillo VA HCS</facility_name>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <visn>18</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry124">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>CA</state>
+    <city>San Francisco</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>Sierra Pacific Network</visn_name>
+    <visn>21</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry34">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>NC</state>
+    <city>Fayetteville</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <visn>6</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry44">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>GA</state>
+    <city>Augusta</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Southeast Network</visn_name>
+    <visn>7</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry55">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>KY</state>
+    <city>Lexington</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Mid South Healthcare Network</visn_name>
+    <visn>9</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry12">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>NY</state>
+    <city>Canandaigua</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Healthcare Network Upstate New York</visn_name>
+    <visn>2</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry75">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>IL</state>
+    <city>North Chicago</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+    <visn>12</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry85">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>MO</state>
+    <city>Poplar Bluff</city>
+    <facility_name>John J. Pershing VA Medical Center</facility_name>
+    <visn_name>VA Heartland Network</visn_name>
+    <visn>15</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry95">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>OK</state>
+    <city>Oklahoma City</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <visn>16</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry26">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>PA</state>
+    <city>Pittsburgh</city>
+    <facility_name>VA Pittsburgh HCSHeinz Univ Dr Highld Dr</facility_name>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <visn>4</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry135">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>MN</state>
+    <city>Minneapolis</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <visn>23</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry64">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>AY</joint_commission_accreditation>
+    <state>OH</state>
+    <city>Columbus</city>
+    <facility_name>Chalmers Wylie Outpatient Clinic ������</facility_name>
+    <visn_name>VA Health Care System of Ohio</visn_name>
+    <visn>10</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry115">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>OR</state>
+    <city>Portland</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>Northwest Network</visn_name>
+    <visn>20</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry45">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>GA</state>
+    <city>Dublin</city>
+    <facility_name>Carl Vinson VA Medical Center</facility_name>
+    <visn_name>VA Southeast Network</visn_name>
+    <visn>7</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry105">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>TX</state>
+    <city>Big Spring</city>
+    <facility_name>West Texas VA HCS</facility_name>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <visn>18</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry5">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>ME</state>
+    <city>Togus</city>
+    <facility_name>VAMC/RO</facility_name>
+    <visn_name>VA New England Health Care System</visn_name>
+    <visn>1</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry125">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>AY</joint_commission_accreditation>
+    <state>HI</state>
+    <city>Honolulu</city>
+    <facility_name>VA Pacific Islands HCSSpark M. Matsunaga VA Medical &amp; Regional Office Center</facility_name>
+    <visn_name>Sierra Pacific Network</visn_name>
+    <visn>21</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry54">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>PR</state>
+    <city>San Juan</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+    <visn>8</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry35">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>NC</state>
+    <city>Salisbury</city>
+    <facility_name>W.G. (Bill) Hefner VA Medical Center</facility_name>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <visn>6</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry72">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>MI</state>
+    <city>Saginaw</city>
+    <facility_name>Aleda E. Lutz VA Medical Center</facility_name>
+    <visn_name>Veterans In Partnership</visn_name>
+    <visn>11</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry132">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>NE</state>
+    <city>Omaha</city>
+    <facility_name>VA Nebraska Western Iowa HCS  Omaha Grand Is Lincoln</facility_name>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <visn>23</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry15">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>NY</state>
+    <city>Bronx</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA NY/NJ Veterans Healthcare Network</visn_name>
+    <visn>3</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry25">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>PA</state>
+    <city>Philadelphia</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <visn>4</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry92">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>MS</state>
+    <city>Biloxi</city>
+    <facility_name>VA Gulf Coast Veterans HCS</facility_name>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <visn>16</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry86">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>MO</state>
+    <city>St. Louis</city>
+    <facility_name>St Louis VAMC St Louis Jefferson Barracks</facility_name>
+    <visn_name>VA Heartland Network</visn_name>
+    <visn>15</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry106">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>AY</joint_commission_accreditation>
+    <state>TX</state>
+    <city>El Paso</city>
+    <facility_name>El Paso VA HCS</facility_name>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <visn>18</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry112">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>WY</state>
+    <city>Sheridan</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>Rocky Mountain Network</visn_name>
+    <visn>19</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry91">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>LA</state>
+    <city>Shreveport</city>
+    <facility_name>Overton Brooks VA Medical Center</facility_name>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <visn>16</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry46">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>SC</state>
+    <city>Charleston</city>
+    <facility_name>Ralph H. Johnson VAMC</facility_name>
+    <visn_name>VA Southeast Network</visn_name>
+    <visn>7</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry4">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>MA</state>
+    <city>Northampton</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA New England Health Care System</visn_name>
+    <visn>1</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry32">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>NC</state>
+    <city>Asheville</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <visn>6</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry67">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>IN</state>
+    <city>Marion</city>
+    <facility_name>VA Northern Indiana HCS Marion Ft Wayne</facility_name>
+    <visn_name>Veterans In Partnership</visn_name>
+    <visn>11</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry126">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>NV</state>
+    <city>Reno</city>
+    <facility_name>VA Sierra Nevada HCS</facility_name>
+    <visn_name>Sierra Pacific Network</visn_name>
+    <visn>21</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry53">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>FL</state>
+    <city>West Palm Beach</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+    <visn>8</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry14">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>NJ</state>
+    <city>East Orange</city>
+    <facility_name>VA New Jersey HCS East Orange Campus</facility_name>
+    <visn_name>VA NY/NJ Veterans Healthcare Network</visn_name>
+    <visn>3</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry73">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>IL</state>
+    <city>Chicago, West Side</city>
+    <facility_name>VA Chicago HCS; (Jessie Brown)</facility_name>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+    <visn>12</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry133">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>IA</state>
+    <city>Des Moines</city>
+    <facility_name>VA Central Iowa HCS   DesMoines Knoxville</facility_name>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <visn>23</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry24">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>PA</state>
+    <city>Lebanon</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <visn>4</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry93">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>MS</state>
+    <city>Jackson</city>
+    <facility_name>G.V. (Sonny) Montgomery VA Medical Center</facility_name>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <visn>16</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry87">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>AR</state>
+    <city>Fayetteville</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <visn>16</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry113">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>AY</joint_commission_accreditation>
+    <state>AK</state>
+    <city>Anchorage</city>
+    <facility_name>Alaska VA HCS and Regional Office</facility_name>
+    <visn_name>Northwest Network</visn_name>
+    <visn>20</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry107">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>CO</state>
+    <city>Denver</city>
+    <facility_name>Eastern Colorado HCS Denver Pueblo</facility_name>
+    <visn_name>Rocky Mountain Network</visn_name>
+    <visn>19</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="">
+    <dcterms:identifier>/work/data-gov/data/input/data.gov/1211/DataGov_VHA_Hospital_Quality_Report_Accreditation.csv</dcterms:identifier>
+    <rdfs:seeAlso rdf:resource="http://data-gov.tw.rpi.edu/raw/1211/index.rdf#me"/>
+    <dcterms:description>generated by csv2rdf CSV2RDF (v1.1, 2009-01-28). http://data-gov.tw.rpi.edu/wiki/Source_Code_of_Data.gov_Wiki#Source_Code_of_Demos_and_Applications. </dcterms:description>
+    <dcterms:creator rdf:resource="http://tw.rpi.edu"/>
+    <dcterms:date>2010-05-10T19:49:39Z</dcterms:date>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry33">
+    <carf_accreditation>NR</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>NC</state>
+    <city>Durham</city>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <visn>6</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry3">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>MA</state>
+    <city>West Roxbury</city>
+    <facility_name>VA Boston HCSW Roxbury Brockton Jamaica Plns</facility_name>
+    <visn_name>VA New England Health Care System</visn_name>
+    <visn>1</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry47">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>SC</state>
+    <city>Columbia</city>
+    <facility_name>Wm. Jennings Bryan Dorn VAMC</facility_name>
+    <visn_name>VA Southeast Network</visn_name>
+    <visn>7</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry66">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>IL</state>
+    <city>Danville</city>
+    <facility_name>VA Illiana HCS</facility_name>
+    <visn_name>Veterans In Partnership</visn_name>
+    <visn>11</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry52">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>FL</state>
+    <city>Tampa</city>
+    <facility_name>James A. Haley VA Medical Center</facility_name>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+    <visn>8</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry127">
+    <carf_accreditation>Y</carf_accreditation>
+    <joint_commission_accreditation>Y</joint_commission_accreditation>
+    <state>CA</state>
+    <city>Loma Linda</city>
+    <facility_name>VA Loma Linda HCS</facility_name>
+    <visn_name>Desert Pacific Healthcare Network</visn_name>
+    <visn>22</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+</rdf:RDF>

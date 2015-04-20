@@ -1,0 +1,1964 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://data-gov.tw.rpi.edu/vocab/p/1202/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dgtwc="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://data-gov.tw.rpi.edu/raw/1209/data-1209.rdf" > 
+  <rdf:Description rdf:about="#entry35">
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <white_inpatient>76</white_inpatient>
+    <city>Salisbury</city>
+    <white_outpatient>74</white_outpatient>
+    <african_american_outpatient>63</african_american_outpatient>
+    <other_outpatient>72</other_outpatient>
+    <visn>6</visn>
+    <state>NC</state>
+    <facility_name>W.G. (Bill) Hefner VA Medical Center</facility_name>
+    <other_inpatient>0</other_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <african_american_inpatient>75</african_american_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry131">
+    <african_american_inpatient>0</african_american_inpatient>
+    <city>Las Vegas</city>
+    <facility_name>VA Southern Nevada HCS</facility_name>
+    <african_american_outpatient>78</african_american_outpatient>
+    <visn_name>Desert Pacific Healthcare Network</visn_name>
+    <other_inpatient>0</other_inpatient>
+    <white_inpatient>78</white_inpatient>
+    <white_outpatient>81</white_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>22</visn>
+    <other_outpatient>71</other_outpatient>
+    <state>NV</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry44">
+    <other_outpatient>0</other_outpatient>
+    <african_american_outpatient>66</african_american_outpatient>
+    <facility_name>VAMC</facility_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>75</white_outpatient>
+    <state>GA</state>
+    <african_american_inpatient>62</african_american_inpatient>
+    <other_inpatient>65</other_inpatient>
+    <visn_name>VA Southeast Network</visn_name>
+    <white_inpatient>72</white_inpatient>
+    <visn>7</visn>
+    <city>Augusta</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry108">
+    <white_outpatient>84</white_outpatient>
+    <other_outpatient>86</other_outpatient>
+    <visn>19</visn>
+    <state>CO</state>
+    <other_inpatient>0</other_inpatient>
+    <visn_name>Rocky Mountain Network</visn_name>
+    <african_american_outpatient>0</african_american_outpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <city>Grand Junction</city>
+    <facility_name>VAMC</facility_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_inpatient>94</white_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry87">
+    <white_outpatient>85</white_outpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <african_american_inpatient>0</african_american_inpatient>
+    <facility_name>VAMC</facility_name>
+    <state>AR</state>
+    <other_inpatient>86</other_inpatient>
+    <white_inpatient>80</white_inpatient>
+    <other_outpatient>77</other_outpatient>
+    <visn>16</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <city>Fayetteville</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry54">
+    <visn>8</visn>
+    <white_inpatient>72</white_inpatient>
+    <african_american_inpatient>83</african_american_inpatient>
+    <state>PR</state>
+    <city>San Juan</city>
+    <african_american_outpatient>71</african_american_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_inpatient>71</other_inpatient>
+    <other_outpatient>62</other_outpatient>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+    <white_outpatient>69</white_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry25">
+    <african_american_outpatient>63</african_american_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <white_outpatient>86</white_outpatient>
+    <white_inpatient>76</white_inpatient>
+    <african_american_inpatient>66</african_american_inpatient>
+    <state>PA</state>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <visn>4</visn>
+    <city>Philadelphia</city>
+    <other_outpatient>66</other_outpatient>
+    <facility_name>VAMC</facility_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry100">
+    <other_inpatient>77</other_inpatient>
+    <other_outpatient>59</other_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <african_american_inpatient>0</african_american_inpatient>
+    <african_american_outpatient>53</african_american_outpatient>
+    <state>AZ</state>
+    <white_inpatient>77</white_inpatient>
+    <city>Phoenix</city>
+    <visn>18</visn>
+    <white_outpatient>73</white_outpatient>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <facility_name>Carl T. Hayden VA Medical Center</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry4">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>VAMC</facility_name>
+    <white_outpatient>83</white_outpatient>
+    <other_outpatient>84</other_outpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <city>Northampton</city>
+    <african_american_inpatient>0</african_american_inpatient>
+    <visn>1</visn>
+    <visn_name>VA New England Health Care System</visn_name>
+    <white_inpatient>83</white_inpatient>
+    <state>MA</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry64">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>77</white_outpatient>
+    <other_outpatient>90</other_outpatient>
+    <visn>10</visn>
+    <state>OH</state>
+    <city>Columbus</city>
+    <other_inpatient>0</other_inpatient>
+    <visn_name>VA Health Care System of Ohio</visn_name>
+    <white_inpatient>0</white_inpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <african_american_outpatient>77</african_american_outpatient>
+    <facility_name>Chalmers Wylie Outpatient Clinic ������</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry92">
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <other_inpatient>0</other_inpatient>
+    <african_american_outpatient>69</african_american_outpatient>
+    <white_inpatient>79</white_inpatient>
+    <city>Biloxi</city>
+    <other_outpatient>69</other_outpatient>
+    <white_outpatient>77</white_outpatient>
+    <visn>16</visn>
+    <african_american_inpatient>71</african_american_inpatient>
+    <facility_name>VA Gulf Coast Veterans HCS</facility_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>MS</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry111">
+    <state>WY</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_outpatient>85</other_outpatient>
+    <visn>19</visn>
+    <facility_name>VAM/ROC</facility_name>
+    <white_outpatient>87</white_outpatient>
+    <city>Cheyenne</city>
+    <white_inpatient>89</white_inpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <visn_name>Rocky Mountain Network</visn_name>
+    <other_inpatient>0</other_inpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry125">
+    <white_inpatient>0</white_inpatient>
+    <visn_name>Sierra Pacific Network</visn_name>
+    <visn>21</visn>
+    <other_outpatient>75</other_outpatient>
+    <facility_name>VA Pacific Islands HCSSpark M. Matsunaga VA Medical &amp; Regional Office Center</facility_name>
+    <african_american_inpatient>0</african_american_inpatient>
+    <white_outpatient>89</white_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <city>Honolulu</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>HI</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry15">
+    <african_american_outpatient>72</african_american_outpatient>
+    <african_american_inpatient>64</african_american_inpatient>
+    <other_outpatient>67</other_outpatient>
+    <visn_name>VA NY/NJ Veterans Healthcare Network</visn_name>
+    <city>Bronx</city>
+    <white_inpatient>73</white_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>70</white_outpatient>
+    <facility_name>VAMC</facility_name>
+    <state>NY</state>
+    <visn>3</visn>
+    <other_inpatient>70</other_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry74">
+    <white_inpatient>80</white_inpatient>
+    <facility_name>Edward Hines Jr. VA Hospital</facility_name>
+    <visn>12</visn>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>78</white_outpatient>
+    <state>IL</state>
+    <city>Hines</city>
+    <other_inpatient>67</other_inpatient>
+    <other_outpatient>80</other_outpatient>
+    <african_american_outpatient>65</african_american_outpatient>
+    <african_american_inpatient>67</african_american_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry128">
+    <african_american_outpatient>72</african_american_outpatient>
+    <visn>22</visn>
+    <other_outpatient>67</other_outpatient>
+    <facility_name>VA Long Beach HCS</facility_name>
+    <city>Long Beach</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_inpatient>76</other_inpatient>
+    <white_outpatient>77</white_outpatient>
+    <visn_name>Desert Pacific Healthcare Network</visn_name>
+    <white_inpatient>76</white_inpatient>
+    <state>CA</state>
+    <african_american_inpatient>73</african_american_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry132">
+    <other_outpatient>65</other_outpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_inpatient>68</other_inpatient>
+    <white_outpatient>79</white_outpatient>
+    <visn>23</visn>
+    <state>NE</state>
+    <facility_name>VA Nebraska Western Iowa HCS  Omaha Grand Is Lincoln</facility_name>
+    <white_inpatient>78</white_inpatient>
+    <african_american_inpatient>85</african_american_inpatient>
+    <city>Omaha</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry34">
+    <african_american_inpatient>67</african_american_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <facility_name>VAMC</facility_name>
+    <other_outpatient>58</other_outpatient>
+    <state>NC</state>
+    <other_inpatient>74</other_inpatient>
+    <white_inpatient>75</white_inpatient>
+    <city>Fayetteville</city>
+    <african_american_outpatient>63</african_american_outpatient>
+    <visn>6</visn>
+    <white_outpatient>76</white_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry107">
+    <state>CO</state>
+    <visn_name>Rocky Mountain Network</visn_name>
+    <city>Denver</city>
+    <white_outpatient>75</white_outpatient>
+    <african_american_outpatient>82</african_american_outpatient>
+    <visn>19</visn>
+    <other_inpatient>80</other_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>Eastern Colorado HCS Denver Pueblo</facility_name>
+    <white_inpatient>80</white_inpatient>
+    <other_outpatient>76</other_outpatient>
+    <african_american_inpatient>71</african_american_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry45">
+    <visn>7</visn>
+    <white_inpatient>67</white_inpatient>
+    <city>Dublin</city>
+    <other_outpatient>61</other_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <african_american_outpatient>67</african_american_outpatient>
+    <white_outpatient>75</white_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>GA</state>
+    <african_american_inpatient>74</african_american_inpatient>
+    <facility_name>Carl Vinson VA Medical Center</facility_name>
+    <visn_name>VA Southeast Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry86">
+    <state>MO</state>
+    <city>St. Louis</city>
+    <visn_name>VA Heartland Network</visn_name>
+    <white_outpatient>73</white_outpatient>
+    <african_american_inpatient>51</african_american_inpatient>
+    <other_outpatient>71</other_outpatient>
+    <white_inpatient>66</white_inpatient>
+    <visn>15</visn>
+    <facility_name>St Louis VAMC St Louis Jefferson Barracks</facility_name>
+    <other_inpatient>0</other_inpatient>
+    <african_american_outpatient>74</african_american_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry55">
+    <facility_name>VAMC</facility_name>
+    <visn>9</visn>
+    <state>KY</state>
+    <white_outpatient>85</white_outpatient>
+    <visn_name>VA Mid South Healthcare Network</visn_name>
+    <white_inpatient>73</white_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <city>Lexington</city>
+    <african_american_inpatient>75</african_american_inpatient>
+    <african_american_outpatient>51</african_american_outpatient>
+    <other_inpatient>63</other_inpatient>
+    <other_outpatient>77</other_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry24">
+    <other_outpatient>99</other_outpatient>
+    <visn>4</visn>
+    <white_outpatient>88</white_outpatient>
+    <city>Lebanon</city>
+    <white_inpatient>91</white_inpatient>
+    <other_inpatient>0</other_inpatient>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <african_american_inpatient>0</african_american_inpatient>
+    <african_american_outpatient>71</african_american_outpatient>
+    <state>PA</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>VAMC</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry5">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>ME</state>
+    <other_outpatient>69</other_outpatient>
+    <facility_name>VAMC/RO</facility_name>
+    <african_american_outpatient>0</african_american_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <white_outpatient>84</white_outpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <city>Togus</city>
+    <visn>1</visn>
+    <white_inpatient>80</white_inpatient>
+    <visn_name>VA New England Health Care System</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry93">
+    <state>MS</state>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <african_american_outpatient>69</african_american_outpatient>
+    <city>Jackson</city>
+    <other_inpatient>60</other_inpatient>
+    <visn>16</visn>
+    <white_outpatient>81</white_outpatient>
+    <white_inpatient>77</white_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_outpatient>67</other_outpatient>
+    <facility_name>G.V. (Sonny) Montgomery VA Medical Center</facility_name>
+    <african_american_inpatient>77</african_american_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry112">
+    <white_outpatient>85</white_outpatient>
+    <state>WY</state>
+    <african_american_outpatient>0</african_american_outpatient>
+    <visn_name>Rocky Mountain Network</visn_name>
+    <other_inpatient>0</other_inpatient>
+    <white_inpatient>85</white_inpatient>
+    <facility_name>VAMC</facility_name>
+    <african_american_inpatient>0</african_american_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <city>Sheridan</city>
+    <visn>19</visn>
+    <other_outpatient>88</other_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry126">
+    <white_inpatient>81</white_inpatient>
+    <other_outpatient>67</other_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <white_outpatient>83</white_outpatient>
+    <state>NV</state>
+    <city>Reno</city>
+    <african_american_inpatient>0</african_american_inpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>VA Sierra Nevada HCS</facility_name>
+    <visn_name>Sierra Pacific Network</visn_name>
+    <visn>21</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry127">
+    <visn_name>Desert Pacific Healthcare Network</visn_name>
+    <city>Loma Linda</city>
+    <state>CA</state>
+    <visn>22</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_outpatient>75</other_outpatient>
+    <african_american_outpatient>79</african_american_outpatient>
+    <facility_name>VA Loma Linda HCS</facility_name>
+    <white_inpatient>80</white_inpatient>
+    <white_outpatient>78</white_outpatient>
+    <other_inpatient>85</other_inpatient>
+    <african_american_inpatient>77</african_american_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry75">
+    <visn_name>The Great Lakes Health Care System</visn_name>
+    <african_american_inpatient>52</african_american_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <city>North Chicago</city>
+    <white_outpatient>83</white_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <other_outpatient>96</other_outpatient>
+    <facility_name>VAMC</facility_name>
+    <state>IL</state>
+    <white_inpatient>78</white_inpatient>
+    <african_american_outpatient>45</african_american_outpatient>
+    <visn>12</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry14">
+    <white_outpatient>78</white_outpatient>
+    <visn>3</visn>
+    <visn_name>VA NY/NJ Veterans Healthcare Network</visn_name>
+    <state>NJ</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>VA New Jersey HCS East Orange Campus</facility_name>
+    <city>East Orange</city>
+    <white_inpatient>79</white_inpatient>
+    <other_inpatient>67</other_inpatient>
+    <other_outpatient>60</other_outpatient>
+    <african_american_outpatient>62</african_american_outpatient>
+    <african_american_inpatient>72</african_american_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry65">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>OH</state>
+    <city>Dayton</city>
+    <visn_name>VA Health Care System of Ohio</visn_name>
+    <facility_name>VAMC</facility_name>
+    <other_outpatient>65</other_outpatient>
+    <white_inpatient>75</white_inpatient>
+    <visn>10</visn>
+    <african_american_outpatient>64</african_american_outpatient>
+    <african_american_inpatient>73</african_american_inpatient>
+    <white_outpatient>76</white_outpatient>
+    <other_inpatient>0</other_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry37">
+    <city>Richmond</city>
+    <other_inpatient>74</other_inpatient>
+    <african_american_inpatient>69</african_american_inpatient>
+    <other_outpatient>72</other_outpatient>
+    <facility_name>Hunter Holmes McGuire VAMC</facility_name>
+    <african_american_outpatient>60</african_american_outpatient>
+    <state>VA</state>
+    <visn>6</visn>
+    <white_outpatient>75</white_outpatient>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_inpatient>75</white_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry89">
+    <visn>16</visn>
+    <white_inpatient>77</white_inpatient>
+    <african_american_inpatient>64</african_american_inpatient>
+    <facility_name>VAMC</facility_name>
+    <state>LA</state>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <other_inpatient>0</other_inpatient>
+    <other_outpatient>59</other_outpatient>
+    <african_american_outpatient>52</african_american_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <city>Alexandria</city>
+    <white_outpatient>74</white_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry133">
+    <african_american_inpatient>0</african_american_inpatient>
+    <white_outpatient>85</white_outpatient>
+    <city>Des Moines</city>
+    <other_outpatient>64</other_outpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <state>IA</state>
+    <white_inpatient>81</white_inpatient>
+    <facility_name>VA Central Iowa HCS   DesMoines Knoxville</facility_name>
+    <visn>23</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry19">
+    <state>DE</state>
+    <other_outpatient>58</other_outpatient>
+    <white_outpatient>83</white_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>4</visn>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <city>Wilmington</city>
+    <other_inpatient>0</other_inpatient>
+    <african_american_outpatient>78</african_american_outpatient>
+    <facility_name>VAM&amp;RO</facility_name>
+    <african_american_inpatient>65</african_american_inpatient>
+    <white_inpatient>85</white_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry18">
+    <visn>3</visn>
+    <white_inpatient>84</white_inpatient>
+    <facility_name>VAMC</facility_name>
+    <state>NY</state>
+    <city>Northport</city>
+    <other_inpatient>0</other_inpatient>
+    <white_outpatient>85</white_outpatient>
+    <african_american_inpatient>73</african_american_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <african_american_outpatient>81</african_american_outpatient>
+    <other_outpatient>63</other_outpatient>
+    <visn_name>VA NY/NJ Veterans Healthcare Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry102">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>AZ</state>
+    <facility_name>Southern Arizona VA HCS</facility_name>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <visn>18</visn>
+    <white_inpatient>84</white_inpatient>
+    <white_outpatient>80</white_outpatient>
+    <other_inpatient>79</other_inpatient>
+    <city>Tucson</city>
+    <african_american_inpatient>0</african_american_inpatient>
+    <african_american_outpatient>49</african_american_outpatient>
+    <other_outpatient>76</other_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry23">
+    <african_american_outpatient>0</african_american_outpatient>
+    <other_outpatient>83</other_outpatient>
+    <state>PA</state>
+    <white_inpatient>87</white_inpatient>
+    <visn>4</visn>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <other_inpatient>0</other_inpatient>
+    <white_outpatient>87</white_outpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <city>Erie</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry99">
+    <other_inpatient>68</other_inpatient>
+    <other_outpatient>73</other_outpatient>
+    <african_american_inpatient>67</african_american_inpatient>
+    <african_american_outpatient>63</african_american_outpatient>
+    <facility_name>Central Texas Veterans HCSTemple Waco Marlin</facility_name>
+    <visn>17</visn>
+    <city>Temple</city>
+    <visn_name>VA Heart of Texas Health Care Network</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>76</white_outpatient>
+    <state>TX</state>
+    <white_inpatient>77</white_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry42">
+    <visn_name>VA Southeast Network</visn_name>
+    <white_inpatient>0</white_inpatient>
+    <african_american_outpatient>78</african_american_outpatient>
+    <visn>7</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>AL</state>
+    <african_american_inpatient>0</african_american_inpatient>
+    <white_outpatient>86</white_outpatient>
+    <other_outpatient>0</other_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <facility_name>VAMC</facility_name>
+    <city>Tuscaloosa</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry56">
+    <visn_name>VA Mid South Healthcare Network</visn_name>
+    <other_outpatient>75</other_outpatient>
+    <state>KY</state>
+    <african_american_inpatient>70</african_american_inpatient>
+    <white_inpatient>83</white_inpatient>
+    <white_outpatient>79</white_outpatient>
+    <other_inpatient>60</other_inpatient>
+    <african_american_outpatient>70</african_american_outpatient>
+    <facility_name>VAMC</facility_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <city>Louisville</city>
+    <visn>9</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry123">
+    <white_inpatient>84</white_inpatient>
+    <state>CA</state>
+    <city>Palo Alto</city>
+    <visn_name>Sierra Pacific Network</visn_name>
+    <facility_name>VA Palo Alto HCSPaloAlto MenloPk Livermore</facility_name>
+    <other_outpatient>84</other_outpatient>
+    <visn>21</visn>
+    <african_american_outpatient>75</african_american_outpatient>
+    <white_outpatient>87</white_outpatient>
+    <african_american_inpatient>73</african_american_inpatient>
+    <other_inpatient>83</other_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry90">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_inpatient>0</other_inpatient>
+    <white_inpatient>0</white_inpatient>
+    <state>LA</state>
+    <city>New Orleans</city>
+    <african_american_inpatient>0</african_american_inpatient>
+    <other_outpatient>65</other_outpatient>
+    <facility_name>VAMC</facility_name>
+    <visn>16</visn>
+    <white_outpatient>72</white_outpatient>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <african_american_outpatient>66</african_american_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry113">
+    <white_inpatient>0</white_inpatient>
+    <state>AK</state>
+    <other_inpatient>0</other_inpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <visn_name>Northwest Network</visn_name>
+    <visn>20</visn>
+    <facility_name>Alaska VA HCS and Regional Office</facility_name>
+    <white_outpatient>80</white_outpatient>
+    <other_outpatient>69</other_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <city>Anchorage</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry76">
+    <city>Iron Mountain</city>
+    <state>MI</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_inpatient>82</white_inpatient>
+    <other_outpatient>85</other_outpatient>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+    <white_outpatient>83</white_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <facility_name>VAMC</facility_name>
+    <visn>12</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry62">
+    <white_outpatient>79</white_outpatient>
+    <white_inpatient>78</white_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>10</visn>
+    <other_outpatient>63</other_outpatient>
+    <facility_name>VAMC</facility_name>
+    <city>Cincinnati</city>
+    <african_american_outpatient>82</african_american_outpatient>
+    <state>OH</state>
+    <african_american_inpatient>77</african_american_inpatient>
+    <visn_name>VA Health Care System of Ohio</visn_name>
+    <other_inpatient>88</other_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry2">
+    <visn>1</visn>
+    <white_inpatient>63</white_inpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <other_inpatient>0</other_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA New England Health Care System</visn_name>
+    <other_outpatient>85</other_outpatient>
+    <white_outpatient>87</white_outpatient>
+    <state>MA</state>
+    <african_american_outpatient>0</african_american_outpatient>
+    <city>Bedford</city>
+    <facility_name>Edith Nourse Rogers Memorial Veterans Hospital</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry17">
+    <city>Montrose</city>
+    <white_outpatient>84</white_outpatient>
+    <visn_name>VA NY/NJ Veterans Healthcare Network</visn_name>
+    <african_american_outpatient>87</african_american_outpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_inpatient>88</white_inpatient>
+    <other_inpatient>0</other_inpatient>
+    <other_outpatient>77</other_outpatient>
+    <state>NY</state>
+    <visn>3</visn>
+    <facility_name>VA Hudson Valley HCS Montrose Castle Pt</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry80">
+    <african_american_inpatient>86</african_american_inpatient>
+    <other_outpatient>71</other_outpatient>
+    <city>Topeka</city>
+    <facility_name>VA Eastern Kansas HCS Topeka Leavenworth</facility_name>
+    <other_inpatient>82</other_inpatient>
+    <white_inpatient>80</white_inpatient>
+    <african_american_outpatient>77</african_american_outpatient>
+    <white_outpatient>79</white_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>15</visn>
+    <visn_name>VA Heartland Network</visn_name>
+    <state>KS</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry88">
+    <facility_name>Central Arkansas Veterans HCSLittle Rock Little Rock N</facility_name>
+    <white_inpatient>73</white_inpatient>
+    <white_outpatient>78</white_outpatient>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <african_american_inpatient>62</african_american_inpatient>
+    <state>AR</state>
+    <other_inpatient>82</other_inpatient>
+    <visn>16</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <african_american_outpatient>62</african_american_outpatient>
+    <city>Little Rock</city>
+    <other_outpatient>71</other_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry109">
+    <visn>19</visn>
+    <other_inpatient>0</other_inpatient>
+    <white_outpatient>80</white_outpatient>
+    <state>MT</state>
+    <city>Fort Harrison</city>
+    <white_inpatient>88</white_inpatient>
+    <facility_name>VA Montana HCS</facility_name>
+    <african_american_outpatient>0</african_american_outpatient>
+    <visn_name>Rocky Mountain Network</visn_name>
+    <african_american_inpatient>0</african_american_inpatient>
+    <other_outpatient>71</other_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry36">
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <other_outpatient>0</other_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>71</white_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <facility_name>VAMC</facility_name>
+    <african_american_inpatient>64</african_american_inpatient>
+    <african_american_outpatient>55</african_american_outpatient>
+    <state>VA</state>
+    <city>Hampton</city>
+    <white_inpatient>80</white_inpatient>
+    <visn>6</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry43">
+    <facility_name>VAMC</facility_name>
+    <city>Atlanta</city>
+    <white_inpatient>73</white_inpatient>
+    <other_inpatient>0</other_inpatient>
+    <other_outpatient>58</other_outpatient>
+    <african_american_outpatient>71</african_american_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>75</white_outpatient>
+    <state>GA</state>
+    <visn_name>VA Southeast Network</visn_name>
+    <african_american_inpatient>70</african_american_inpatient>
+    <visn>7</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry134">
+    <state>IA</state>
+    <city>Iowa City</city>
+    <white_inpatient>83</white_inpatient>
+    <other_outpatient>74</other_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>83</white_outpatient>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <visn>23</visn>
+    <african_american_outpatient>82</african_american_outpatient>
+    <facility_name>VAMC</facility_name>
+    <african_american_inpatient>0</african_american_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry22">
+    <other_outpatient>84</other_outpatient>
+    <visn>4</visn>
+    <white_inpatient>0</white_inpatient>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <african_american_outpatient>68</african_american_outpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <other_inpatient>0</other_inpatient>
+    <white_outpatient>89</white_outpatient>
+    <city>Coatesville</city>
+    <state>PA</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>VAMC</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry101">
+    <african_american_inpatient>0</african_american_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>AZ</state>
+    <white_inpatient>85</white_inpatient>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <white_outpatient>84</white_outpatient>
+    <visn>18</visn>
+    <other_inpatient>0</other_inpatient>
+    <other_outpatient>78</other_outpatient>
+    <city>Prescott</city>
+    <african_american_outpatient>0</african_american_outpatient>
+    <facility_name>Northern Arizona VA HCS</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry57">
+    <other_inpatient>73</other_inpatient>
+    <visn>9</visn>
+    <white_inpatient>71</white_inpatient>
+    <african_american_inpatient>68</african_american_inpatient>
+    <other_outpatient>54</other_outpatient>
+    <visn_name>VA Mid South Healthcare Network</visn_name>
+    <city>Memphis</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>74</white_outpatient>
+    <state>TN</state>
+    <african_american_outpatient>58</african_american_outpatient>
+    <facility_name>VAMC</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry98">
+    <visn_name>VA Heart of Texas Health Care Network</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_inpatient>76</white_inpatient>
+    <other_outpatient>64</other_outpatient>
+    <other_inpatient>70</other_inpatient>
+    <white_outpatient>74</white_outpatient>
+    <african_american_inpatient>66</african_american_inpatient>
+    <african_american_outpatient>71</african_american_outpatient>
+    <state>TX</state>
+    <facility_name>South Texas Veterans HCS  SanAntonio Kerrville</facility_name>
+    <city>San Antonio</city>
+    <visn>17</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry119">
+    <african_american_inpatient>0</african_american_inpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <city>Spokane</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>WA</state>
+    <visn>20</visn>
+    <visn_name>Northwest Network</visn_name>
+    <other_outpatient>50</other_outpatient>
+    <white_outpatient>84</white_outpatient>
+    <facility_name>VAMC</facility_name>
+    <other_inpatient>0</other_inpatient>
+    <white_inpatient>89</white_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry114">
+    <facility_name>VAMC</facility_name>
+    <african_american_inpatient>0</african_american_inpatient>
+    <state>ID</state>
+    <african_american_outpatient>0</african_american_outpatient>
+    <visn_name>Northwest Network</visn_name>
+    <city>Boise</city>
+    <white_outpatient>85</white_outpatient>
+    <other_outpatient>91</other_outpatient>
+    <white_inpatient>84</white_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>20</visn>
+    <other_inpatient>0</other_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry91">
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <white_outpatient>78</white_outpatient>
+    <visn>16</visn>
+    <white_inpatient>80</white_inpatient>
+    <african_american_inpatient>66</african_american_inpatient>
+    <facility_name>Overton Brooks VA Medical Center</facility_name>
+    <city>Shreveport</city>
+    <state>LA</state>
+    <african_american_outpatient>74</african_american_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_outpatient>67</other_outpatient>
+    <other_inpatient>0</other_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry139">
+    <white_outpatient>84</white_outpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <visn>23</visn>
+    <other_inpatient>0</other_inpatient>
+    <city>Sioux Falls</city>
+    <state>SD</state>
+    <white_inpatient>78</white_inpatient>
+    <other_outpatient>97</other_outpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <facility_name>VAM/ROC</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry63">
+    <visn>10</visn>
+    <other_outpatient>80</other_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <african_american_inpatient>67</african_american_inpatient>
+    <other_inpatient>80</other_inpatient>
+    <state>OH</state>
+    <white_outpatient>85</white_outpatient>
+    <white_inpatient>76</white_inpatient>
+    <city>Cleveland</city>
+    <african_american_outpatient>64</african_american_outpatient>
+    <visn_name>VA Health Care System of Ohio</visn_name>
+    <facility_name>Louis Stokes VA Medical CenterCleveland Brecksville</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry3">
+    <facility_name>VA Boston HCSW Roxbury Brockton Jamaica Plns</facility_name>
+    <white_inpatient>83</white_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_outpatient>82</other_outpatient>
+    <other_inpatient>81</other_inpatient>
+    <african_american_outpatient>76</african_american_outpatient>
+    <white_outpatient>86</white_outpatient>
+    <city>West Roxbury</city>
+    <visn_name>VA New England Health Care System</visn_name>
+    <state>MA</state>
+    <visn>1</visn>
+    <african_american_inpatient>73</african_american_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry77">
+    <state>WI</state>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+    <other_inpatient>0</other_inpatient>
+    <facility_name>William S. Middleton Memorial Veterans Hospital</facility_name>
+    <other_outpatient>72</other_outpatient>
+    <city>Madison</city>
+    <african_american_outpatient>0</african_american_outpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <white_outpatient>84</white_outpatient>
+    <white_inpatient>88</white_inpatient>
+    <visn>12</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry16">
+    <other_inpatient>76</other_inpatient>
+    <state>NY</state>
+    <city>New York Harbor</city>
+    <african_american_outpatient>72</african_american_outpatient>
+    <visn>3</visn>
+    <facility_name>VA NY Harbor HCSNY Harbor Brooklyn</facility_name>
+    <white_outpatient>81</white_outpatient>
+    <visn_name>VA NY/NJ Veterans Healthcare Network</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <african_american_inpatient>76</african_american_inpatient>
+    <other_outpatient>74</other_outpatient>
+    <white_inpatient>78</white_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry129">
+    <african_american_inpatient>75</african_american_inpatient>
+    <african_american_outpatient>62</african_american_outpatient>
+    <other_inpatient>73</other_inpatient>
+    <other_outpatient>71</other_outpatient>
+    <city>Los Angeles</city>
+    <white_outpatient>77</white_outpatient>
+    <visn>22</visn>
+    <facility_name>VA Greater Los Angeles HCS (GLA)</facility_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>CA</state>
+    <visn_name>Desert Pacific Healthcare Network</visn_name>
+    <white_inpatient>79</white_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry124">
+    <other_inpatient>79</other_inpatient>
+    <african_american_outpatient>79</african_american_outpatient>
+    <white_inpatient>82</white_inpatient>
+    <other_outpatient>72</other_outpatient>
+    <facility_name>VAMC</facility_name>
+    <african_american_inpatient>79</african_american_inpatient>
+    <city>San Francisco</city>
+    <state>CA</state>
+    <visn_name>Sierra Pacific Network</visn_name>
+    <visn>21</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>85</white_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry81">
+    <white_inpatient>75</white_inpatient>
+    <visn>15</visn>
+    <city>Wichita</city>
+    <other_outpatient>76</other_outpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <white_outpatient>78</white_outpatient>
+    <facility_name>Robert J. Dole Department of Veterans Affairs Medical and Regional Office Center</facility_name>
+    <state>KS</state>
+    <other_inpatient>0</other_inpatient>
+    <visn_name>VA Heartland Network</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <african_american_outpatient>0</african_american_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry40">
+    <visn_name>VA Southeast Network</visn_name>
+    <visn>7</visn>
+    <african_american_inpatient>76</african_american_inpatient>
+    <other_inpatient>74</other_inpatient>
+    <city>Birmingham</city>
+    <other_outpatient>71</other_outpatient>
+    <white_outpatient>77</white_outpatient>
+    <african_american_outpatient>58</african_american_outpatient>
+    <white_inpatient>82</white_inpatient>
+    <state>AL</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>VAMC</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry118">
+    <visn_name>Northwest Network</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>WA</state>
+    <visn>20</visn>
+    <white_outpatient>81</white_outpatient>
+    <facility_name>VA Puget Sound HCS�  Seattle American Lake</facility_name>
+    <other_outpatient>64</other_outpatient>
+    <african_american_outpatient>67</african_american_outpatient>
+    <city>Seattle</city>
+    <african_american_inpatient>82</african_american_inpatient>
+    <white_inpatient>82</white_inpatient>
+    <other_inpatient>85</other_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry71">
+    <white_inpatient>72</white_inpatient>
+    <facility_name>John D. Dingell VA Medical Center</facility_name>
+    <african_american_inpatient>74</african_american_inpatient>
+    <state>MI</state>
+    <visn>11</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>73</white_outpatient>
+    <other_outpatient>75</other_outpatient>
+    <other_inpatient>54</other_inpatient>
+    <city>Detroit</city>
+    <visn_name>Veterans In Partnership</visn_name>
+    <african_american_outpatient>63</african_american_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry135">
+    <state>MN</state>
+    <facility_name>VAMC</facility_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <african_american_outpatient>0</african_american_outpatient>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <other_outpatient>83</other_outpatient>
+    <city>Minneapolis</city>
+    <white_inpatient>86</white_inpatient>
+    <visn>23</visn>
+    <white_outpatient>82</white_outpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <other_inpatient>0</other_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry104">
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <state>TX</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>82</white_outpatient>
+    <white_inpatient>83</white_inpatient>
+    <facility_name>Amarillo VA HCS</facility_name>
+    <other_outpatient>60</other_outpatient>
+    <city>Amarillo</city>
+    <african_american_outpatient>46</african_american_outpatient>
+    <visn>18</visn>
+    <african_american_inpatient>0</african_american_inpatient>
+    <other_inpatient>0</other_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry50">
+    <white_outpatient>77</white_outpatient>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+    <state>FL</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_inpatient>73</other_inpatient>
+    <facility_name>VAMC</facility_name>
+    <other_outpatient>74</other_outpatient>
+    <african_american_outpatient>62</african_american_outpatient>
+    <city>Miami</city>
+    <white_inpatient>81</white_inpatient>
+    <african_american_inpatient>80</african_american_inpatient>
+    <visn>8</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry61">
+    <state>OH</state>
+    <white_outpatient>77</white_outpatient>
+    <city>Chillicothe</city>
+    <visn_name>VA Health Care System of Ohio</visn_name>
+    <facility_name>VAMC</facility_name>
+    <visn>10</visn>
+    <african_american_inpatient>0</african_american_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_inpatient>0</other_inpatient>
+    <white_inpatient>68</white_inpatient>
+    <other_outpatient>85</other_outpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry39">
+    <other_inpatient>0</other_inpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <white_inpatient>78</white_inpatient>
+    <city>Beckley</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <african_american_inpatient>0</african_american_inpatient>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <other_outpatient>0</other_outpatient>
+    <white_outpatient>71</white_outpatient>
+    <state>WV</state>
+    <facility_name>VAMC</facility_name>
+    <visn>6</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry11">
+    <state>NY</state>
+    <other_inpatient>0</other_inpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <facility_name>VAMC</facility_name>
+    <white_inpatient>85</white_inpatient>
+    <visn>2</visn>
+    <city>Bath</city>
+    <white_outpatient>83</white_outpatient>
+    <visn_name>VA Healthcare Network Upstate New York</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <african_american_outpatient>0</african_american_outpatient>
+    <other_outpatient>0</other_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry82">
+    <african_american_inpatient>0</african_american_inpatient>
+    <white_outpatient>81</white_outpatient>
+    <facility_name>Harry S. Truman Memorial</facility_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_inpatient>0</other_inpatient>
+    <other_outpatient>77</other_outpatient>
+    <city>Columbia</city>
+    <visn_name>VA Heartland Network</visn_name>
+    <african_american_outpatient>0</african_american_outpatient>
+    <state>MO</state>
+    <visn>15</visn>
+    <white_inpatient>75</white_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry31">
+    <city>Martinsburg</city>
+    <other_outpatient>82</other_outpatient>
+    <state>WV</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_inpatient>0</other_inpatient>
+    <visn>5</visn>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Capitol Health Care Network</visn_name>
+    <african_american_outpatient>88</african_american_outpatient>
+    <african_american_inpatient>65</african_american_inpatient>
+    <white_inpatient>83</white_inpatient>
+    <white_outpatient>83</white_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry21">
+    <african_american_inpatient>0</african_american_inpatient>
+    <facility_name>VAMC</facility_name>
+    <state>PA</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <african_american_outpatient>0</african_american_outpatient>
+    <other_outpatient>62</other_outpatient>
+    <white_inpatient>0</white_inpatient>
+    <white_outpatient>80</white_outpatient>
+    <visn>4</visn>
+    <other_inpatient>0</other_inpatient>
+    <city>Butler</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry68">
+    <white_inpatient>72</white_inpatient>
+    <facility_name>Richard L. Roudebush VA Medical Center</facility_name>
+    <african_american_outpatient>61</african_american_outpatient>
+    <other_inpatient>75</other_inpatient>
+    <city>Indianapolis</city>
+    <african_american_inpatient>72</african_american_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>11</visn>
+    <state>IN</state>
+    <white_outpatient>77</white_outpatient>
+    <visn_name>Veterans In Partnership</visn_name>
+    <other_outpatient>60</other_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry58">
+    <african_american_inpatient>0</african_american_inpatient>
+    <other_inpatient>0</other_inpatient>
+    <other_outpatient>80</other_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <african_american_outpatient>0</african_american_outpatient>
+    <city>Mountain Home</city>
+    <visn>9</visn>
+    <white_inpatient>79</white_inpatient>
+    <facility_name>VAMC</facility_name>
+    <state>TN</state>
+    <white_outpatient>77</white_outpatient>
+    <visn_name>VA Mid South Healthcare Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry96">
+    <other_inpatient>66</other_inpatient>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <city>Houston</city>
+    <state>TX</state>
+    <visn>16</visn>
+    <african_american_inpatient>72</african_american_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <african_american_outpatient>66</african_american_outpatient>
+    <white_outpatient>70</white_outpatient>
+    <facility_name>VAMC</facility_name>
+    <white_inpatient>76</white_inpatient>
+    <other_outpatient>66</other_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry48">
+    <other_inpatient>70</other_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_inpatient>83</white_inpatient>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+    <facility_name>VAMC</facility_name>
+    <city>Bay Pines</city>
+    <african_american_outpatient>79</african_american_outpatient>
+    <other_outpatient>87</other_outpatient>
+    <white_outpatient>84</white_outpatient>
+    <visn>8</visn>
+    <african_american_inpatient>80</african_american_inpatient>
+    <state>FL</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry78">
+    <white_outpatient>83</white_outpatient>
+    <facility_name>Clement J. Zablocki VAMC</facility_name>
+    <city>Milwaukee</city>
+    <other_inpatient>0</other_inpatient>
+    <other_outpatient>84</other_outpatient>
+    <african_american_outpatient>74</african_american_outpatient>
+    <state>WI</state>
+    <african_american_inpatient>57</african_american_inpatient>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+    <white_inpatient>86</white_inpatient>
+    <visn>12</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry8">
+    <african_american_outpatient>0</african_american_outpatient>
+    <visn>1</visn>
+    <african_american_inpatient>0</african_american_inpatient>
+    <other_outpatient>83</other_outpatient>
+    <white_inpatient>87</white_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA New England Health Care System</visn_name>
+    <state>VT</state>
+    <other_inpatient>0</other_inpatient>
+    <white_outpatient>89</white_outpatient>
+    <city>White River Junction</city>
+    <facility_name>VAM/ROC</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry121">
+    <visn_name>Sierra Pacific Network</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_inpatient>81</white_inpatient>
+    <state>CA</state>
+    <facility_name>VA Central California HCS</facility_name>
+    <white_outpatient>79</white_outpatient>
+    <african_american_outpatient>67</african_american_outpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <visn>21</visn>
+    <other_inpatient>94</other_inpatient>
+    <other_outpatient>75</other_outpatient>
+    <city>Fresno</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry117">
+    <city>White City</city>
+    <other_outpatient>62</other_outpatient>
+    <white_inpatient>78</white_inpatient>
+    <visn_name>Northwest Network</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>72</white_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <state>OR</state>
+    <facility_name>Southern Oregon Rehab Ctr &amp; Clinics</facility_name>
+    <visn>20</visn>
+    <african_american_outpatient>0</african_american_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry41">
+    <other_outpatient>50</other_outpatient>
+    <facility_name>Central Alabama Veterans HCS Tuskeegee Montgomery</facility_name>
+    <african_american_outpatient>64</african_american_outpatient>
+    <white_outpatient>71</white_outpatient>
+    <city>Montgomery</city>
+    <visn_name>VA Southeast Network</visn_name>
+    <visn>7</visn>
+    <white_inpatient>65</white_inpatient>
+    <african_american_inpatient>63</african_american_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>AL</state>
+    <other_inpatient>0</other_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="">
+    <dcterms:identifier>/work/data-gov/data/input/data.gov/1209/DataGov_VHA_Hospital_Patient_Satisfaction.csv</dcterms:identifier>
+    <rdfs:seeAlso rdf:resource="http://data-gov.tw.rpi.edu/raw/1209/index.rdf#me"/>
+    <dcterms:description>generated by csv2rdf CSV2RDF (v1.1, 2009-01-28). http://data-gov.tw.rpi.edu/wiki/Source_Code_of_Data.gov_Wiki#Source_Code_of_Demos_and_Applications. </dcterms:description>
+    <dcterms:creator rdf:resource="http://tw.rpi.edu"/>
+    <dcterms:date>2010-05-10T19:49:38Z</dcterms:date>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry28">
+    <other_outpatient>68</other_outpatient>
+    <white_inpatient>82</white_inpatient>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <african_american_inpatient>0</african_american_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>84</white_outpatient>
+    <city>Clarksburg</city>
+    <visn>4</visn>
+    <state>WV</state>
+    <african_american_outpatient>0</african_american_outpatient>
+    <facility_name>Louis A. Johnson VAMC</facility_name>
+    <other_inpatient>0</other_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry136">
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <state>MN</state>
+    <facility_name>VAMC</facility_name>
+    <visn>23</visn>
+    <african_american_inpatient>0</african_american_inpatient>
+    <other_outpatient>0</other_outpatient>
+    <white_inpatient>60</white_inpatient>
+    <other_inpatient>0</other_inpatient>
+    <white_outpatient>83</white_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <city>St. Cloud</city>
+    <african_american_outpatient>0</african_american_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry70">
+    <visn_name>Veterans In Partnership</visn_name>
+    <visn>11</visn>
+    <white_outpatient>80</white_outpatient>
+    <city>Battle Creek</city>
+    <african_american_outpatient>66</african_american_outpatient>
+    <white_inpatient>75</white_inpatient>
+    <other_inpatient>0</other_inpatient>
+    <facility_name>VAMC</facility_name>
+    <state>MI</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_outpatient>75</other_outpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry60">
+    <visn_name>VA Mid South Healthcare Network</visn_name>
+    <other_inpatient>0</other_inpatient>
+    <city>Huntington</city>
+    <facility_name>VAMC</facility_name>
+    <state>WV</state>
+    <african_american_inpatient>0</african_american_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_inpatient>77</white_inpatient>
+    <white_outpatient>80</white_outpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <visn>9</visn>
+    <other_outpatient>71</other_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry103">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <facility_name>New Mexico HCS</facility_name>
+    <white_outpatient>79</white_outpatient>
+    <other_inpatient>70</other_inpatient>
+    <african_american_outpatient>77</african_american_outpatient>
+    <visn>18</visn>
+    <african_american_inpatient>0</african_american_inpatient>
+    <other_outpatient>62</other_outpatient>
+    <city>Albuquerque</city>
+    <white_inpatient>78</white_inpatient>
+    <state>NM</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry38">
+    <african_american_inpatient>73</african_american_inpatient>
+    <other_inpatient>72</other_inpatient>
+    <white_inpatient>79</white_inpatient>
+    <visn>6</visn>
+    <white_outpatient>73</white_outpatient>
+    <state>VA</state>
+    <city>Salem</city>
+    <facility_name>VAMC</facility_name>
+    <other_outpatient>60</other_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <african_american_outpatient>66</african_american_outpatient>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry51">
+    <african_american_outpatient>70</african_american_outpatient>
+    <white_outpatient>84</white_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <white_inpatient>0</white_inpatient>
+    <city>Orlando</city>
+    <state>FL</state>
+    <african_american_inpatient>0</african_american_inpatient>
+    <facility_name>East Central Florida HCS</facility_name>
+    <visn>8</visn>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_outpatient>81</other_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry10">
+    <facility_name>VA Western New York HCS Buffalo Batavia</facility_name>
+    <state>NY</state>
+    <visn_name>VA Healthcare Network Upstate New York</visn_name>
+    <white_inpatient>81</white_inpatient>
+    <other_inpatient>0</other_inpatient>
+    <city>Buffalo</city>
+    <other_outpatient>79</other_outpatient>
+    <african_american_inpatient>72</african_american_inpatient>
+    <visn>2</visn>
+    <african_american_outpatient>75</african_american_outpatient>
+    <white_outpatient>78</white_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry69">
+    <state>MI</state>
+    <facility_name>Ann Arbor VA Ann Arbor HCS</facility_name>
+    <city>Ann Arbor</city>
+    <other_inpatient>0</other_inpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <other_outpatient>76</other_outpatient>
+    <white_inpatient>85</white_inpatient>
+    <visn>11</visn>
+    <african_american_outpatient>62</african_american_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>Veterans In Partnership</visn_name>
+    <white_outpatient>85</white_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry59">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_inpatient>77</white_inpatient>
+    <visn_name>VA Mid South Healthcare Network</visn_name>
+    <african_american_inpatient>68</african_american_inpatient>
+    <state>TN</state>
+    <city>Nashville</city>
+    <white_outpatient>77</white_outpatient>
+    <facility_name>Tennessee Valley HCSNashville Murfreesboro</facility_name>
+    <other_outpatient>76</other_outpatient>
+    <visn>9</visn>
+    <african_american_outpatient>68</african_american_outpatient>
+    <other_inpatient>66</other_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry83">
+    <visn>15</visn>
+    <facility_name>VAMC</facility_name>
+    <other_outpatient>85</other_outpatient>
+    <african_american_outpatient>71</african_american_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>78</white_outpatient>
+    <visn_name>VA Heartland Network</visn_name>
+    <african_american_inpatient>73</african_american_inpatient>
+    <white_inpatient>76</white_inpatient>
+    <other_inpatient>89</other_inpatient>
+    <city>Kansas City</city>
+    <state>MO</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry30">
+    <other_outpatient>58</other_outpatient>
+    <african_american_inpatient>77</african_american_inpatient>
+    <facility_name>VA Maryland HCSBaltimore Perry Pt</facility_name>
+    <white_inpatient>82</white_inpatient>
+    <african_american_outpatient>65</african_american_outpatient>
+    <city>Baltimore</city>
+    <state>MD</state>
+    <white_outpatient>81</white_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>5</visn>
+    <other_inpatient>69</other_inpatient>
+    <visn_name>VA Capitol Health Care Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry79">
+    <other_inpatient>0</other_inpatient>
+    <other_outpatient>78</other_outpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <facility_name>VAMC</facility_name>
+    <white_inpatient>84</white_inpatient>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+    <white_outpatient>80</white_outpatient>
+    <city>Tomah</city>
+    <visn>12</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <african_american_inpatient>0</african_american_inpatient>
+    <state>WI</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry97">
+    <white_inpatient>67</white_inpatient>
+    <african_american_inpatient>58</african_american_inpatient>
+    <other_outpatient>50</other_outpatient>
+    <facility_name>VA North Texas HCS</facility_name>
+    <other_inpatient>74</other_inpatient>
+    <white_outpatient>68</white_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>17</visn>
+    <african_american_outpatient>55</african_american_outpatient>
+    <city>Dallas</city>
+    <visn_name>VA Heart of Texas Health Care Network</visn_name>
+    <state>TX</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry49">
+    <visn>8</visn>
+    <other_inpatient>75</other_inpatient>
+    <city>Gainesville</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <african_american_outpatient>78</african_american_outpatient>
+    <other_outpatient>69</other_outpatient>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+    <state>FL</state>
+    <white_inpatient>76</white_inpatient>
+    <facility_name>N FLA/S GA Veterans HS Gainesville Lake Cty</facility_name>
+    <white_outpatient>81</white_outpatient>
+    <african_american_inpatient>76</african_american_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry20">
+    <city>Altoona</city>
+    <other_inpatient>0</other_inpatient>
+    <white_outpatient>87</white_outpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>4</visn>
+    <other_outpatient>64</other_outpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <state>PA</state>
+    <white_inpatient>82</white_inpatient>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <facility_name>James E. Van Zandt VA Medical Center</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry9">
+    <state>NY</state>
+    <visn>2</visn>
+    <facility_name>Samuel S. Stratton VAMC</facility_name>
+    <white_outpatient>83</white_outpatient>
+    <other_outpatient>77</other_outpatient>
+    <city>Albany</city>
+    <white_inpatient>80</white_inpatient>
+    <african_american_outpatient>79</african_american_outpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_inpatient>0</other_inpatient>
+    <visn_name>VA Healthcare Network Upstate New York</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry122">
+    <visn_name>Sierra Pacific Network</visn_name>
+    <other_outpatient>72</other_outpatient>
+    <white_inpatient>80</white_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <african_american_outpatient>78</african_american_outpatient>
+    <city>Martinez, East Bay</city>
+    <visn>21</visn>
+    <state>CA</state>
+    <other_inpatient>92</other_inpatient>
+    <facility_name>VA Northern California HCS Martinez Sacramento</facility_name>
+    <white_outpatient>84</white_outpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry29">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <city>Washington</city>
+    <other_outpatient>67</other_outpatient>
+    <white_outpatient>78</white_outpatient>
+    <white_inpatient>82</white_inpatient>
+    <african_american_outpatient>71</african_american_outpatient>
+    <visn_name>VA Capitol Health Care Network</visn_name>
+    <state>DC</state>
+    <facility_name>VAMC</facility_name>
+    <african_american_inpatient>70</african_american_inpatient>
+    <visn>5</visn>
+    <other_inpatient>70</other_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry137">
+    <african_american_outpatient>0</african_american_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>ND</state>
+    <white_inpatient>89</white_inpatient>
+    <other_outpatient>70</other_outpatient>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <white_outpatient>87</white_outpatient>
+    <city>Fargo</city>
+    <african_american_inpatient>0</african_american_inpatient>
+    <other_inpatient>0</other_inpatient>
+    <visn>23</visn>
+    <facility_name>VAM/RO</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry116">
+    <facility_name>VA Roseburg HCS</facility_name>
+    <state>OR</state>
+    <other_inpatient>85</other_inpatient>
+    <visn>20</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <city>Roseburg</city>
+    <white_inpatient>83</white_inpatient>
+    <white_outpatient>76</white_outpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <other_outpatient>65</other_outpatient>
+    <visn_name>Northwest Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry73">
+    <visn>12</visn>
+    <other_inpatient>80</other_inpatient>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+    <white_inpatient>77</white_inpatient>
+    <other_outpatient>53</other_outpatient>
+    <african_american_outpatient>69</african_american_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <city>Chicago, West Side</city>
+    <state>IL</state>
+    <white_outpatient>81</white_outpatient>
+    <facility_name>VA Chicago HCS; (Jessie Brown)</facility_name>
+    <african_american_inpatient>70</african_american_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry27">
+    <other_inpatient>0</other_inpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <state>PA</state>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <city>Wilkes-Barre</city>
+    <white_inpatient>78</white_inpatient>
+    <other_outpatient>81</other_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>80</white_outpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <visn>4</visn>
+    <facility_name>VAMC</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry1">
+    <city>West Haven</city>
+    <other_inpatient>0</other_inpatient>
+    <state>CT</state>
+    <visn>1</visn>
+    <other_outpatient>64</other_outpatient>
+    <visn_name>VA New England Health Care System</visn_name>
+    <white_outpatient>84</white_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>VA Connecticut HCS</facility_name>
+    <african_american_outpatient>48</african_american_outpatient>
+    <african_american_inpatient>59</african_american_inpatient>
+    <white_inpatient>78</white_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry52">
+    <state>FL</state>
+    <african_american_outpatient>69</african_american_outpatient>
+    <other_outpatient>77</other_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>84</white_outpatient>
+    <other_inpatient>60</other_inpatient>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+    <facility_name>James A. Haley VA Medical Center</facility_name>
+    <white_inpatient>78</white_inpatient>
+    <african_american_inpatient>77</african_american_inpatient>
+    <city>Tampa</city>
+    <visn>8</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry106">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_inpatient>0</other_inpatient>
+    <city>El Paso</city>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <white_inpatient>0</white_inpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <other_outpatient>66</other_outpatient>
+    <state>TX</state>
+    <visn>18</visn>
+    <facility_name>El Paso VA HCS</facility_name>
+    <white_outpatient>75</white_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry66">
+    <white_inpatient>72</white_inpatient>
+    <facility_name>VA Illiana HCS</facility_name>
+    <city>Danville</city>
+    <african_american_inpatient>0</african_american_inpatient>
+    <african_american_outpatient>77</african_american_outpatient>
+    <visn>11</visn>
+    <other_outpatient>71</other_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>79</white_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <visn_name>Veterans In Partnership</visn_name>
+    <state>IL</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry84">
+    <visn>15</visn>
+    <white_inpatient>83</white_inpatient>
+    <state>IL</state>
+    <white_outpatient>76</white_outpatient>
+    <african_american_outpatient>71</african_american_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>VAMC</facility_name>
+    <african_american_inpatient>0</african_american_inpatient>
+    <other_inpatient>0</other_inpatient>
+    <visn_name>VA Heartland Network</visn_name>
+    <other_outpatient>56</other_outpatient>
+    <city>Marion</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry13">
+    <african_american_outpatient>71</african_american_outpatient>
+    <city>Syracuse</city>
+    <other_inpatient>0</other_inpatient>
+    <facility_name>VAMC</facility_name>
+    <african_american_inpatient>0</african_american_inpatient>
+    <white_inpatient>84</white_inpatient>
+    <visn>2</visn>
+    <white_outpatient>86</white_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA Healthcare Network Upstate New York</visn_name>
+    <other_outpatient>90</other_outpatient>
+    <state>NY</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry46">
+    <state>SC</state>
+    <visn_name>VA Southeast Network</visn_name>
+    <facility_name>Ralph H. Johnson VAMC</facility_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <city>Charleston</city>
+    <visn>7</visn>
+    <other_inpatient>70</other_inpatient>
+    <african_american_inpatient>79</african_american_inpatient>
+    <white_outpatient>77</white_outpatient>
+    <african_american_outpatient>77</african_american_outpatient>
+    <white_inpatient>80</white_inpatient>
+    <other_outpatient>76</other_outpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry94">
+    <facility_name>VAMC</facility_name>
+    <african_american_inpatient>0</african_american_inpatient>
+    <state>OK</state>
+    <white_outpatient>80</white_outpatient>
+    <visn>16</visn>
+    <other_inpatient>84</other_inpatient>
+    <african_american_outpatient>68</african_american_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_outpatient>71</other_outpatient>
+    <white_inpatient>84</white_inpatient>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <city>Muskogee</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry6">
+    <white_inpatient>0</white_inpatient>
+    <other_outpatient>74</other_outpatient>
+    <city>Manchester</city>
+    <facility_name>VAMC</facility_name>
+    <other_inpatient>0</other_inpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <visn_name>VA New England Health Care System</visn_name>
+    <white_outpatient>87</white_outpatient>
+    <visn>1</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <african_american_inpatient>0</african_american_inpatient>
+    <state>NH</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry33">
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <african_american_inpatient>72</african_american_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>73</white_outpatient>
+    <african_american_outpatient>61</african_american_outpatient>
+    <visn>6</visn>
+    <city>Durham</city>
+    <white_inpatient>82</white_inpatient>
+    <other_outpatient>51</other_outpatient>
+    <state>NC</state>
+    <facility_name>VAMC</facility_name>
+    <other_inpatient>68</other_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry138">
+    <state>SD</state>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <white_outpatient>87</white_outpatient>
+    <facility_name>VA Black Hills HCSFt Meade Hot Springs</facility_name>
+    <african_american_inpatient>0</african_american_inpatient>
+    <other_inpatient>0</other_inpatient>
+    <visn>23</visn>
+    <city>Fort Meade</city>
+    <white_inpatient>91</white_inpatient>
+    <other_outpatient>75</other_outpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry115">
+    <african_american_inpatient>0</african_american_inpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <facility_name>VAMC</facility_name>
+    <other_outpatient>79</other_outpatient>
+    <visn_name>Northwest Network</visn_name>
+    <city>Portland</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_inpatient>81</other_inpatient>
+    <white_outpatient>79</white_outpatient>
+    <white_inpatient>83</white_inpatient>
+    <state>OR</state>
+    <visn>20</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry26">
+    <white_outpatient>80</white_outpatient>
+    <african_american_inpatient>66</african_american_inpatient>
+    <facility_name>VA Pittsburgh HCSHeinz Univ Dr Highld Dr</facility_name>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <african_american_outpatient>60</african_american_outpatient>
+    <white_inpatient>81</white_inpatient>
+    <state>PA</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>4</visn>
+    <other_outpatient>82</other_outpatient>
+    <city>Pittsburgh</city>
+    <other_inpatient>0</other_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry72">
+    <other_outpatient>78</other_outpatient>
+    <visn>11</visn>
+    <african_american_outpatient>0</african_american_outpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <facility_name>Aleda E. Lutz VA Medical Center</facility_name>
+    <city>Saginaw</city>
+    <visn_name>Veterans In Partnership</visn_name>
+    <white_inpatient>85</white_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>79</white_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <state>MI</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry53">
+    <african_american_inpatient>83</african_american_inpatient>
+    <other_outpatient>89</other_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <state>FL</state>
+    <african_american_outpatient>74</african_american_outpatient>
+    <facility_name>VAMC</facility_name>
+    <city>West Palm Beach</city>
+    <white_outpatient>77</white_outpatient>
+    <visn>8</visn>
+    <white_inpatient>77</white_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry105">
+    <facility_name>West Texas VA HCS</facility_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <african_american_outpatient>73</african_american_outpatient>
+    <white_inpatient>80</white_inpatient>
+    <white_outpatient>74</white_outpatient>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <state>TX</state>
+    <other_outpatient>60</other_outpatient>
+    <african_american_inpatient>0</african_american_inpatient>
+    <other_inpatient>0</other_inpatient>
+    <visn>18</visn>
+    <city>Big Spring</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry85">
+    <african_american_inpatient>0</african_american_inpatient>
+    <white_inpatient>73</white_inpatient>
+    <facility_name>John J. Pershing VA Medical Center</facility_name>
+    <visn>15</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_outpatient>68</other_outpatient>
+    <city>Poplar Bluff</city>
+    <african_american_outpatient>0</african_american_outpatient>
+    <white_outpatient>67</white_outpatient>
+    <visn_name>VA Heartland Network</visn_name>
+    <state>MO</state>
+    <other_inpatient>0</other_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry67">
+    <visn_name>Veterans In Partnership</visn_name>
+    <facility_name>VA Northern Indiana HCS Marion Ft Wayne</facility_name>
+    <state>IN</state>
+    <city>Marion</city>
+    <white_inpatient>72</white_inpatient>
+    <white_outpatient>79</white_outpatient>
+    <visn>11</visn>
+    <african_american_outpatient>75</african_american_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <african_american_inpatient>0</african_american_inpatient>
+    <other_outpatient>71</other_outpatient>
+    <other_inpatient>0</other_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry110">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>80</white_outpatient>
+    <state>UT</state>
+    <african_american_inpatient>0</african_american_inpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <white_inpatient>86</white_inpatient>
+    <facility_name>VA Salt Lake City HCS</facility_name>
+    <city>Salt Lake City</city>
+    <visn_name>Rocky Mountain Network</visn_name>
+    <other_outpatient>63</other_outpatient>
+    <other_inpatient>81</other_inpatient>
+    <visn>19</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry12">
+    <state>NY</state>
+    <other_outpatient>0</other_outpatient>
+    <african_american_outpatient>68</african_american_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <visn_name>VA Healthcare Network Upstate New York</visn_name>
+    <white_inpatient>0</white_inpatient>
+    <city>Canandaigua</city>
+    <african_american_inpatient>0</african_american_inpatient>
+    <visn>2</visn>
+    <white_outpatient>86</white_outpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>VAMC</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry120">
+    <facility_name>Jonathan M. Wainwright Memorial VA Medical Center</facility_name>
+    <african_american_outpatient>0</african_american_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <visn_name>Northwest Network</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>WA</state>
+    <white_inpatient>0</white_inpatient>
+    <other_outpatient>80</other_outpatient>
+    <white_outpatient>78</white_outpatient>
+    <city>Walla Walla</city>
+    <african_american_inpatient>0</african_american_inpatient>
+    <visn>20</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry130">
+    <african_american_outpatient>84</african_american_outpatient>
+    <city>San Diego</city>
+    <visn>22</visn>
+    <white_outpatient>85</white_outpatient>
+    <state>CA</state>
+    <white_inpatient>90</white_inpatient>
+    <other_inpatient>90</other_inpatient>
+    <facility_name>VA San Diego HCS</facility_name>
+    <african_american_inpatient>75</african_american_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_outpatient>65</other_outpatient>
+    <visn_name>Desert Pacific Healthcare Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry7">
+    <white_inpatient>86</white_inpatient>
+    <facility_name>VAMC</facility_name>
+    <african_american_outpatient>72</african_american_outpatient>
+    <other_outpatient>78</other_outpatient>
+    <visn>1</visn>
+    <state>RI</state>
+    <city>Providence</city>
+    <african_american_inpatient>0</african_american_inpatient>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA New England Health Care System</visn_name>
+    <white_outpatient>82</white_outpatient>
+    <other_inpatient>0</other_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry47">
+    <white_inpatient>72</white_inpatient>
+    <visn>7</visn>
+    <african_american_inpatient>72</african_american_inpatient>
+    <city>Columbia</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>Wm. Jennings Bryan Dorn VAMC</facility_name>
+    <state>SC</state>
+    <african_american_outpatient>63</african_american_outpatient>
+    <other_inpatient>0</other_inpatient>
+    <other_outpatient>77</other_outpatient>
+    <white_outpatient>76</white_outpatient>
+    <visn_name>VA Southeast Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry32">
+    <african_american_inpatient>81</african_american_inpatient>
+    <other_inpatient>0</other_inpatient>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <city>Asheville</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>6</visn>
+    <white_outpatient>83</white_outpatient>
+    <state>NC</state>
+    <facility_name>VAMC</facility_name>
+    <other_outpatient>0</other_outpatient>
+    <african_american_outpatient>0</african_american_outpatient>
+    <white_inpatient>81</white_inpatient>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry95">
+    <state>OK</state>
+    <visn>16</visn>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <facility_name>VAMC</facility_name>
+    <other_outpatient>63</other_outpatient>
+    <city>Oklahoma City</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <white_outpatient>73</white_outpatient>
+    <white_inpatient>71</white_inpatient>
+    <african_american_inpatient>64</african_american_inpatient>
+    <african_american_outpatient>68</african_american_outpatient>
+    <other_inpatient>66</other_inpatient>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,6 +1,5 @@
 var adminApp = angular.module('adminApp', ['ngRoute']);
-var serverURL = "http://localhost:3030/mytest/query?query=";
-
+var serverURL = "http://localhost:3030/vethealth/query?query=";
 
 adminApp.config(['$routeProvider',
     function ($routeProvider) {
@@ -259,9 +258,7 @@ adminApp.controller('InfraController', ['$scope', '$http', function ($scope, $ht
         console.log("InfraController.loadMaps() exit");
     };
 
-    google.setOnLoadCallback($scope.loadMap);
-    //$scope.loadMap();
-
+    google.setOnLoadCallback($scope.loadMap());
 }]);
 
 adminApp.controller('AccredController', ['$scope', '$http', function ($scope, $http) {
@@ -276,39 +273,33 @@ adminApp.controller('PatientController', ['$scope', '$http', function ($scope, $
         $event.preventDefault();
     };
 
-    var stateData = null;
-    function preparePatientsByRaceData(){
-        console.log("PatientController.preparePatientsData() entry");
-        var url = serverURL + encodeURIComponent(query_loadPatientsByRace) + "&output=csv";
-        console.log(url);
-        $http.get(url).
-            success(function (csvData, status, headers, config) {
-                stateData = $.csv.toArrays(csvData, {onParseValue: $.csv.hooks.castToScalar});
-            }).
-            error(function (data, status, headers, config) {
-                console.log("error in ajax call:PatientController.preparePatientsData()");
-            });
-        console.log("PatientController.preparePatientsData() exit");
-    }
+    var patientsTypeData = null;
 
-   /* function preparePatientsByTypeData(){
-        console.log("PatientController.preparePatientsByTypeData() entry");
-        var url = serverURL + encodeURIComponent(query_loadInfraData) + "&output=csv";
+    function preparePatientsTypeData(){
+        console.log("PatientController.preparePatientsTypeData() entry");
+        var url = serverURL + encodeURIComponent(query_loadPatientsByType) + "&output=csv";
         console.log(url);
         $http.get(url).
             success(function (csvData, status, headers, config) {
-                stateData = $.csv.toArrays(csvData, {onParseValue: $.csv.hooks.castToScalar});
+                patientsTypeData = $.csv.toArrays(csvData, {onParseValue: $.csv.hooks.castToScalar});
+                console.log(patientsTypeData);
+                for(var i=0;i<patientsTypeData.length;i++){
+                    for(var j=0;j<patientsTypeData[i].length;j++){
+                        if(patientsTypeData[i][j]==null){
+                            patientsTypeData[i][j] = 0;
+                        }
+                    }
+                }
             }).
             error(function (data, status, headers, config) {
-                console.log("error in ajax call:PatientController.preparePatientsByTypeData()");
+                console.log("error in ajax call:PatientController.preparePatientsTypeData()");
             });
-        console.log("PatientController.preparePatientsByTypeData() exit");
-    }*/
+        console.log("PatientController.preparePatientsTypeData() exit");
+    }
 
     $scope.drawGeoMap = function () {
         console.log("PatientController.drawGeoMap() entry");
-        //preparePatientsByRaceData();
-        var patientsData;
+        preparePatientsTypeData();
         var url = serverURL + encodeURIComponent(query_loadPatientsByRace) + "&output=csv";
         console.log(url);
         $http.get(url).
@@ -361,9 +352,46 @@ adminApp.controller('PatientController', ['$scope', '$http', function ($scope, $
                         title: 'Inpatients'
                     };
 
-                    var chart = new google.visualization.PieChart(document.getElementById('pieInChart'));
+                    var pieChart = new google.visualization.PieChart(document.getElementById('pieInChart'));
+                    pieChart.draw(data, options);
 
-                    chart.draw(data, options);
+                    var barData = [];
+                    console.log(patientsTypeData);
+                    var rows = patientsTypeData.length;
+                    for (var i = 1; i < rows; i++) {
+                        if (patientsData[i][0] == region) {
+                            barData.push(patientsTypeData[i]);
+                        }
+                    }
+                    console.log(barData);
+
+                    var chartData = [];
+                    var barChartHeader = ['Patient Type', '# of patients'];
+                    chartData.push(barChartHeader);
+                    for(var i=0;i<barData.length;i++){
+                        var val1 = barData[i][1];
+                        var val2 = barData[i][2];
+                        chartData.push(["Disabled inpatient", val1]);
+                        chartData.push(["Geriatric 65 year old inpatient", val2]);
+                    }
+                    console.log(chartData);
+                    var data = google.visualization.arrayToDataTable(chartData);
+                    console.log(data);
+
+                    var options = {
+                        title: "Patients Type",
+                        chartArea: {width: '100%'},
+                        hAxis: {
+                            title: '# of Surgery',
+                            minValue: 0
+                        },
+                        vAxis: {
+                            title: 'Patients Type'
+                        }
+                    };
+                    var barChart = new google.visualization.BarChart(document.getElementById('inPatientTypeBarChart'));
+                    barChart.draw(data, options);
+
                 });
 
 
@@ -396,8 +424,45 @@ adminApp.controller('PatientController', ['$scope', '$http', function ($scope, $
                     };
 
                     var chart = new google.visualization.PieChart(document.getElementById('pieOutChart'));
-
                     chart.draw(data, options);
+
+                    var barData = [];
+                    console.log(patientsTypeData);
+                    var rows = patientsTypeData.length;
+                    for (var i = 1; i < rows; i++) {
+                        if (patientsData[i][0] == region) {
+                            barData.push(patientsTypeData[i]);
+                        }
+                    }
+                    console.log(barData);
+
+                    var chartData = [];
+                    var barChartHeader = ['Patient Type', '# of patients'];
+                    chartData.push(barChartHeader);
+                    for(var i=0;i<barData.length;i++){
+                        chartData.push(["Disabled outpatient", barData[i][3]]);
+                        chartData.push(["Geriatric 65 year old outpatient", barData[i][4]]);
+                        chartData.push(["Homeless outpatient", barData[i][5]]);
+                        chartData.push(["Mental Health outpatient", barData[i][6]]);
+                        chartData.push(["Non Mental Health outpatient", barData[i][7]]);
+                    }
+                    console.log(chartData);
+                    var data = google.visualization.arrayToDataTable(chartData);
+                    console.log(data);
+
+                    var options = {
+                        title: "Patients Type",
+                        chartArea: {width: '100%'},
+                        hAxis: {
+                            title: '# of Surgery',
+                            minValue: 0
+                        },
+                        vAxis: {
+                            title: 'Patients Type'
+                        }
+                    };
+                    var barChart = new google.visualization.BarChart(document.getElementById('outPatientTypeBarChart'));
+                    barChart.draw(data, options);
                 });
 
             }).

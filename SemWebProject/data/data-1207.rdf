@@ -1,0 +1,2103 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://data-gov.tw.rpi.edu/vocab/p/1202/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dgtwc="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xml:base="http://data-gov.tw.rpi.edu/raw/1207/data-1207.rdf" > 
+  <rdf:Description rdf:about="#entry120">
+    <general_surgery>0</general_surgery>
+    <state>WA</state>
+    <city>Walla Walla</city>
+    <facility_name>Jonathan M. Wainwright Memorial VA Medical Center</facility_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>20</visn>
+    <cardiac>0</cardiac>
+    <visn_name>Northwest Network</visn_name>
+    <urology>0</urology>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <orthopedic>0</orthopedic>
+    <other_surgery>0</other_surgery>
+    <vascular_surgery>0</vascular_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry4">
+    <cardiac>0</cardiac>
+    <urology>0</urology>
+    <visn>1</visn>
+    <visn_name>VA New England Health Care System</visn_name>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <general_surgery>0</general_surgery>
+    <other_surgery>0</other_surgery>
+    <city>Northampton</city>
+    <vascular_surgery>0</vascular_surgery>
+    <state>MA</state>
+    <facility_name>VAMC</facility_name>
+    <orthopedic>0</orthopedic>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry114">
+    <facility_name>VAMC</facility_name>
+    <general_surgery>408</general_surgery>
+    <vascular_surgery>74</vascular_surgery>
+    <cardiac>0</cardiac>
+    <visn>20</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_surgery>504</other_surgery>
+    <urology>1,005</urology>
+    <state>ID</state>
+    <city>Boise</city>
+    <orthopedic>294</orthopedic>
+    <visn_name>Northwest Network</visn_name>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry108">
+    <orthopedic>323</orthopedic>
+    <general_surgery>1,077</general_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <city>Grand Junction</city>
+    <visn_name>Rocky Mountain Network</visn_name>
+    <visn>19</visn>
+    <cardiac>0</cardiac>
+    <facility_name>VAMC</facility_name>
+    <other_surgery>118</other_surgery>
+    <urology>126</urology>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <state>CO</state>
+    <vascular_surgery>3</vascular_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry44">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <urology>447</urology>
+    <thoracic_non_cardiac>45</thoracic_non_cardiac>
+    <general_surgery>494</general_surgery>
+    <visn_name>VA Southeast Network</visn_name>
+    <state>GA</state>
+    <visn>7</visn>
+    <other_surgery>1,238</other_surgery>
+    <orthopedic>309</orthopedic>
+    <city>Augusta</city>
+    <vascular_surgery>192</vascular_surgery>
+    <cardiac>0</cardiac>
+    <facility_name>VAMC</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry54">
+    <city>San Juan</city>
+    <state>PR</state>
+    <visn>8</visn>
+    <vascular_surgery>179</vascular_surgery>
+    <other_surgery>1,674</other_surgery>
+    <thoracic_non_cardiac>33</thoracic_non_cardiac>
+    <orthopedic>614</orthopedic>
+    <cardiac>114</cardiac>
+    <facility_name>VAMC</facility_name>
+    <general_surgery>1,588</general_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <urology>1,903</urology>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry100">
+    <urology>343</urology>
+    <thoracic_non_cardiac>48</thoracic_non_cardiac>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <cardiac>1</cardiac>
+    <vascular_surgery>305</vascular_surgery>
+    <visn>18</visn>
+    <general_surgery>1,277</general_surgery>
+    <other_surgery>1,465</other_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>Carl T. Hayden VA Medical Center</facility_name>
+    <city>Phoenix</city>
+    <state>AZ</state>
+    <orthopedic>457</orthopedic>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry129">
+    <state>CA</state>
+    <vascular_surgery>166</vascular_surgery>
+    <other_surgery>1,678</other_surgery>
+    <visn_name>Desert Pacific Healthcare Network</visn_name>
+    <urology>490</urology>
+    <thoracic_non_cardiac>83</thoracic_non_cardiac>
+    <visn>22</visn>
+    <orthopedic>531</orthopedic>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <city>Los Angeles</city>
+    <facility_name>VA Greater Los Angeles HCS (GLA)</facility_name>
+    <cardiac>173</cardiac>
+    <general_surgery>682</general_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry26">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <vascular_surgery>436</vascular_surgery>
+    <city>Pittsburgh</city>
+    <cardiac>215</cardiac>
+    <facility_name>VA Pittsburgh HCSHeinz Univ Dr Highld Dr</facility_name>
+    <orthopedic>503</orthopedic>
+    <other_surgery>2,220</other_surgery>
+    <general_surgery>666</general_surgery>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <thoracic_non_cardiac>149</thoracic_non_cardiac>
+    <visn>4</visn>
+    <state>PA</state>
+    <urology>454</urology>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry134">
+    <city>Iowa City</city>
+    <urology>993</urology>
+    <other_surgery>1,053</other_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>IA</state>
+    <thoracic_non_cardiac>54</thoracic_non_cardiac>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <vascular_surgery>153</vascular_surgery>
+    <facility_name>VAMC</facility_name>
+    <visn>23</visn>
+    <cardiac>59</cardiac>
+    <general_surgery>482</general_surgery>
+    <orthopedic>414</orthopedic>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry85">
+    <vascular_surgery>0</vascular_surgery>
+    <urology>0</urology>
+    <city>Poplar Bluff</city>
+    <other_surgery>0</other_surgery>
+    <general_surgery>0</general_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>John J. Pershing VA Medical Center</facility_name>
+    <cardiac>0</cardiac>
+    <state>MO</state>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <visn>15</visn>
+    <orthopedic>0</orthopedic>
+    <visn_name>VA Heartland Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry12">
+    <other_surgery>0</other_surgery>
+    <vascular_surgery>0</vascular_surgery>
+    <cardiac>0</cardiac>
+    <urology>0</urology>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>2</visn>
+    <visn_name>VA Healthcare Network Upstate New York</visn_name>
+    <facility_name>VAMC</facility_name>
+    <city>Canandaigua</city>
+    <general_surgery>0</general_surgery>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <orthopedic>0</orthopedic>
+    <state>NY</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry74">
+    <general_surgery>535</general_surgery>
+    <city>Hines</city>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+    <cardiac>239</cardiac>
+    <facility_name>Edward Hines Jr. VA Hospital</facility_name>
+    <vascular_surgery>226</vascular_surgery>
+    <visn>12</visn>
+    <thoracic_non_cardiac>85</thoracic_non_cardiac>
+    <orthopedic>375</orthopedic>
+    <state>IL</state>
+    <urology>1,611</urology>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_surgery>1,990</other_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry33">
+    <visn>6</visn>
+    <orthopedic>613</orthopedic>
+    <cardiac>155</cardiac>
+    <state>NC</state>
+    <urology>445</urology>
+    <general_surgery>572</general_surgery>
+    <vascular_surgery>303</vascular_surgery>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <thoracic_non_cardiac>145</thoracic_non_cardiac>
+    <facility_name>VAMC</facility_name>
+    <city>Durham</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_surgery>1,732</other_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry64">
+    <urology>336</urology>
+    <state>OH</state>
+    <vascular_surgery>0</vascular_surgery>
+    <orthopedic>5</orthopedic>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <other_surgery>134</other_surgery>
+    <facility_name>Chalmers Wylie Outpatient Clinic ������</facility_name>
+    <general_surgery>416</general_surgery>
+    <visn>10</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA Health Care System of Ohio</visn_name>
+    <city>Columbus</city>
+    <cardiac>0</cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry95">
+    <facility_name>VAMC</facility_name>
+    <cardiac>148</cardiac>
+    <city>Oklahoma City</city>
+    <urology>515</urology>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <thoracic_non_cardiac>65</thoracic_non_cardiac>
+    <vascular_surgery>304</vascular_surgery>
+    <visn>16</visn>
+    <orthopedic>808</orthopedic>
+    <state>OK</state>
+    <general_surgery>673</general_surgery>
+    <other_surgery>1,290</other_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry113">
+    <other_surgery>48</other_surgery>
+    <city>Anchorage</city>
+    <general_surgery>189</general_surgery>
+    <cardiac>0</cardiac>
+    <visn_name>Northwest Network</visn_name>
+    <visn>20</visn>
+    <state>AK</state>
+    <orthopedic>111</orthopedic>
+    <facility_name>Alaska VA HCS and Regional Office</facility_name>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <urology>27</urology>
+    <vascular_surgery>0</vascular_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry5">
+    <state>ME</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <general_surgery>1,013</general_surgery>
+    <orthopedic>450</orthopedic>
+    <visn>1</visn>
+    <visn_name>VA New England Health Care System</visn_name>
+    <vascular_surgery>2</vascular_surgery>
+    <other_surgery>540</other_surgery>
+    <facility_name>VAMC/RO</facility_name>
+    <cardiac>1</cardiac>
+    <urology>776</urology>
+    <city>Togus</city>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry45">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <vascular_surgery>2</vascular_surgery>
+    <facility_name>Carl Vinson VA Medical Center</facility_name>
+    <general_surgery>2,003</general_surgery>
+    <state>GA</state>
+    <cardiac>0</cardiac>
+    <city>Dublin</city>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <other_surgery>134</other_surgery>
+    <visn_name>VA Southeast Network</visn_name>
+    <urology>334</urology>
+    <visn>7</visn>
+    <orthopedic>0</orthopedic>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry109">
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <city>Fort Harrison</city>
+    <vascular_surgery>56</vascular_surgery>
+    <state>MT</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>Rocky Mountain Network</visn_name>
+    <visn>19</visn>
+    <general_surgery>415</general_surgery>
+    <urology>122</urology>
+    <facility_name>VA Montana HCS</facility_name>
+    <other_surgery>370</other_surgery>
+    <orthopedic>469</orthopedic>
+    <cardiac>0</cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry128">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <vascular_surgery>453</vascular_surgery>
+    <city>Long Beach</city>
+    <state>CA</state>
+    <orthopedic>532</orthopedic>
+    <general_surgery>882</general_surgery>
+    <thoracic_non_cardiac>62</thoracic_non_cardiac>
+    <visn>22</visn>
+    <facility_name>VA Long Beach HCS</facility_name>
+    <cardiac>0</cardiac>
+    <other_surgery>1,298</other_surgery>
+    <urology>1,295</urology>
+    <visn_name>Desert Pacific Healthcare Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry55">
+    <vascular_surgery>290</vascular_surgery>
+    <urology>1,073</urology>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA Mid South Healthcare Network</visn_name>
+    <other_surgery>1,598</other_surgery>
+    <state>KY</state>
+    <visn>9</visn>
+    <cardiac>3</cardiac>
+    <orthopedic>338</orthopedic>
+    <thoracic_non_cardiac>139</thoracic_non_cardiac>
+    <city>Lexington</city>
+    <facility_name>VAMC</facility_name>
+    <general_surgery>740</general_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry133">
+    <vascular_surgery>51</vascular_surgery>
+    <other_surgery>796</other_surgery>
+    <city>Des Moines</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>VA Central Iowa HCS   DesMoines Knoxville</facility_name>
+    <urology>668</urology>
+    <orthopedic>252</orthopedic>
+    <general_surgery>621</general_surgery>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <cardiac>8</cardiac>
+    <thoracic_non_cardiac>19</thoracic_non_cardiac>
+    <visn>23</visn>
+    <state>IA</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry27">
+    <orthopedic>101</orthopedic>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <general_surgery>765</general_surgery>
+    <visn>4</visn>
+    <other_surgery>418</other_surgery>
+    <thoracic_non_cardiac>99</thoracic_non_cardiac>
+    <urology>446</urology>
+    <state>PA</state>
+    <cardiac>4</cardiac>
+    <vascular_surgery>18</vascular_surgery>
+    <facility_name>VAMC</facility_name>
+    <city>Wilkes-Barre</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry84">
+    <thoracic_non_cardiac>22</thoracic_non_cardiac>
+    <orthopedic>121</orthopedic>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_surgery>411</other_surgery>
+    <visn>15</visn>
+    <facility_name>VAMC</facility_name>
+    <state>IL</state>
+    <general_surgery>2,705</general_surgery>
+    <urology>524</urology>
+    <visn_name>VA Heartland Network</visn_name>
+    <cardiac>0</cardiac>
+    <vascular_surgery>74</vascular_surgery>
+    <city>Marion</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry75">
+    <other_surgery>824</other_surgery>
+    <state>IL</state>
+    <urology>332</urology>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <visn>12</visn>
+    <city>North Chicago</city>
+    <cardiac>0</cardiac>
+    <general_surgery>419</general_surgery>
+    <facility_name>VAMC</facility_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <vascular_surgery>4</vascular_surgery>
+    <orthopedic>321</orthopedic>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry13">
+    <other_surgery>732</other_surgery>
+    <orthopedic>373</orthopedic>
+    <visn>2</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <city>Syracuse</city>
+    <vascular_surgery>170</vascular_surgery>
+    <state>NY</state>
+    <thoracic_non_cardiac>73</thoracic_non_cardiac>
+    <cardiac>0</cardiac>
+    <general_surgery>493</general_surgery>
+    <urology>1,125</urology>
+    <visn_name>VA Healthcare Network Upstate New York</visn_name>
+    <facility_name>VAMC</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry127">
+    <facility_name>VA Loma Linda HCS</facility_name>
+    <visn_name>Desert Pacific Healthcare Network</visn_name>
+    <other_surgery>1,962</other_surgery>
+    <general_surgery>944</general_surgery>
+    <cardiac>0</cardiac>
+    <city>Loma Linda</city>
+    <orthopedic>1,001</orthopedic>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>CA</state>
+    <visn>22</visn>
+    <urology>459</urology>
+    <thoracic_non_cardiac>27</thoracic_non_cardiac>
+    <vascular_surgery>440</vascular_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry32">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <orthopedic>886</orthopedic>
+    <visn>6</visn>
+    <vascular_surgery>262</vascular_surgery>
+    <facility_name>VAMC</facility_name>
+    <other_surgery>1,079</other_surgery>
+    <cardiac>215</cardiac>
+    <urology>375</urology>
+    <thoracic_non_cardiac>76</thoracic_non_cardiac>
+    <general_surgery>550</general_surgery>
+    <city>Asheville</city>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <state>NC</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry65">
+    <urology>318</urology>
+    <state>OH</state>
+    <city>Dayton</city>
+    <cardiac>0</cardiac>
+    <vascular_surgery>83</vascular_surgery>
+    <other_surgery>636</other_surgery>
+    <visn_name>VA Health Care System of Ohio</visn_name>
+    <general_surgery>516</general_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <thoracic_non_cardiac>105</thoracic_non_cardiac>
+    <facility_name>VAMC</facility_name>
+    <orthopedic>419</orthopedic>
+    <visn>10</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry94">
+    <state>OK</state>
+    <cardiac>0</cardiac>
+    <general_surgery>386</general_surgery>
+    <urology>418</urology>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <orthopedic>336</orthopedic>
+    <facility_name>VAMC</facility_name>
+    <other_surgery>294</other_surgery>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <vascular_surgery>4</vascular_surgery>
+    <city>Muskogee</city>
+    <visn>16</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry112">
+    <visn_name>Rocky Mountain Network</visn_name>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <vascular_surgery>0</vascular_surgery>
+    <general_surgery>0</general_surgery>
+    <cardiac>0</cardiac>
+    <state>WY</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <orthopedic>0</orthopedic>
+    <other_surgery>0</other_surgery>
+    <urology>0</urology>
+    <city>Sheridan</city>
+    <facility_name>VAMC</facility_name>
+    <visn>19</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry2">
+    <visn_name>VA New England Health Care System</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <cardiac>0</cardiac>
+    <urology>0</urology>
+    <facility_name>Edith Nourse Rogers Memorial Veterans Hospital</facility_name>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <visn>1</visn>
+    <state>MA</state>
+    <general_surgery>0</general_surgery>
+    <other_surgery>0</other_surgery>
+    <vascular_surgery>0</vascular_surgery>
+    <orthopedic>0</orthopedic>
+    <city>Bedford</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry122">
+    <visn>21</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <cardiac>2</cardiac>
+    <city>Martinez, East Bay</city>
+    <urology>371</urology>
+    <visn_name>Sierra Pacific Network</visn_name>
+    <facility_name>VA Northern California HCS Martinez Sacramento</facility_name>
+    <thoracic_non_cardiac>79</thoracic_non_cardiac>
+    <vascular_surgery>214</vascular_surgery>
+    <state>CA</state>
+    <orthopedic>269</orthopedic>
+    <general_surgery>701</general_surgery>
+    <other_surgery>1,682</other_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry38">
+    <visn>6</visn>
+    <city>Salem</city>
+    <urology>370</urology>
+    <thoracic_non_cardiac>30</thoracic_non_cardiac>
+    <vascular_surgery>184</vascular_surgery>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_surgery>1,073</other_surgery>
+    <facility_name>VAMC</facility_name>
+    <cardiac>0</cardiac>
+    <orthopedic>328</orthopedic>
+    <general_surgery>1,173</general_surgery>
+    <state>VA</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry42">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <state>AL</state>
+    <orthopedic>0</orthopedic>
+    <urology>0</urology>
+    <other_surgery>0</other_surgery>
+    <vascular_surgery>0</vascular_surgery>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Southeast Network</visn_name>
+    <general_surgery>0</general_surgery>
+    <visn>7</visn>
+    <cardiac>0</cardiac>
+    <city>Tuscaloosa</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry132">
+    <other_surgery>1,478</other_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <thoracic_non_cardiac>59</thoracic_non_cardiac>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <city>Omaha</city>
+    <vascular_surgery>168</vascular_surgery>
+    <facility_name>VA Nebraska Western Iowa HCS  Omaha Grand Is Lincoln</facility_name>
+    <visn>23</visn>
+    <general_surgery>699</general_surgery>
+    <cardiac>0</cardiac>
+    <urology>377</urology>
+    <state>NE</state>
+    <orthopedic>445</orthopedic>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry18">
+    <general_surgery>790</general_surgery>
+    <facility_name>VAMC</facility_name>
+    <urology>544</urology>
+    <thoracic_non_cardiac>53</thoracic_non_cardiac>
+    <city>Northport</city>
+    <other_surgery>701</other_surgery>
+    <orthopedic>247</orthopedic>
+    <visn>3</visn>
+    <state>NY</state>
+    <cardiac>0</cardiac>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <vascular_surgery>136</vascular_surgery>
+    <visn_name>VA NY/NJ Veterans Healthcare Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry102">
+    <urology>646</urology>
+    <city>Tucson</city>
+    <visn>18</visn>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <other_surgery>1,182</other_surgery>
+    <vascular_surgery>290</vascular_surgery>
+    <cardiac>188</cardiac>
+    <thoracic_non_cardiac>106</thoracic_non_cardiac>
+    <orthopedic>473</orthopedic>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <general_surgery>872</general_surgery>
+    <state>AZ</state>
+    <facility_name>Southern Arizona VA HCS</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry28">
+    <city>Clarksburg</city>
+    <orthopedic>0</orthopedic>
+    <general_surgery>1,475</general_surgery>
+    <thoracic_non_cardiac>56</thoracic_non_cardiac>
+    <facility_name>Louis A. Johnson VAMC</facility_name>
+    <vascular_surgery>160</vascular_surgery>
+    <urology>171</urology>
+    <state>WV</state>
+    <visn>4</visn>
+    <cardiac>9</cardiac>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <other_surgery>533</other_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry56">
+    <cardiac>1</cardiac>
+    <visn>9</visn>
+    <facility_name>VAMC</facility_name>
+    <vascular_surgery>150</vascular_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <general_surgery>792</general_surgery>
+    <state>KY</state>
+    <urology>236</urology>
+    <city>Louisville</city>
+    <thoracic_non_cardiac>119</thoracic_non_cardiac>
+    <orthopedic>382</orthopedic>
+    <visn_name>VA Mid South Healthcare Network</visn_name>
+    <other_surgery>1,194</other_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry10">
+    <urology>1,357</urology>
+    <orthopedic>160</orthopedic>
+    <visn_name>VA Healthcare Network Upstate New York</visn_name>
+    <facility_name>VA Western New York HCS Buffalo Batavia</facility_name>
+    <visn>2</visn>
+    <other_surgery>827</other_surgery>
+    <vascular_surgery>547</vascular_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <thoracic_non_cardiac>141</thoracic_non_cardiac>
+    <cardiac>185</cardiac>
+    <city>Buffalo</city>
+    <general_surgery>577</general_surgery>
+    <state>NY</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry21">
+    <visn>4</visn>
+    <other_surgery>0</other_surgery>
+    <orthopedic>0</orthopedic>
+    <vascular_surgery>0</vascular_surgery>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <urology>0</urology>
+    <general_surgery>0</general_surgery>
+    <cardiac>0</cardiac>
+    <facility_name>VAMC</facility_name>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <city>Butler</city>
+    <state>PA</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry76">
+    <city>Iron Mountain</city>
+    <vascular_surgery>6</vascular_surgery>
+    <cardiac>0</cardiac>
+    <urology>304</urology>
+    <orthopedic>96</orthopedic>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+    <visn>12</visn>
+    <general_surgery>1,077</general_surgery>
+    <facility_name>VAMC</facility_name>
+    <other_surgery>20</other_surgery>
+    <state>MI</state>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry83">
+    <vascular_surgery>259</vascular_surgery>
+    <facility_name>VAMC</facility_name>
+    <thoracic_non_cardiac>21</thoracic_non_cardiac>
+    <other_surgery>1,350</other_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>15</visn>
+    <visn_name>VA Heartland Network</visn_name>
+    <cardiac>0</cardiac>
+    <state>MO</state>
+    <general_surgery>430</general_surgery>
+    <city>Kansas City</city>
+    <urology>474</urology>
+    <orthopedic>412</orthopedic>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry31">
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <state>WV</state>
+    <city>Martinsburg</city>
+    <visn>5</visn>
+    <facility_name>VAMC</facility_name>
+    <orthopedic>331</orthopedic>
+    <general_surgery>2,536</general_surgery>
+    <urology>684</urology>
+    <other_surgery>423</other_surgery>
+    <visn_name>VA Capitol Health Care Network</visn_name>
+    <vascular_surgery>2</vascular_surgery>
+    <cardiac>26</cardiac>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry97">
+    <visn>17</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA Heart of Texas Health Care Network</visn_name>
+    <state>TX</state>
+    <urology>494</urology>
+    <cardiac>194</cardiac>
+    <orthopedic>598</orthopedic>
+    <thoracic_non_cardiac>162</thoracic_non_cardiac>
+    <facility_name>VA North Texas HCS</facility_name>
+    <city>Dallas</city>
+    <other_surgery>2,991</other_surgery>
+    <general_surgery>1,187</general_surgery>
+    <vascular_surgery>515</vascular_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry62">
+    <facility_name>VAMC</facility_name>
+    <urology>1,189</urology>
+    <vascular_surgery>153</vascular_surgery>
+    <state>OH</state>
+    <other_surgery>715</other_surgery>
+    <cardiac>30</cardiac>
+    <city>Cincinnati</city>
+    <visn>10</visn>
+    <general_surgery>812</general_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA Health Care System of Ohio</visn_name>
+    <orthopedic>461</orthopedic>
+    <thoracic_non_cardiac>76</thoracic_non_cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry43">
+    <other_surgery>1,375</other_surgery>
+    <thoracic_non_cardiac>121</thoracic_non_cardiac>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <city>Atlanta</city>
+    <general_surgery>613</general_surgery>
+    <vascular_surgery>311</vascular_surgery>
+    <visn_name>VA Southeast Network</visn_name>
+    <cardiac>104</cardiac>
+    <state>GA</state>
+    <visn>7</visn>
+    <facility_name>VAMC</facility_name>
+    <orthopedic>335</orthopedic>
+    <urology>1,966</urology>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry111">
+    <visn>19</visn>
+    <orthopedic>144</orthopedic>
+    <urology>357</urology>
+    <city>Cheyenne</city>
+    <cardiac>0</cardiac>
+    <state>WY</state>
+    <visn_name>Rocky Mountain Network</visn_name>
+    <other_surgery>601</other_surgery>
+    <general_surgery>368</general_surgery>
+    <facility_name>VAM/ROC</facility_name>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <vascular_surgery>2</vascular_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry39">
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <state>WV</state>
+    <orthopedic>81</orthopedic>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <general_surgery>1,074</general_surgery>
+    <urology>172</urology>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <city>Beckley</city>
+    <vascular_surgery>0</vascular_surgery>
+    <other_surgery>49</other_surgery>
+    <facility_name>VAMC</facility_name>
+    <visn>6</visn>
+    <cardiac>0</cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry3">
+    <other_surgery>2,467</other_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>VA Boston HCSW Roxbury Brockton Jamaica Plns</facility_name>
+    <orthopedic>586</orthopedic>
+    <visn_name>VA New England Health Care System</visn_name>
+    <visn>1</visn>
+    <cardiac>238</cardiac>
+    <urology>492</urology>
+    <vascular_surgery>338</vascular_surgery>
+    <state>MA</state>
+    <thoracic_non_cardiac>263</thoracic_non_cardiac>
+    <general_surgery>734</general_surgery>
+    <city>West Roxbury</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry121">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <vascular_surgery>145</vascular_surgery>
+    <visn>21</visn>
+    <urology>834</urology>
+    <general_surgery>616</general_surgery>
+    <orthopedic>187</orthopedic>
+    <state>CA</state>
+    <visn_name>Sierra Pacific Network</visn_name>
+    <thoracic_non_cardiac>2</thoracic_non_cardiac>
+    <other_surgery>959</other_surgery>
+    <cardiac>0</cardiac>
+    <city>Fresno</city>
+    <facility_name>VA Central California HCS</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry82">
+    <other_surgery>654</other_surgery>
+    <facility_name>Harry S. Truman Memorial</facility_name>
+    <orthopedic>211</orthopedic>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>MO</state>
+    <visn_name>VA Heartland Network</visn_name>
+    <visn>15</visn>
+    <general_surgery>392</general_surgery>
+    <cardiac>156</cardiac>
+    <vascular_surgery>119</vascular_surgery>
+    <urology>379</urology>
+    <thoracic_non_cardiac>139</thoracic_non_cardiac>
+    <city>Columbia</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry19">
+    <cardiac>0</cardiac>
+    <vascular_surgery>105</vascular_surgery>
+    <visn>4</visn>
+    <urology>380</urology>
+    <city>Wilmington</city>
+    <thoracic_non_cardiac>49</thoracic_non_cardiac>
+    <general_surgery>368</general_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>DE</state>
+    <orthopedic>28</orthopedic>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <facility_name>VAM&amp;RO</facility_name>
+    <other_surgery>307</other_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry131">
+    <visn>22</visn>
+    <thoracic_non_cardiac>5</thoracic_non_cardiac>
+    <vascular_surgery>350</vascular_surgery>
+    <cardiac>0</cardiac>
+    <other_surgery>73</other_surgery>
+    <urology>114</urology>
+    <general_surgery>628</general_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <orthopedic>124</orthopedic>
+    <city>Las Vegas</city>
+    <visn_name>Desert Pacific Healthcare Network</visn_name>
+    <state>NV</state>
+    <facility_name>VA Southern Nevada HCS</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry57">
+    <other_surgery>917</other_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA Mid South Healthcare Network</visn_name>
+    <visn>9</visn>
+    <vascular_surgery>295</vascular_surgery>
+    <state>TN</state>
+    <city>Memphis</city>
+    <facility_name>VAMC</facility_name>
+    <urology>600</urology>
+    <orthopedic>335</orthopedic>
+    <general_surgery>615</general_surgery>
+    <cardiac>224</cardiac>
+    <thoracic_non_cardiac>79</thoracic_non_cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry101">
+    <orthopedic>0</orthopedic>
+    <city>Prescott</city>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <visn>18</visn>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <other_surgery>0</other_surgery>
+    <urology>0</urology>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <general_surgery>0</general_surgery>
+    <vascular_surgery>0</vascular_surgery>
+    <state>AZ</state>
+    <facility_name>Northern Arizona VA HCS</facility_name>
+    <cardiac>0</cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry29">
+    <facility_name>VAMC</facility_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_surgery>1,085</other_surgery>
+    <urology>848</urology>
+    <city>Washington</city>
+    <cardiac>163</cardiac>
+    <general_surgery>559</general_surgery>
+    <visn>5</visn>
+    <state>DC</state>
+    <visn_name>VA Capitol Health Care Network</visn_name>
+    <vascular_surgery>290</vascular_surgery>
+    <thoracic_non_cardiac>62</thoracic_non_cardiac>
+    <orthopedic>376</orthopedic>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry11">
+    <facility_name>VAMC</facility_name>
+    <orthopedic>0</orthopedic>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <visn>2</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <urology>0</urology>
+    <city>Bath</city>
+    <state>NY</state>
+    <vascular_surgery>0</vascular_surgery>
+    <visn_name>VA Healthcare Network Upstate New York</visn_name>
+    <cardiac>0</cardiac>
+    <general_surgery>0</general_surgery>
+    <other_surgery>0</other_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry20">
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <state>PA</state>
+    <other_surgery>55</other_surgery>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <city>Altoona</city>
+    <general_surgery>642</general_surgery>
+    <orthopedic>0</orthopedic>
+    <vascular_surgery>0</vascular_surgery>
+    <urology>23</urology>
+    <visn>4</visn>
+    <facility_name>James E. Van Zandt VA Medical Center</facility_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <cardiac>0</cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry77">
+    <visn>12</visn>
+    <vascular_surgery>265</vascular_surgery>
+    <facility_name>William S. Middleton Memorial Veterans Hospital</facility_name>
+    <urology>275</urology>
+    <city>Madison</city>
+    <state>WI</state>
+    <other_surgery>558</other_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <orthopedic>327</orthopedic>
+    <thoracic_non_cardiac>68</thoracic_non_cardiac>
+    <general_surgery>393</general_surgery>
+    <cardiac>54</cardiac>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry96">
+    <other_surgery>3,420</other_surgery>
+    <vascular_surgery>814</vascular_surgery>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <visn>16</visn>
+    <thoracic_non_cardiac>148</thoracic_non_cardiac>
+    <general_surgery>1,086</general_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <urology>538</urology>
+    <facility_name>VAMC</facility_name>
+    <city>Houston</city>
+    <cardiac>358</cardiac>
+    <orthopedic>988</orthopedic>
+    <state>TX</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry30">
+    <visn_name>VA Capitol Health Care Network</visn_name>
+    <general_surgery>394</general_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>VA Maryland HCSBaltimore Perry Pt</facility_name>
+    <cardiac>0</cardiac>
+    <state>MD</state>
+    <visn>5</visn>
+    <vascular_surgery>173</vascular_surgery>
+    <urology>292</urology>
+    <thoracic_non_cardiac>66</thoracic_non_cardiac>
+    <orthopedic>384</orthopedic>
+    <city>Baltimore</city>
+    <other_surgery>1,059</other_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry63">
+    <visn_name>VA Health Care System of Ohio</visn_name>
+    <vascular_surgery>375</vascular_surgery>
+    <general_surgery>650</general_surgery>
+    <orthopedic>527</orthopedic>
+    <facility_name>Louis Stokes VA Medical CenterCleveland Brecksville</facility_name>
+    <visn>10</visn>
+    <state>OH</state>
+    <other_surgery>1,312</other_surgery>
+    <cardiac>241</cardiac>
+    <city>Cleveland</city>
+    <urology>414</urology>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <thoracic_non_cardiac>107</thoracic_non_cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry99">
+    <cardiac>0</cardiac>
+    <orthopedic>530</orthopedic>
+    <visn>17</visn>
+    <urology>321</urology>
+    <state>TX</state>
+    <visn_name>VA Heart of Texas Health Care Network</visn_name>
+    <other_surgery>947</other_surgery>
+    <city>Temple</city>
+    <general_surgery>581</general_surgery>
+    <vascular_surgery>173</vascular_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>Central Texas Veterans HCSTemple Waco Marlin</facility_name>
+    <thoracic_non_cardiac>77</thoracic_non_cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry104">
+    <thoracic_non_cardiac>60</thoracic_non_cardiac>
+    <state>TX</state>
+    <facility_name>Amarillo VA HCS</facility_name>
+    <visn>18</visn>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <cardiac>0</cardiac>
+    <orthopedic>219</orthopedic>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <urology>224</urology>
+    <general_surgery>670</general_surgery>
+    <other_surgery>50</other_surgery>
+    <city>Amarillo</city>
+    <vascular_surgery>16</vascular_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry50">
+    <urology>942</urology>
+    <facility_name>VAMC</facility_name>
+    <state>FL</state>
+    <vascular_surgery>158</vascular_surgery>
+    <city>Miami</city>
+    <orthopedic>559</orthopedic>
+    <general_surgery>654</general_surgery>
+    <cardiac>52</cardiac>
+    <other_surgery>1,903</other_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>8</visn>
+    <thoracic_non_cardiac>27</thoracic_non_cardiac>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry9">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <city>Albany</city>
+    <vascular_surgery>99</vascular_surgery>
+    <thoracic_non_cardiac>81</thoracic_non_cardiac>
+    <visn>2</visn>
+    <general_surgery>479</general_surgery>
+    <orthopedic>222</orthopedic>
+    <visn_name>VA Healthcare Network Upstate New York</visn_name>
+    <urology>730</urology>
+    <cardiac>8</cardiac>
+    <facility_name>Samuel S. Stratton VAMC</facility_name>
+    <other_surgery>973</other_surgery>
+    <state>NY</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="">
+    <dcterms:identifier>/work/data-gov/data/input/data.gov/1207/DataGov_VHA_Hospital_Procedure_Volume.csv</dcterms:identifier>
+    <rdfs:seeAlso rdf:resource="http://data-gov.tw.rpi.edu/raw/1207/index.rdf#me"/>
+    <dcterms:description>generated by csv2rdf CSV2RDF (v1.1, 2009-01-28). http://data-gov.tw.rpi.edu/wiki/Source_Code_of_Data.gov_Wiki#Source_Code_of_Demos_and_Applications. </dcterms:description>
+    <dcterms:creator rdf:resource="http://tw.rpi.edu"/>
+    <dcterms:date>2010-05-10T19:49:37Z</dcterms:date>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry81">
+    <vascular_surgery>93</vascular_surgery>
+    <urology>271</urology>
+    <facility_name>Robert J. Dole Department of Veterans Affairs Medical and Regional Office Center</facility_name>
+    <cardiac>13</cardiac>
+    <city>Wichita</city>
+    <orthopedic>261</orthopedic>
+    <other_surgery>480</other_surgery>
+    <visn_name>VA Heartland Network</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <thoracic_non_cardiac>22</thoracic_non_cardiac>
+    <state>KS</state>
+    <visn>15</visn>
+    <general_surgery>2,609</general_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry40">
+    <orthopedic>334</orthopedic>
+    <other_surgery>1,273</other_surgery>
+    <vascular_surgery>287</vascular_surgery>
+    <thoracic_non_cardiac>60</thoracic_non_cardiac>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <cardiac>73</cardiac>
+    <urology>385</urology>
+    <general_surgery>473</general_surgery>
+    <state>AL</state>
+    <facility_name>VAMC</facility_name>
+    <visn_name>VA Southeast Network</visn_name>
+    <visn>7</visn>
+    <city>Birmingham</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry36">
+    <vascular_surgery>239</vascular_surgery>
+    <state>VA</state>
+    <urology>234</urology>
+    <thoracic_non_cardiac>26</thoracic_non_cardiac>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <facility_name>VAMC</facility_name>
+    <general_surgery>483</general_surgery>
+    <other_surgery>343</other_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>6</visn>
+    <orthopedic>172</orthopedic>
+    <cardiac>0</cardiac>
+    <city>Hampton</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry91">
+    <other_surgery>1,160</other_surgery>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <thoracic_non_cardiac>34</thoracic_non_cardiac>
+    <visn>16</visn>
+    <orthopedic>318</orthopedic>
+    <general_surgery>641</general_surgery>
+    <facility_name>Overton Brooks VA Medical Center</facility_name>
+    <vascular_surgery>117</vascular_surgery>
+    <cardiac>1</cardiac>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>LA</state>
+    <urology>279</urology>
+    <city>Shreveport</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry22">
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <other_surgery>0</other_surgery>
+    <vascular_surgery>0</vascular_surgery>
+    <state>PA</state>
+    <urology>0</urology>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>4</visn>
+    <general_surgery>0</general_surgery>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <facility_name>VAMC</facility_name>
+    <orthopedic>0</orthopedic>
+    <cardiac>0</cardiac>
+    <city>Coatesville</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry130">
+    <thoracic_non_cardiac>47</thoracic_non_cardiac>
+    <facility_name>VA San Diego HCS</facility_name>
+    <orthopedic>715</orthopedic>
+    <urology>1,145</urology>
+    <state>CA</state>
+    <vascular_surgery>200</vascular_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <cardiac>156</cardiac>
+    <general_surgery>615</general_surgery>
+    <city>San Diego</city>
+    <visn_name>Desert Pacific Healthcare Network</visn_name>
+    <other_surgery>1,607</other_surgery>
+    <visn>22</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry89">
+    <cardiac>0</cardiac>
+    <orthopedic>32</orthopedic>
+    <other_surgery>540</other_surgery>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <visn>16</visn>
+    <state>LA</state>
+    <vascular_surgery>2</vascular_surgery>
+    <city>Alexandria</city>
+    <urology>234</urology>
+    <facility_name>VAMC</facility_name>
+    <general_surgery>1,357</general_surgery>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry139">
+    <general_surgery>1,114</general_surgery>
+    <state>SD</state>
+    <cardiac>25</cardiac>
+    <urology>684</urology>
+    <other_surgery>436</other_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <vascular_surgery>58</vascular_surgery>
+    <thoracic_non_cardiac>9</thoracic_non_cardiac>
+    <orthopedic>293</orthopedic>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <facility_name>VAM/ROC</facility_name>
+    <city>Sioux Falls</city>
+    <visn>23</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry138">
+    <cardiac>0</cardiac>
+    <facility_name>VA Black Hills HCSFt Meade Hot Springs</facility_name>
+    <state>SD</state>
+    <general_surgery>868</general_surgery>
+    <urology>786</urology>
+    <thoracic_non_cardiac>49</thoracic_non_cardiac>
+    <orthopedic>521</orthopedic>
+    <other_surgery>369</other_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <vascular_surgery>51</vascular_surgery>
+    <city>Fort Meade</city>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <visn>23</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry70">
+    <other_surgery>0</other_surgery>
+    <city>Battle Creek</city>
+    <orthopedic>0</orthopedic>
+    <facility_name>VAMC</facility_name>
+    <general_surgery>0</general_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <visn_name>Veterans In Partnership</visn_name>
+    <state>MI</state>
+    <urology>0</urology>
+    <vascular_surgery>0</vascular_surgery>
+    <cardiac>0</cardiac>
+    <visn>11</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry16">
+    <urology>1,220</urology>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>VA NY Harbor HCSNY Harbor Brooklyn</facility_name>
+    <cardiac>171</cardiac>
+    <orthopedic>359</orthopedic>
+    <vascular_surgery>419</vascular_surgery>
+    <general_surgery>695</general_surgery>
+    <visn>3</visn>
+    <other_surgery>1,284</other_surgery>
+    <state>NY</state>
+    <thoracic_non_cardiac>190</thoracic_non_cardiac>
+    <visn_name>VA NY/NJ Veterans Healthcare Network</visn_name>
+    <city>New York Harbor</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry119">
+    <other_surgery>31</other_surgery>
+    <city>Spokane</city>
+    <vascular_surgery>0</vascular_surgery>
+    <thoracic_non_cardiac>22</thoracic_non_cardiac>
+    <urology>250</urology>
+    <general_surgery>463</general_surgery>
+    <cardiac>0</cardiac>
+    <orthopedic>194</orthopedic>
+    <visn>20</visn>
+    <facility_name>VAMC</facility_name>
+    <state>WA</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>Northwest Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry68">
+    <orthopedic>658</orthopedic>
+    <facility_name>Richard L. Roudebush VA Medical Center</facility_name>
+    <cardiac>137</cardiac>
+    <urology>457</urology>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <thoracic_non_cardiac>82</thoracic_non_cardiac>
+    <visn_name>Veterans In Partnership</visn_name>
+    <vascular_surgery>554</vascular_surgery>
+    <visn>11</visn>
+    <general_surgery>783</general_surgery>
+    <state>IN</state>
+    <city>Indianapolis</city>
+    <other_surgery>2,965</other_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry49">
+    <orthopedic>636</orthopedic>
+    <cardiac>178</cardiac>
+    <facility_name>N FLA/S GA Veterans HS Gainesville Lake Cty</facility_name>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+    <thoracic_non_cardiac>102</thoracic_non_cardiac>
+    <other_surgery>2,776</other_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>FL</state>
+    <urology>910</urology>
+    <visn>8</visn>
+    <city>Gainesville</city>
+    <general_surgery>934</general_surgery>
+    <vascular_surgery>493</vascular_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry59">
+    <visn_name>VA Mid South Healthcare Network</visn_name>
+    <urology>1,002</urology>
+    <city>Nashville</city>
+    <vascular_surgery>289</vascular_surgery>
+    <cardiac>136</cardiac>
+    <state>TN</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_surgery>2,163</other_surgery>
+    <thoracic_non_cardiac>65</thoracic_non_cardiac>
+    <orthopedic>413</orthopedic>
+    <facility_name>Tennessee Valley HCSNashville Murfreesboro</facility_name>
+    <general_surgery>750</general_surgery>
+    <visn>9</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry78">
+    <other_surgery>1,182</other_surgery>
+    <state>WI</state>
+    <urology>539</urology>
+    <cardiac>205</cardiac>
+    <thoracic_non_cardiac>104</thoracic_non_cardiac>
+    <visn>12</visn>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+    <city>Milwaukee</city>
+    <facility_name>Clement J. Zablocki VAMC</facility_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <orthopedic>508</orthopedic>
+    <vascular_surgery>239</vascular_surgery>
+    <general_surgery>471</general_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry110">
+    <facility_name>VA Salt Lake City HCS</facility_name>
+    <visn_name>Rocky Mountain Network</visn_name>
+    <visn>19</visn>
+    <thoracic_non_cardiac>42</thoracic_non_cardiac>
+    <general_surgery>512</general_surgery>
+    <urology>458</urology>
+    <state>UT</state>
+    <city>Salt Lake City</city>
+    <other_surgery>1,338</other_surgery>
+    <vascular_surgery>166</vascular_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <orthopedic>502</orthopedic>
+    <cardiac>59</cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry60">
+    <visn>9</visn>
+    <visn_name>VA Mid South Healthcare Network</visn_name>
+    <cardiac>30</cardiac>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <city>Huntington</city>
+    <general_surgery>697</general_surgery>
+    <vascular_surgery>144</vascular_surgery>
+    <thoracic_non_cardiac>117</thoracic_non_cardiac>
+    <state>WV</state>
+    <orthopedic>482</orthopedic>
+    <other_surgery>474</other_surgery>
+    <facility_name>VAMC</facility_name>
+    <urology>514</urology>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry124">
+    <visn>21</visn>
+    <visn_name>Sierra Pacific Network</visn_name>
+    <general_surgery>520</general_surgery>
+    <vascular_surgery>356</vascular_surgery>
+    <thoracic_non_cardiac>196</thoracic_non_cardiac>
+    <facility_name>VAMC</facility_name>
+    <urology>347</urology>
+    <other_surgery>1,339</other_surgery>
+    <cardiac>159</cardiac>
+    <orthopedic>409</orthopedic>
+    <city>San Francisco</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>CA</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry61">
+    <city>Chillicothe</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>VAMC</facility_name>
+    <other_surgery>0</other_surgery>
+    <vascular_surgery>0</vascular_surgery>
+    <orthopedic>0</orthopedic>
+    <general_surgery>0</general_surgery>
+    <visn_name>VA Health Care System of Ohio</visn_name>
+    <visn>10</visn>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <state>OH</state>
+    <cardiac>0</cardiac>
+    <urology>0</urology>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry98">
+    <state>TX</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <vascular_surgery>600</vascular_surgery>
+    <thoracic_non_cardiac>171</thoracic_non_cardiac>
+    <facility_name>South Texas Veterans HCS  SanAntonio Kerrville</facility_name>
+    <visn>17</visn>
+    <city>San Antonio</city>
+    <visn_name>VA Heart of Texas Health Care Network</visn_name>
+    <urology>627</urology>
+    <orthopedic>555</orthopedic>
+    <other_surgery>1,564</other_surgery>
+    <general_surgery>814</general_surgery>
+    <cardiac>226</cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry103">
+    <general_surgery>544</general_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <orthopedic>768</orthopedic>
+    <other_surgery>1,163</other_surgery>
+    <city>Albuquerque</city>
+    <cardiac>131</cardiac>
+    <vascular_surgery>354</vascular_surgery>
+    <urology>493</urology>
+    <thoracic_non_cardiac>57</thoracic_non_cardiac>
+    <facility_name>New Mexico HCS</facility_name>
+    <visn>18</visn>
+    <state>NM</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry80">
+    <general_surgery>2,380</general_surgery>
+    <thoracic_non_cardiac>26</thoracic_non_cardiac>
+    <state>KS</state>
+    <facility_name>VA Eastern Kansas HCS Topeka Leavenworth</facility_name>
+    <cardiac>0</cardiac>
+    <vascular_surgery>61</vascular_surgery>
+    <city>Topeka</city>
+    <urology>303</urology>
+    <visn>15</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA Heartland Network</visn_name>
+    <orthopedic>161</orthopedic>
+    <other_surgery>395</other_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry51">
+    <urology>362</urology>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <facility_name>East Central Florida HCS</facility_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>FL</state>
+    <visn>8</visn>
+    <city>Orlando</city>
+    <other_surgery>618</other_surgery>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+    <vascular_surgery>2</vascular_surgery>
+    <orthopedic>492</orthopedic>
+    <cardiac>0</cardiac>
+    <general_surgery>328</general_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry23">
+    <urology>752</urology>
+    <state>PA</state>
+    <orthopedic>198</orthopedic>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <city>Erie</city>
+    <facility_name>VAMC</facility_name>
+    <cardiac>0</cardiac>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <other_surgery>12</other_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <general_surgery>883</general_surgery>
+    <visn>4</visn>
+    <vascular_surgery>0</vascular_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry41">
+    <visn_name>VA Southeast Network</visn_name>
+    <visn>7</visn>
+    <other_surgery>345</other_surgery>
+    <city>Montgomery</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <vascular_surgery>0</vascular_surgery>
+    <state>AL</state>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <orthopedic>192</orthopedic>
+    <general_surgery>2,139</general_surgery>
+    <urology>228</urology>
+    <cardiac>0</cardiac>
+    <facility_name>Central Alabama Veterans HCS Tuskeegee Montgomery</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry90">
+    <general_surgery>0</general_surgery>
+    <urology>0</urology>
+    <facility_name>VAMC</facility_name>
+    <city>New Orleans</city>
+    <state>LA</state>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <visn>16</visn>
+    <cardiac>0</cardiac>
+    <orthopedic>0</orthopedic>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <vascular_surgery>0</vascular_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_surgery>0</other_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry37">
+    <thoracic_non_cardiac>63</thoracic_non_cardiac>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <other_surgery>1,478</other_surgery>
+    <facility_name>Hunter Holmes McGuire VAMC</facility_name>
+    <orthopedic>421</orthopedic>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <vascular_surgery>376</vascular_surgery>
+    <general_surgery>618</general_surgery>
+    <visn>6</visn>
+    <urology>1,488</urology>
+    <cardiac>194</cardiac>
+    <state>VA</state>
+    <city>Richmond</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry88">
+    <state>AR</state>
+    <facility_name>Central Arkansas Veterans HCSLittle Rock Little Rock N</facility_name>
+    <urology>595</urology>
+    <general_surgery>2,010</general_surgery>
+    <visn>16</visn>
+    <thoracic_non_cardiac>134</thoracic_non_cardiac>
+    <other_surgery>1,930</other_surgery>
+    <city>Little Rock</city>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <cardiac>478</cardiac>
+    <orthopedic>1,169</orthopedic>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <vascular_surgery>434</vascular_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry1">
+    <urology>1,371</urology>
+    <facility_name>VA Connecticut HCS</facility_name>
+    <vascular_surgery>170</vascular_surgery>
+    <cardiac>82</cardiac>
+    <orthopedic>276</orthopedic>
+    <general_surgery>444</general_surgery>
+    <thoracic_non_cardiac>155</thoracic_non_cardiac>
+    <city>West Haven</city>
+    <visn_name>VA New England Health Care System</visn_name>
+    <state>CT</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>1</visn>
+    <other_surgery>1,049</other_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry17">
+    <vascular_surgery>0</vascular_surgery>
+    <visn>3</visn>
+    <cardiac>0</cardiac>
+    <state>NY</state>
+    <other_surgery>0</other_surgery>
+    <general_surgery>0</general_surgery>
+    <orthopedic>0</orthopedic>
+    <visn_name>VA NY/NJ Veterans Healthcare Network</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>VA Hudson Valley HCS Montrose Castle Pt</facility_name>
+    <urology>0</urology>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <city>Montrose</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry71">
+    <urology>266</urology>
+    <cardiac>0</cardiac>
+    <facility_name>John D. Dingell VA Medical Center</facility_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>11</visn>
+    <visn_name>Veterans In Partnership</visn_name>
+    <state>MI</state>
+    <general_surgery>587</general_surgery>
+    <thoracic_non_cardiac>59</thoracic_non_cardiac>
+    <other_surgery>1,140</other_surgery>
+    <orthopedic>111</orthopedic>
+    <city>Detroit</city>
+    <vascular_surgery>242</vascular_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry137">
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <state>ND</state>
+    <general_surgery>1,020</general_surgery>
+    <vascular_surgery>77</vascular_surgery>
+    <visn>23</visn>
+    <other_surgery>153</other_surgery>
+    <facility_name>VAM/RO</facility_name>
+    <city>Fargo</city>
+    <urology>585</urology>
+    <orthopedic>232</orthopedic>
+    <cardiac>0</cardiac>
+    <thoracic_non_cardiac>60</thoracic_non_cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry118">
+    <facility_name>VA Puget Sound HCS�  Seattle American Lake</facility_name>
+    <thoracic_non_cardiac>170</thoracic_non_cardiac>
+    <urology>1,461</urology>
+    <visn_name>Northwest Network</visn_name>
+    <orthopedic>928</orthopedic>
+    <general_surgery>595</general_surgery>
+    <city>Seattle</city>
+    <other_surgery>2,139</other_surgery>
+    <vascular_surgery>245</vascular_surgery>
+    <state>WA</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <cardiac>138</cardiac>
+    <visn>20</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry48">
+    <state>FL</state>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+    <orthopedic>656</orthopedic>
+    <vascular_surgery>366</vascular_surgery>
+    <visn>8</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <urology>604</urology>
+    <cardiac>1</cardiac>
+    <thoracic_non_cardiac>122</thoracic_non_cardiac>
+    <city>Bay Pines</city>
+    <other_surgery>1,100</other_surgery>
+    <general_surgery>850</general_surgery>
+    <facility_name>VAMC</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry79">
+    <general_surgery>0</general_surgery>
+    <orthopedic>0</orthopedic>
+    <cardiac>0</cardiac>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_surgery>0</other_surgery>
+    <state>WI</state>
+    <vascular_surgery>0</vascular_surgery>
+    <city>Tomah</city>
+    <facility_name>VAMC</facility_name>
+    <urology>0</urology>
+    <visn>12</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry69">
+    <facility_name>Ann Arbor VA Ann Arbor HCS</facility_name>
+    <city>Ann Arbor</city>
+    <vascular_surgery>276</vascular_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <urology>471</urology>
+    <visn_name>Veterans In Partnership</visn_name>
+    <visn>11</visn>
+    <general_surgery>590</general_surgery>
+    <orthopedic>296</orthopedic>
+    <cardiac>158</cardiac>
+    <other_surgery>1,895</other_surgery>
+    <state>MI</state>
+    <thoracic_non_cardiac>50</thoracic_non_cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry123">
+    <orthopedic>610</orthopedic>
+    <vascular_surgery>208</vascular_surgery>
+    <general_surgery>790</general_surgery>
+    <facility_name>VA Palo Alto HCSPaloAlto MenloPk Livermore</facility_name>
+    <state>CA</state>
+    <cardiac>156</cardiac>
+    <city>Palo Alto</city>
+    <other_surgery>1,425</other_surgery>
+    <visn>21</visn>
+    <visn_name>Sierra Pacific Network</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <urology>529</urology>
+    <thoracic_non_cardiac>47</thoracic_non_cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry58">
+    <cardiac>45</cardiac>
+    <thoracic_non_cardiac>68</thoracic_non_cardiac>
+    <general_surgery>2,192</general_surgery>
+    <facility_name>VAMC</facility_name>
+    <urology>282</urology>
+    <city>Mountain Home</city>
+    <visn>9</visn>
+    <vascular_surgery>156</vascular_surgery>
+    <visn_name>VA Mid South Healthcare Network</visn_name>
+    <state>TN</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_surgery>1,212</other_surgery>
+    <orthopedic>570</orthopedic>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry7">
+    <visn>1</visn>
+    <state>RI</state>
+    <thoracic_non_cardiac>34</thoracic_non_cardiac>
+    <facility_name>VAMC</facility_name>
+    <cardiac>0</cardiac>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_surgery>670</other_surgery>
+    <city>Providence</city>
+    <general_surgery>552</general_surgery>
+    <orthopedic>148</orthopedic>
+    <vascular_surgery>137</vascular_surgery>
+    <visn_name>VA New England Health Care System</visn_name>
+    <urology>914</urology>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry34">
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <urology>53</urology>
+    <vascular_surgery>2</vascular_surgery>
+    <orthopedic>86</orthopedic>
+    <general_surgery>2,082</general_surgery>
+    <other_surgery>250</other_surgery>
+    <city>Fayetteville</city>
+    <visn>6</visn>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <state>NC</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>VAMC</facility_name>
+    <cardiac>0</cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry52">
+    <other_surgery>1,853</other_surgery>
+    <vascular_surgery>467</vascular_surgery>
+    <thoracic_non_cardiac>155</thoracic_non_cardiac>
+    <state>FL</state>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+    <general_surgery>939</general_surgery>
+    <urology>1,027</urology>
+    <facility_name>James A. Haley VA Medical Center</facility_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>8</visn>
+    <city>Tampa</city>
+    <orthopedic>459</orthopedic>
+    <cardiac>202</cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry87">
+    <facility_name>VAMC</facility_name>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <general_surgery>1,493</general_surgery>
+    <cardiac>0</cardiac>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <orthopedic>355</orthopedic>
+    <visn>16</visn>
+    <urology>1,293</urology>
+    <vascular_surgery>3</vascular_surgery>
+    <city>Fayetteville</city>
+    <other_surgery>78</other_surgery>
+    <state>AR</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry72">
+    <orthopedic>0</orthopedic>
+    <visn>11</visn>
+    <urology>368</urology>
+    <facility_name>Aleda E. Lutz VA Medical Center</facility_name>
+    <visn_name>Veterans In Partnership</visn_name>
+    <city>Saginaw</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <other_surgery>43</other_surgery>
+    <cardiac>0</cardiac>
+    <general_surgery>1,311</general_surgery>
+    <state>MI</state>
+    <vascular_surgery>0</vascular_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry116">
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <city>Roseburg</city>
+    <vascular_surgery>3</vascular_surgery>
+    <cardiac>0</cardiac>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <general_surgery>364</general_surgery>
+    <orthopedic>0</orthopedic>
+    <urology>148</urology>
+    <other_surgery>193</other_surgery>
+    <state>OR</state>
+    <facility_name>VA Roseburg HCS</facility_name>
+    <visn>20</visn>
+    <visn_name>Northwest Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry93">
+    <urology>488</urology>
+    <visn_name>South Central VA Health Care Network</visn_name>
+    <other_surgery>1,431</other_surgery>
+    <orthopedic>599</orthopedic>
+    <vascular_surgery>239</vascular_surgery>
+    <visn>16</visn>
+    <general_surgery>866</general_surgery>
+    <facility_name>G.V. (Sonny) Montgomery VA Medical Center</facility_name>
+    <state>MS</state>
+    <city>Jackson</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <cardiac>0</cardiac>
+    <thoracic_non_cardiac>84</thoracic_non_cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry24">
+    <vascular_surgery>8</vascular_surgery>
+    <urology>431</urology>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+    <state>PA</state>
+    <other_surgery>1,370</other_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <general_surgery>1,938</general_surgery>
+    <facility_name>VAMC</facility_name>
+    <visn>4</visn>
+    <cardiac>0</cardiac>
+    <orthopedic>251</orthopedic>
+    <city>Lebanon</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry47">
+    <facility_name>Wm. Jennings Bryan Dorn VAMC</facility_name>
+    <thoracic_non_cardiac>38</thoracic_non_cardiac>
+    <general_surgery>384</general_surgery>
+    <state>SC</state>
+    <vascular_surgery>313</vascular_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <urology>141</urology>
+    <city>Columbia</city>
+    <visn_name>VA Southeast Network</visn_name>
+    <visn>7</visn>
+    <other_surgery>1,416</other_surgery>
+    <orthopedic>519</orthopedic>
+    <cardiac>1</cardiac>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry66">
+    <state>IL</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <city>Danville</city>
+    <visn_name>Veterans In Partnership</visn_name>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <visn>11</visn>
+    <cardiac>0</cardiac>
+    <urology>167</urology>
+    <facility_name>VA Illiana HCS</facility_name>
+    <orthopedic>179</orthopedic>
+    <vascular_surgery>2</vascular_surgery>
+    <other_surgery>152</other_surgery>
+    <general_surgery>359</general_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry117">
+    <general_surgery>0</general_surgery>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <vascular_surgery>0</vascular_surgery>
+    <visn>20</visn>
+    <cardiac>0</cardiac>
+    <visn_name>Northwest Network</visn_name>
+    <other_surgery>0</other_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <orthopedic>0</orthopedic>
+    <facility_name>Southern Oregon Rehab Ctr &amp; Clinics</facility_name>
+    <state>OR</state>
+    <city>White City</city>
+    <urology>0</urology>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry14">
+    <general_surgery>526</general_surgery>
+    <cardiac>0</cardiac>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <thoracic_non_cardiac>42</thoracic_non_cardiac>
+    <state>NJ</state>
+    <other_surgery>815</other_surgery>
+    <visn>3</visn>
+    <orthopedic>158</orthopedic>
+    <vascular_surgery>215</vascular_surgery>
+    <facility_name>VA New Jersey HCS East Orange Campus</facility_name>
+    <urology>952</urology>
+    <visn_name>VA NY/NJ Veterans Healthcare Network</visn_name>
+    <city>East Orange</city>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry136">
+    <urology>0</urology>
+    <cardiac>0</cardiac>
+    <other_surgery>0</other_surgery>
+    <city>St. Cloud</city>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <facility_name>VAMC</facility_name>
+    <vascular_surgery>0</vascular_surgery>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+    <general_surgery>0</general_surgery>
+    <visn>23</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <state>MN</state>
+    <orthopedic>0</orthopedic>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry126">
+    <cardiac>0</cardiac>
+    <visn>21</visn>
+    <visn_name>Sierra Pacific Network</visn_name>
+    <facility_name>VA Sierra Nevada HCS</facility_name>
+    <other_surgery>548</other_surgery>
+    <city>Reno</city>
+    <vascular_surgery>205</vascular_surgery>
+    <state>NV</state>
+    <urology>461</urology>
+    <thoracic_non_cardiac>31</thoracic_non_cardiac>
+    <orthopedic>324</orthopedic>
+    <general_surgery>591</general_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry6">
+    <general_surgery>1,454</general_surgery>
+    <visn>1</visn>
+    <visn_name>VA New England Health Care System</visn_name>
+    <urology>378</urology>
+    <other_surgery>201</other_surgery>
+    <facility_name>VAMC</facility_name>
+    <city>Manchester</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <vascular_surgery>2</vascular_surgery>
+    <cardiac>0</cardiac>
+    <orthopedic>128</orthopedic>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <state>NH</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry107">
+    <general_surgery>377</general_surgery>
+    <thoracic_non_cardiac>77</thoracic_non_cardiac>
+    <visn_name>Rocky Mountain Network</visn_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_surgery>1,543</other_surgery>
+    <urology>1,174</urology>
+    <orthopedic>785</orthopedic>
+    <state>CO</state>
+    <vascular_surgery>205</vascular_surgery>
+    <city>Denver</city>
+    <visn>19</visn>
+    <cardiac>87</cardiac>
+    <facility_name>Eastern Colorado HCS Denver Pueblo</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry53">
+    <other_surgery>778</other_surgery>
+    <vascular_surgery>52</vascular_surgery>
+    <thoracic_non_cardiac>95</thoracic_non_cardiac>
+    <urology>1,468</urology>
+    <facility_name>VAMC</facility_name>
+    <orthopedic>614</orthopedic>
+    <city>West Palm Beach</city>
+    <state>FL</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>8</visn>
+    <general_surgery>775</general_surgery>
+    <cardiac>0</cardiac>
+    <visn_name>VA Sunshine Healthcare Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry35">
+    <vascular_surgery>23</vascular_surgery>
+    <orthopedic>0</orthopedic>
+    <cardiac>0</cardiac>
+    <other_surgery>946</other_surgery>
+    <facility_name>W.G. (Bill) Hefner VA Medical Center</facility_name>
+    <visn>6</visn>
+    <visn_name>VA Mid-Atlantic Health Care Network</visn_name>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <urology>101</urology>
+    <city>Salisbury</city>
+    <general_surgery>1,740</general_surgery>
+    <state>NC</state>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry105">
+    <visn>18</visn>
+    <urology>0</urology>
+    <city>Big Spring</city>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <vascular_surgery>0</vascular_surgery>
+    <state>TX</state>
+    <general_surgery>59</general_surgery>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <cardiac>0</cardiac>
+    <other_surgery>624</other_surgery>
+    <orthopedic>0</orthopedic>
+    <facility_name>West Texas VA HCS</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry25">
+    <city>Philadelphia</city>
+    <vascular_surgery>156</vascular_surgery>
+    <cardiac>0</cardiac>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_surgery>1,136</other_surgery>
+    <facility_name>VAMC</facility_name>
+    <orthopedic>418</orthopedic>
+    <state>PA</state>
+    <thoracic_non_cardiac>24</thoracic_non_cardiac>
+    <urology>312</urology>
+    <general_surgery>411</general_surgery>
+    <visn>4</visn>
+    <visn_name>VA Stars &amp; Stripes Healthcare Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry8">
+    <other_surgery>405</other_surgery>
+    <urology>840</urology>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <visn_name>VA New England Health Care System</visn_name>
+    <cardiac>0</cardiac>
+    <general_surgery>366</general_surgery>
+    <vascular_surgery>164</vascular_surgery>
+    <orthopedic>102</orthopedic>
+    <state>VT</state>
+    <visn>1</visn>
+    <facility_name>VAM/ROC</facility_name>
+    <city>White River Junction</city>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry73">
+    <state>IL</state>
+    <general_surgery>669</general_surgery>
+    <visn_name>The Great Lakes Health Care System</visn_name>
+    <orthopedic>371</orthopedic>
+    <other_surgery>979</other_surgery>
+    <visn>12</visn>
+    <city>Chicago, West Side</city>
+    <urology>433</urology>
+    <vascular_surgery>241</vascular_surgery>
+    <cardiac>0</cardiac>
+    <thoracic_non_cardiac>76</thoracic_non_cardiac>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>VA Chicago HCS; (Jessie Brown)</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry92">
+    <state>MS</state>
+    <thoracic_non_cardiac>39</thoracic_non_cardiac>
+    <urology>98</urology>
+    <city>Biloxi</city>
+    <general_surgery>2,035</general_surgery>
+    <facility_name>VA Gulf Coast Veterans HCS</facility_name>
+    <cardiac>0</cardiac>
+    <orthopedic>0</orthopedic>
+    <visn>16</visn>
+    <other_surgery>711</other_surgery>
+    <vascular_surgery>93</vascular_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>South Central VA Health Care Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry115">
+    <vascular_surgery>471</vascular_surgery>
+    <visn_name>Northwest Network</visn_name>
+    <city>Portland</city>
+    <cardiac>209</cardiac>
+    <state>OR</state>
+    <other_surgery>1,677</other_surgery>
+    <general_surgery>1,140</general_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>20</visn>
+    <orthopedic>598</orthopedic>
+    <urology>1,096</urology>
+    <thoracic_non_cardiac>102</thoracic_non_cardiac>
+    <facility_name>VAMC</facility_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry86">
+    <other_surgery>912</other_surgery>
+    <visn_name>VA Heartland Network</visn_name>
+    <facility_name>St Louis VAMC St Louis Jefferson Barracks</facility_name>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <general_surgery>737</general_surgery>
+    <cardiac>0</cardiac>
+    <vascular_surgery>145</vascular_surgery>
+    <city>St. Louis</city>
+    <urology>1,265</urology>
+    <state>MO</state>
+    <orthopedic>424</orthopedic>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn>15</visn>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry67">
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <facility_name>VA Northern Indiana HCS Marion Ft Wayne</facility_name>
+    <cardiac>0</cardiac>
+    <orthopedic>0</orthopedic>
+    <general_surgery>518</general_surgery>
+    <visn>11</visn>
+    <urology>400</urology>
+    <city>Marion</city>
+    <state>IN</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <visn_name>Veterans In Partnership</visn_name>
+    <vascular_surgery>3</vascular_surgery>
+    <other_surgery>330</other_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry135">
+    <visn>23</visn>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <facility_name>VAMC</facility_name>
+    <vascular_surgery>226</vascular_surgery>
+    <city>Minneapolis</city>
+    <state>MN</state>
+    <orthopedic>1,143</orthopedic>
+    <thoracic_non_cardiac>104</thoracic_non_cardiac>
+    <other_surgery>2,159</other_surgery>
+    <cardiac>428</cardiac>
+    <urology>804</urology>
+    <general_surgery>555</general_surgery>
+    <visn_name>VA Midwest Health Care Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry15">
+    <visn>3</visn>
+    <cardiac>0</cardiac>
+    <general_surgery>401</general_surgery>
+    <facility_name>VAMC</facility_name>
+    <state>NY</state>
+    <thoracic_non_cardiac>65</thoracic_non_cardiac>
+    <visn_name>VA NY/NJ Veterans Healthcare Network</visn_name>
+    <urology>312</urology>
+    <other_surgery>686</other_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <orthopedic>206</orthopedic>
+    <city>Bronx</city>
+    <vascular_surgery>252</vascular_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry125">
+    <facility_name>VA Pacific Islands HCSSpark M. Matsunaga VA Medical &amp; Regional Office Center</facility_name>
+    <orthopedic>0</orthopedic>
+    <visn>21</visn>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <cardiac>0</cardiac>
+    <visn_name>Sierra Pacific Network</visn_name>
+    <urology>0</urology>
+    <state>HI</state>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <other_surgery>0</other_surgery>
+    <vascular_surgery>0</vascular_surgery>
+    <city>Honolulu</city>
+    <general_surgery>0</general_surgery>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry46">
+    <visn>7</visn>
+    <facility_name>Ralph H. Johnson VAMC</facility_name>
+    <cardiac>151</cardiac>
+    <general_surgery>381</general_surgery>
+    <orthopedic>450</orthopedic>
+    <city>Charleston</city>
+    <vascular_surgery>258</vascular_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <urology>366</urology>
+    <other_surgery>1,149</other_surgery>
+    <thoracic_non_cardiac>63</thoracic_non_cardiac>
+    <state>SC</state>
+    <visn_name>VA Southeast Network</visn_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry106">
+    <city>El Paso</city>
+    <urology>396</urology>
+    <thoracic_non_cardiac>0</thoracic_non_cardiac>
+    <visn_name>VA Southwest Health Care Network</visn_name>
+    <facility_name>El Paso VA HCS</facility_name>
+    <visn>18</visn>
+    <state>TX</state>
+    <vascular_surgery>0</vascular_surgery>
+    <other_surgery>348</other_surgery>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+    <general_surgery>1,160</general_surgery>
+    <orthopedic>23</orthopedic>
+    <cardiac>0</cardiac>
+  </rdf:Description>
+</rdf:RDF>
