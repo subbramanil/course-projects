@@ -20,4 +20,5 @@ AirTravels/.settings/*
 
 
 SemWebProject/.idea/*
+SemWebProject/node_modules/*
 MyDatabase/.*

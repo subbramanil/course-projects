@@ -1,16 +1,29 @@
 <div ng-controller="DashBoardController">
+    <div class="jumbotron">
+        <h2>Veteran Health Administration & Info.</h2>
+        <p class="text-justify">
+            The Project tries to find a relation between the medical facilities, infrastructures, services available, treatments, surgeries and the accreditation status per county. This project extracts data from the year 2008 and it determines how medical facilities supports the veterans and how their facilities fare against each other in each county
+            <div>
+                <img src="images/logo-data-gov.png" class="img-gov img-thumbnail"/>
+                <img src="images/sw-horz-w3c.png" class="img-sem img-thumbnail"/>
+            </div>
+        </p>
+    </div>
     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
         <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingOne">
                 <h4 class="panel-title">
                     <a ng-click="tabClick($event)" data-toggle="collapse" class="list-group-item" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Dataset 1207 <span class="badge">1813</span>
+                        Dataset 1207 - Veterans Health Administration 2008 Hospital Report Card - Procedure Volume
+                        <div class="pull-right">No of Triples. <span class="badge">1813</span></div>
                     </a>
                 </h4>
             </div>
             <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body">
-                    Info about Dataset 1207
+                    <p class="text-center">
+                        This dataset contains the different types of surgery that are performed by the medical facility.
+                    </p>
                 </div>
             </div>
         </div>
@@ -18,13 +31,15 @@
             <div class="panel-heading" role="tab" id="headingTwo">
                 <h4 class="panel-title">
                     <a ng-click="tabClick($event)" class="collapsed list-group-item" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Dataset 1208 <span class="badge">2369</span>
+                        Dataset 1208 - Veterans Health Administration 2008 Hospital Report Card - Quality of Care - Populations<div class="pull-right">No of Triples. <span class="badge">2369</span></div>
                     </a>
                 </h4>
             </div>
             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="panel-body">
-                    Info about Dataset 1208
+                    <p class="text-center">
+                        This dataset contains the different categories of patients who received treatment based on treatment types.
+                    </p>
                 </div>
             </div>
         </div>
@@ -32,13 +47,15 @@
             <div class="panel-heading" role="tab" id="headingThree">
                 <h4 class="panel-title">
                     <a ng-click="tabClick($event)" class="collapsed list-group-item " data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Dataset 1209 <span class="badge">1674</span>
+                        Dataset 1209 - Veterans Health Administration 2008 Hospital Report Card - Patients Type By Race<div class="pull-right">No of Triples. <span class="badge">1674</span></div>
                     </a>
                 </h4>
             </div>
             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                 <div class="panel-body">
-                    Info about Dataset 1209
+                    <p class="text-center">
+                        This dataset contains the different categories of patients who received treatment based on treatment type.
+                    </p>
                 </div>
             </div>
         </div>
@@ -46,13 +63,15 @@
             <div class="panel-heading" role="tab" id="headingFour">
                 <h4 class="panel-title">
                     <a ng-click="tabClick($event)" class="collapsed list-group-item" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        Dataset 1210 <span class="badge">1534</span>
+                        Dataset 1210 - Veterans Health Administration 2008 Hospital Report Card – Availability of Services <div class="pull-right">No of Triples. <span class="badge">1534</span></div>
                     </a>
                 </h4>
             </div>
             <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                 <div class="panel-body">
-                    Info about Dataset 1210
+                    <p class="text-center">
+                        This dataset contains the infrastructure available in the facilities.
+                    </p>
                 </div>
             </div>
         </div>
@@ -60,13 +79,15 @@
             <div class="panel-heading" role="tab" id="headingFive">
                 <h4 class="panel-title">
                     <a ng-click="tabClick($event)" class="collapsed list-group-item" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        Dataset 1211 <span class="badge">1118</span>
+                        Dataset 1211 - Veterans Health Administration 2008 Hospital Report Card – Hospital accreditation<div class="pull-right">No of Triples. <span class="badge">1118</span></div>
                     </a>
                 </h4>
             </div>
             <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
                 <div class="panel-body">
-                    Info about Dataset 1211
+                    <p class="text-center">
+                        This dataset contains the accreditation status available for the facilities.
+                    </p>
                 </div>
             </div>
         </div>

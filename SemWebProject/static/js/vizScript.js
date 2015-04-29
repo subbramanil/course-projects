@@ -1,29 +1,29 @@
 var adminApp = angular.module('adminApp', ['ngRoute']);
 //var serverURL = "http://localhost:3030/vethealth/query?query=";
-var serverURL = "http://52.10.61.232:3030/final/query?query=";
+var serverURL = "http://52.10.61.232:3030/ds/query?query=";
 
 adminApp.config(['$routeProvider',
     function ($routeProvider) {
         $routeProvider.
             when('/Dashboard', {
-                templateUrl: 'pages/dashboard.html',
+                templateUrl: '/views/dashboard',
                 controller: 'DashBoardController'
             }).
             when('/Surgery', {
-                templateUrl: 'pages/surgeryTypes.html',
+                templateUrl: '/views/surgeryTypes',
                 controller: 'SurgeryController'
             }).
             when('/Infrastructure', {
-                templateUrl: 'pages/infrastructure.html',
+                templateUrl: '/views/infrastructure',
                 controller: 'InfraController'
             }).
-            when('/Accredition', {
-                templateUrl: 'pages/accreditionStatus.html',
-                controller: 'AccredController'
-            }).
             when('/Patients', {
-                templateUrl: 'pages/patient.html',
+                templateUrl: '/views/patients',
                 controller: 'PatientController'
+            }).
+            when('/AboutUS', {
+                templateUrl: '/views/aboutUs',
+                controller: 'AboutUSController'
             }).
             otherwise({
                 redirectTo: '/Dashboard'
