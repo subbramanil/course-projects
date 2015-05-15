@@ -27,7 +27,7 @@ Semantic Web Project
 
 Web application to provide a graphical presentation of statistics related to the veteran health management for the year 2008. 
 Data in the form of RDF(Resource Description Format) triples, has been downloaded from the site http://data-gov.tw.rpi.edu/ and uploaded to apache fuseki server.
-Web application queries this fuseki server using AJAX queries and populates the data in the screen using Google graphs API.
+Web application queries the fuseki server using AJAX and populates the data in the screen using Google graphs API.
 Web application is built using angular.js and node.js and bootstrap css.
 Note: node.js is used only for page navigation, as the application is front-end specific and doesnt require much more.
 
