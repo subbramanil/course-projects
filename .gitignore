@@ -21,4 +21,6 @@ AirTravels/.settings/*
 
 SemWebProject/.idea/*
 SemWebProject/node_modules/*
+SemWebProject/node_modules/
+SemWebProject/*.log
 MyDatabase/.*
