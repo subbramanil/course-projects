@@ -29,6 +29,11 @@ public class IndexController {
         return welcome_msg;
     }
 	
+	@RequestMapping( value = "/form", method = RequestMethod.GET)
+    public String displayForm() {
+        return "/form";
+    }
+	
 	@RequestMapping( value = "/home", method = RequestMethod.GET)
     public String displayLogin() {
         return "/index";
