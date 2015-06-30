@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.google.gson.Gson;
 import com.utd.airtravels.dao.AirlineDAOImpl;
@@ -108,11 +109,11 @@ public class AirlineController {
 	}
 	
 	@RequestMapping(value = "/checkMe", method = RequestMethod.GET)
-	public @ResponseBody String submitForm(@RequestParam String username) {
+	public ModelAndView submitForm(@RequestParam String username) {
 		System.out.println(username);
-		return username;
-	}
-	
-	
-	
+		ModelAndView test = new ModelAndView("/form");
+		test.addObject("result", "welcome "+username);
+		return test;
+	}	
+
 }
