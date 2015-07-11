@@ -1,5 +1,6 @@
 var adminApp = angular.module('adminApp', ['ngRoute']);
 var serverURL = "http://localhost:3030/vethealth/query?query=";
+// For the cloud machine
 //var serverURL = "http://52.10.61.232:3030/ds/query?query=";
 
 adminApp.config(['$routeProvider',
