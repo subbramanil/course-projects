@@ -1,0 +1,15 @@
+
+#stop the service
+./stop
+echo "stopped the server"
+
+#update source
+git pull
+echo "code changes updated"
+
+#svn resolve --accept=mf
+
+#start the server
+./start
+echo "started the server"
+
