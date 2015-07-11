@@ -1,14 +1,11 @@
-module.exports = function(app, cors)
+module.exports = function(app)
 {
-	var corsOptions = {
-  		origin: 'http://localhost:3030'
-	};	
 	app.get('/',function(req,res){
 		console.log('server is running');
 		res.redirect('/home');
 	});
 
-	app.get('/home', cors(corsOptions), function(req, res){
+	app.get('/home', function(req, res){
 		console.log("Loading Home Page..");
 		res.render('index.html');
 	});
