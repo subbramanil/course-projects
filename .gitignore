@@ -16,6 +16,7 @@ AirTravels/.project
 AirTravels/.gradle/*
 AirTravels/bin/*
 AirTravels/.settings/*
+AirTravels/src/.settings/*
 *.DS_Store
 
 
