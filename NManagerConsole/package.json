@@ -1,0 +1,16 @@
+{
+  "name": "AppDataMonitor",
+  "version": "1.0.0",
+  "description": "Node Web app to view the data usage of apps in the android phones",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "subbramanian lakshmanan",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.3.3",
+    "express": "^4.13.1",
+    "firebase": "^2.2.9"
+  }
+}

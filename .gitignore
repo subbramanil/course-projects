@@ -25,3 +25,11 @@ SemWebProject/node_modules/*
 SemWebProject/node_modules/
 SemWebProject/*.log
 MyDatabase/.*
+
+NManagerConsole/.idea/
+
+NManagerConsole/node_modules
+
+NMService/.gradle/
+
+NMService/.settings

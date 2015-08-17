@@ -1,0 +1,12 @@
+Topology-Green,,,Topology-Blue,,,Topology-Dotted,,
+NODE,input_Port,Output_Port,NODE,Input_Port,Output_Port,NODE,Input_Port,Output_Port
+S44,1,2,S45,1,3,S44,1,5
+S27,4,2,S46,3,2,S45,2,3
+S14,4,2,S20,3,2,S46,3,2
+S24,2,3,S19,4,3,S20,3,2
+S25,4,2,S51,6,16,S19,4,3
+S16,3,2,S53,9,11,S51,6,16
+S50,3,13,S54,3,2,S53,9,11
+S55,2,4,S52,11,2,S54,3,2
+S56,5,2,S3,3,1,S52,11,2
+S2,2,1,,,,S3,3,1
