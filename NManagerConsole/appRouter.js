@@ -22,7 +22,7 @@ module.exports = function (app) {
 
     app.get("/app/partials/dashBoard", function (req, res) {
         console.log("Loading dashBoard");
-        res.render("dashBoard.html");
+        res.render("dashboard.html");
     });
     
     app.get("/app/partials/nwDetails", function (req, res) {

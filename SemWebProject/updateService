@@ -1,15 +1,25 @@
 
 #stop the service
-./stop
+/usr/local/bin/forever stop \
+/home/ubuntu/wspace/course-projects/SemWebProject/server.js
 echo "stopped the server"
 
+#remove logs
+rm -rf *.log
+echo "clean the logs"
+
 #update source
+cd /home/ubuntu/wspace/course-projects/SemWebProject/
 git pull
 echo "code changes updated"
 
 #svn resolve --accept=mf
 
 #start the server
-./start
+/usr/local/bin/forever \
+        start \
+        -al forever.log \
+        -ao out.log \
+        -ae err.log \
+        /home/ubuntu/wspace/course-projects/SemWebProject/server.js
 echo "started the server"
-

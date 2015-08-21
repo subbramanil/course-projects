@@ -17,6 +17,6 @@ app.use("/app", express.static(__dirname + '/app', {maxAge: oneDay}));
 
 require('./appRouter')(app);
 
-var server = http.listen(process.env.PORT || 8095, function () {
+var server = http.listen(process.env.PORT || 3033, function () {
     console.log("Server is ready at port " + server.address().port);
 });

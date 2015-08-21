@@ -1,4 +1,4 @@
 #!/bin/bash
  
 # Invoke the Forever module (to START our Node.js server).
-/opt/node/lib/node_modules/forever/bin/forever list
+/usr/local/bin/forever list
