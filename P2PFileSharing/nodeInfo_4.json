@@ -1,0 +1,28 @@
+{
+  "nodeID": "4",
+  "ipAddress": "some ip",
+  "port": "3004",
+  "files": [
+    {
+      "fileName": "g.sk",
+      "keywords": [
+        "energy",
+        "solar power",
+        "wind power",
+        "renewable energy",
+        "physics"
+      ]
+    },
+    {
+      "fileName": "h.sk",
+      "keywords": [
+        "math",
+        "class",
+        "local optimum",
+        "optimization",
+        "limit",
+        "continuity"
+      ]
+    }
+  ]
+}

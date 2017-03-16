@@ -1,0 +1,23 @@
+{
+  "nodeID": "3",
+  "ipAddress": "some ip",
+  "port": "3003",
+  "files": [
+    {
+      "fileName": "e.sk",
+      "keywords": [
+        "pizza",
+        "pasta",
+        "food"
+      ]
+    },
+    {
+      "fileName": "f.sk",
+      "keywords": [
+        "food",
+        "burger",
+        "ketchup"
+      ]
+    }
+  ]
+}
