@@ -1,0 +1,22 @@
+{
+  "iPAddress": "0.0.0.0",
+  "port": "3002",
+  "files": [
+    {
+      "fileName": "c.sk",
+      "keywords": [
+        "student",
+        "teachers",
+        "class"
+      ]
+    },
+    {
+      "fileName": "d.sk",
+      "keywords": [
+        "volleyball",
+        "sport"
+      ]
+    }
+  ],
+  "nodeID": "2"
+}

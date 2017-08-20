@@ -1,0 +1,2 @@
+net10.utdallas.edu 3000
+net11.utdallas.edu 3001
