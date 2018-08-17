@@ -21,8 +21,6 @@ Project Description: The goal of this project is to implement a program that par
 
 Pls find the detailed project information in the associated project details document
 
-![Test Image](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
-
 
 Semantic Web Project
 
