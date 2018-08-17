@@ -15,14 +15,13 @@ This project is spring based web application, which uses JQuery, AJAX & JSON to 
 
 
 MyDatabase
- 
 
 
 Project Description: The goal of this project is to implement a program that parses an ASCII text-based CSV data file and then transforms that same information to a memory-efficient format and writes it to a binary data file. The new binary data file shall also have multiple index files for efficient record retrieval of values from fields other than the primary key. 
 
 Pls find the detailed project information in the associated project details document
 
-![Test Image](http://bdfjade.com/wp/5601953.html)
+![Test Image](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
 
 
 Semantic Web Project
